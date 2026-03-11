@@ -1,0 +1,7 @@
+Mar 08, 2026 1:41:25 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.31.0
+ - Java : /usr/lib/jvm/java-21-openjdk
+ - VM Version : 21.0.10
+ - Git de7f529 - [maven-release-plugin] prepare release 0.31.0

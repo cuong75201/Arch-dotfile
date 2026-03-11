@@ -1,0 +1,88 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PrismLauncher-9.4">
+          <value>
+            <RecentProjectMetaInfo displayName="PrismLauncher-9.4">
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PrismLauncher-9.4/launcher">
+          <value>
+            <RecentProjectMetaInfo displayName="launcher">
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads">
+          <value>
+            <RecentProjectMetaInfo displayName="Downloads">
+              <option name="buildTimestamp" value="1772699807546" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <option name="projectOpenTimestamp" value="1772699807546" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PrismLauncher-Cracked">
+          <value>
+            <RecentProjectMetaInfo displayName="PrismLauncher-Cracked">
+              <option name="buildTimestamp" value="1772785977895" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <option name="projectOpenTimestamp" value="1772785977895" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.local/share/PrismLauncher">
+          <value>
+            <RecentProjectMetaInfo displayName="PrismLauncher">
+              <option name="buildTimestamp" value="1772786825396" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <option name="projectOpenTimestamp" value="1772786825396" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/test">
+          <value>
+            <RecentProjectMetaInfo displayName="test">
+              <option name="buildTimestamp" value="1772856363210" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <option name="projectOpenTimestamp" value="1772856363210" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/test/demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="demo" projectWorkspaceId="3Af3faskNpsSpWzqwWrQJmuUACJ">
+              <option name="activationTimestamp" value="1772862756676" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-253.31033.145" />
+              <option name="buildTimestamp" value="1771830960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="10" y="31" width="1898" height="1037" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1772862077832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/test/demo" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Documents/test" />
+  </component>
+</application>

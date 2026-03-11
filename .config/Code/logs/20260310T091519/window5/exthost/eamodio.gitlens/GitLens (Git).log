@@ -1,0 +1,21 @@
+2026-03-10 12:01:46.269 [info] [         41ms] [/home/cuong75201/Documents/Arch_note/arch] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree
+2026-03-10 12:01:46.311 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git remote -v
+2026-03-10 12:01:46.908 [info] [         10ms] [/home/cuong75201/Documents/Arch_note] git ls-files -- arch/noteGrub.md
+2026-03-10 12:01:47.341 [info] [         24ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex ^user\.(name|email)$
+2026-03-10 12:01:47.372 [info] [         41ms] [/home/cuong75201/Documents/Arch_note] git blame --root --incremental -- arch/noteGrub.md
+2026-03-10 12:01:47.374 [info] [         32ms] [/home/cuong75201/Documents/Arch_note] git check-mailmap cuong75201 <cuong75201@gmail.com>
+2026-03-10 12:01:47.708 [info] [        118ms] [/home/cuong75201/Documents/Arch_note] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 fb083fbc14997ab7b4c6518ad9bb216a0262190e --
+2026-03-10 12:01:47.710 [info] [        128ms] [/home/cuong75201/Documents/Arch_note] git log --format=%x1E%H%x1D --summary -n1 fb083fbc14997ab7b4c6518ad9bb216a0262190e^ -- arch/noteGrub.md
+2026-03-10 12:02:21.298 [info] [         17ms] [/home/cuong75201/Documents/Arch_note] git rev-list --max-parents=0 HEAD --
+2026-03-10 12:02:21.299 [info] [         16ms] [/home/cuong75201/Documents/Arch_note] git shortlog -s --all --no-min-parents --since=1.year.ago
+2026-03-10 12:04:16.287 [info] [         10ms] [/home/cuong75201/Documents/Arch_note] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/
+2026-03-10 12:04:16.350 [info] [         12ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex ^branch\..*\.gk-
+2026-03-10 12:04:16.360 [info] [          9ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed 2026-01-13T10:20:15.356Z
+2026-03-10 12:04:16.369 [info] [          9ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-modified 2026-01-13T10:20:15.356Z
+2026-03-10 12:04:16.376 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git config --local --unset-all branch.main.gk-last-accessed
+2026-03-10 12:04:16.383 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git config --local --unset-all branch.main.gk-last-modified
+2026-03-10 12:04:16.391 [info] [          7ms] [/home/cuong75201/Documents/Arch_note] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree
+2026-03-10 12:04:16.398 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex -f /home/cuong75201/Documents/Arch_note/.git/gk/config ^branch\..*\.gk-last-(accessed|modified)$
+2026-03-10 12:04:16.406 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git config --get -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed
+2026-03-10 12:04:16.414 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed 2026-03-10T05:04:16.399Z
+2026-03-10 12:04:35.458 [info] [          6ms] [/home/cuong75201/Documents/Arch_note] git remote -v

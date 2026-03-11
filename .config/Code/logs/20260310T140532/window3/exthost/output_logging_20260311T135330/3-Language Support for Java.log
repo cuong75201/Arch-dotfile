@@ -1,0 +1,4 @@
+Mar 11, 2026 1:53:34 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+Mar 11, 2026 2:09:29 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin

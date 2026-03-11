@@ -1,0 +1,6 @@
+2026/03/10-16:11:28.017 409b Creating DB /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_lpcdn-vip.lpsnmedia.net_0.indexeddb.leveldb since it was missing.
+2026/03/10-16:11:28.019 409b Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_lpcdn-vip.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/10-16:11:51.635 40ae Level-0 table #5: started
+2026/03/10-16:11:51.637 40ae Level-0 table #5: 4096 bytes OK
+2026/03/10-16:11:51.638 40ae Delete type=0 #3
+2026/03/10-16:11:51.638 4098 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

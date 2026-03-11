@@ -1,0 +1,12 @@
+2026-03-10 10:30:00.410 [error] [         20ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-03-10 10:30:31.189 [error] [        196ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-03-10 10:41:09.623 [error] [          8ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-03-10 10:42:03.186 [error] [          7ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-03-10 10:43:27.444 [error] [          7ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-03-10 11:03:06.929 [error] [         14ms] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git

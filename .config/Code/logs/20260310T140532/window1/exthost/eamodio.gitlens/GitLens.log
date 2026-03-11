@@ -1,0 +1,93 @@
+2026-03-10 14:05:37.662 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-10 14:05:37.662 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|35dabebe-d260-41ab-8e86-ef1c0be6552f1773126334459)
+2026-03-10 14:05:37.662 [error]   [            1] GitLens v17.11.0 activated [51ms]
+2026-03-10 14:05:37.662 [info]    [IPC          ] Server started on http://127.0.0.1:33807
+2026-03-10 14:05:37.679 [info]    [   6f →    70] LocalGitProvider.findGit Git (2.53.0) found in /usr/bin/git [646ms]
+2026-03-10 14:05:37.679 [warning] [   6f →    70] LocalGitProvider.findGit completed • Git (2.53.0) found in /usr/bin/git [*646ms] (slow)
+2026-03-10 14:05:37.680 [info]    [   6f →    9a] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/machinelearning/scikitlearn) searching (depth=1)...
+2026-03-10 14:05:37.687 [error]   [GIT          ] [/home/cuong75201/Documents/machinelearning/scikitlearn] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [6ms]
+2026-03-10 14:05:37.701 [warning] [   6e →    6f] LocalGitProvider.discoverRepositories(e=Uri(file:///home/cuong75201/Documents/machinelearning/scikitlearn)) returned [] [*668ms] (slow)
+2026-03-10 14:05:37.701 [warning] [   6d →    6e] GitProviderService.discoverRepositoriesCore(e=WorkspaceFolder(scikitlearn, index=0, file:///home/cuong75201/Documents/machinelearning/scikitlearn)) returned [] [*669ms] (slow)
+2026-03-10 14:05:37.702 [warning] [   6c →    6d] GitProviderService.discoverRepositories(folders=1) completed [*669ms] (slow)
+2026-03-10 14:05:37.702 [warning] [   41 →    6c] GitProviderService.registrationComplete completed • repositories=0, workspaceFolders=1, git.autoRepositoryDetection=true [*670ms] (slow)
+2026-03-10 14:05:37.703 [warning] [   75 →    8a] GitHubIntegration.isConnected returned false [*643ms] (slow)
+2026-03-10 14:05:37.731 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*722ms] (slow)
+2026-03-10 14:05:37.731 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*722ms] (slow)
+2026-03-10 14:05:38.826 [warning] [   75 →    92] GkCliIntegrationProvider.checkCliUpdateRequired completed [*1723ms] (slow)
+2026-03-10 14:05:38.826 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-10 14:05:40.833 [warning] [   b8 →    b9] GkMcpProvider.getMcpConfigurationFromCLICore completed [*2954ms] (slow)
+2026-03-10 14:05:40.833 [warning] [   b7 →    b8] GkMcpProvider.getMcpConfigurationFromCLI completed [*2954ms] (slow)
+2026-03-10 14:05:40.833 [warning] [   81 →    b7] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{"GK_GL_PATH":"/tmp/gitkraken/gitlens/gitlens-ipc-server-70138-33807.json"},"version":"3.1.53"}] [*2955ms] (slow)
+2026-03-11 13:33:22.364 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-11 13:33:22.365 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|35dabebe-d260-41ab-8e86-ef1c0be6552f1773126334459)
+2026-03-11 13:33:22.365 [error]   [            1] GitLens v17.11.0 activated [73ms]
+2026-03-11 13:33:22.365 [info]    [IPC          ] Server started on http://127.0.0.1:35325
+2026-03-11 13:33:22.413 [info]    [   6f →    70] LocalGitProvider.findGit Git (2.53.0) found in /usr/bin/git [213ms]
+2026-03-11 13:33:22.416 [info]    [   6f →    97] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/machinelearning/scikitlearn) searching (depth=1)...
+2026-03-11 13:33:22.416 [info]    [   74 →    99] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/test) searching (depth=1)...
+2026-03-11 13:33:22.506 [error]   [GIT          ] [/home/cuong75201/Documents/test] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [90ms]
+2026-03-11 13:33:22.507 [error]   [GIT          ] [/home/cuong75201/Documents/machinelearning/scikitlearn] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [92ms]
+2026-03-11 13:33:37.518 [error] FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established   [    a →     b] ServerConnection.fetch 
+2026-03-11 13:33:37.518 [error] FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established   [    a →     b] ServerConnection.fetch — failed [15351ms]
+2026-03-11 13:33:37.518 [error] FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established   [    9 →     a] ServerConnection.fetchGkConfig — failed [15351ms]
+2026-03-11 13:33:37.518 [error] FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established   [    7 →     9] ProductConfigProvider.load 
+2026-03-11 13:34:39.512 [warning] [   83 →    95] GkCliIntegrationProvider.checkCliUpdateRequired completed [*77167ms] (slow)
+2026-03-11 13:34:39.513 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-11 13:35:10.041 [warning] [   bc →    bd] GkMcpProvider.getMcpConfigurationFromCLICore completed [*107181ms] (slow)
+2026-03-11 13:35:10.041 [warning] [   bb →    bc] GkMcpProvider.getMcpConfigurationFromCLI completed [*107181ms] (slow)
+2026-03-11 13:35:10.042 [warning] [   83 →    bb] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{"GK_GL_PATH":"/tmp/gitkraken/gitlens/gitlens-ipc-server-70138-35325.json"},"version":"3.1.53"}] [*107183ms] (slow)
+2026-03-11 13:42:54.698 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-11 13:42:54.698 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|ca00f935-c069-4679-a76c-89d37179c83f1773211372055)
+2026-03-11 13:42:54.698 [error]   [            1] GitLens v17.11.0 activated [54ms]
+2026-03-11 13:42:54.698 [info]    [IPC          ] Server started on http://127.0.0.1:42541
+2026-03-11 13:42:57.516 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2956ms] (slow)
+2026-03-11 13:42:57.517 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2957ms] (slow)
+2026-03-11 13:42:59.909 [warning] [   7c →    92] GkCliIntegrationProvider.checkCliUpdateRequired completed [*5245ms] (slow)
+2026-03-11 13:42:59.909 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-11 13:43:00.066 [warning] [   8a →    8b] GkMcpProvider.getMcpConfigurationFromCLICore completed [*5439ms] (slow)
+2026-03-11 13:43:00.066 [warning] [   89 →    8a] GkMcpProvider.getMcpConfigurationFromCLI completed [*5440ms] (slow)
+2026-03-11 13:43:00.067 [warning] [   a7 →    a8] GkMcpProvider.getMcpConfigurationFromCLI completed [*4925ms] (slow)
+2026-03-11 13:43:00.068 [warning] [   6e →    89] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{},"version":"3.1.53"}] [*5440ms] (slow)
+2026-03-11 13:43:00.068 [warning] [   7c →    a7] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{},"version":"3.1.53"}] [*4926ms] (slow)
+2026-03-11 13:52:43.683 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-11 13:52:43.683 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|4f76f2ea-c0d4-4ecf-8f10-9ad0f6d9eba61773211957686)
+2026-03-11 13:52:43.683 [error]   [            1] GitLens v17.11.0 activated [100ms]
+2026-03-11 13:52:43.683 [info]    [   6e →    6f] LocalGitProvider.findGit Git (2.53.0) found in /usr/bin/git [108ms]
+2026-03-11 13:52:43.683 [info]    [   6e →    9f] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/porfolio) searching (depth=1)...
+2026-03-11 13:52:43.683 [info]    [GIT     128ms] [/home/cuong75201/Documents/porfolio] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [128ms]
+2026-03-11 13:52:43.683 [info]    [IPC          ] Server started on http://127.0.0.1:45753
+2026-03-11 13:52:43.693 [info]    [   6e →    9f] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/porfolio) found root repository in '/home/cuong75201/Documents/porfolio'
+2026-03-11 13:52:43.768 [warning] [   6d →    6e] LocalGitProvider.discoverRepositories(e=Uri(file:///home/cuong75201/Documents/porfolio)) returned [Repository(/home/cuong75201/Documents/porfolio|1)] [*544ms] (slow)
+2026-03-11 13:52:43.768 [warning] [   6c →    6d] GitProviderService.discoverRepositoriesCore(e=WorkspaceFolder(porfolio, index=0, file:///home/cuong75201/Documents/porfolio)) returned [Repository(/home/cuong75201/Documents/porfolio|1)] [*544ms] (slow)
+2026-03-11 13:52:43.772 [warning] [   6b →    6c] GitProviderService.discoverRepositories(folders=1) completed [*547ms] (slow)
+2026-03-11 13:52:43.772 [warning] [   40 →    6b] GitProviderService.registrationComplete completed • repositories=1, workspaceFolders=1, git.autoRepositoryDetection=true [*548ms] (slow)
+2026-03-11 13:52:43.772 [warning] [   7a →    7b] GitProviderService.getOrOpenRepository(e=Uri(file:///home/cuong75201/Documents/porfolio/style.css)) returned Repository(/home/cuong75201/Documents/porfolio|1) [*522ms] (slow)
+2026-03-11 13:52:43.773 [warning] [   7f →    80] GitProviderService.getOrOpenRepository(e=Uri(file:///home/cuong75201/Documents/porfolio/index.html)) returned Repository(/home/cuong75201/Documents/porfolio|1) [*522ms] (slow)
+2026-03-11 13:52:43.773 [warning] [   79 →    7a] GitUri.fromUri(e=Uri(file:///home/cuong75201/Documents/porfolio/style.css)) returned GitUri(file:///home/cuong75201/Documents/porfolio/style.css repoPath=/home/cuong75201/Documents/porfolio) [*522ms] (slow)
+2026-03-11 13:52:43.773 [warning] [   7e →    7f] GitUri.fromUri(e=Uri(file:///home/cuong75201/Documents/porfolio/index.html)) returned GitUri(file:///home/cuong75201/Documents/porfolio/index.html repoPath=/home/cuong75201/Documents/porfolio) [*523ms] (slow)
+2026-03-11 13:52:43.781 [warning] [   78 →    79] TrackedGitDocument(TextDocument(css, dirty=false, file:///home/cuong75201/Documents/porfolio/style.css)).initialize(e=true) completed [*524ms] (slow)
+2026-03-11 13:52:43.789 [warning] [   7d →    7e] TrackedGitDocument(TextDocument(html, dirty=false, file:///home/cuong75201/Documents/porfolio/index.html)).initialize(e=true) completed [*524ms] (slow)
+2026-03-11 13:52:43.790 [warning] [   77 →    78] GitDocumentTracker.addCore(e=TextDocument(css, dirty=false, file:///home/cuong75201/Documents/porfolio/style.css), t=true) completed [*541ms] (slow)
+2026-03-11 13:52:43.790 [warning] [   77 →    7d] GitDocumentTracker.addCore(e=TextDocument(html, dirty=false, file:///home/cuong75201/Documents/porfolio/index.html), t=true) completed [*540ms] (slow)
+2026-03-11 13:52:43.808 [warning] [   77 →    9b] GitHubIntegration.isConnected returned false [*523ms] (slow)
+2026-03-11 13:52:43.843 [info]    [GIT      69ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html [69ms]
+2026-03-11 13:52:43.854 [info]    [GIT      80ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css [80ms]
+2026-03-11 13:52:43.886 [info]    [GIT      41ms] [/home/cuong75201/Documents/porfolio] git config --get-regex ^user\.(name|email)$ [41ms]
+2026-03-11 13:52:43.914 [info]    [GIT      26ms] [/home/cuong75201/Documents/porfolio] git check-mailmap cuong75201 <cuong75201@gmail.com> [26ms]
+2026-03-11 13:52:43.914 [info]    [GIT      39ms] [/home/cuong75201/Documents/porfolio] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [39ms]
+2026-03-11 13:52:43.914 [info]    [GIT      50ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html [50ms]
+2026-03-11 13:52:43.996 [info]    [GIT      18ms] [/home/cuong75201/Documents/porfolio] git remote -v [18ms]
+2026-03-11 13:52:44.001 [warning] [   73 →    74] GitProviderService.getOrOpenRepository(e=Uri(file:///home/cuong75201/Documents/porfolio), t={"detectNested":true}) returned Repository(/home/cuong75201/Documents/porfolio|1) [*765ms] (slow)
+2026-03-11 13:52:44.010 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*824ms] (slow)
+2026-03-11 13:52:44.011 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*824ms] (slow)
+2026-03-11 13:52:47.490 [warning] [   8e →    a6] GkCliIntegrationProvider.checkCliUpdateRequired completed [*4038ms] (slow)
+2026-03-11 13:52:47.490 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-11 13:52:48.914 [warning] [  105 →   106] GkMcpProvider.getMcpConfigurationFromCLICore completed [*4712ms] (slow)
+2026-03-11 13:52:48.914 [warning] [  104 →   105] GkMcpProvider.getMcpConfigurationFromCLI completed [*4712ms] (slow)
+2026-03-11 13:52:48.914 [warning] [   8e →   104] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{"GK_GL_PATH":"/tmp/gitkraken/gitlens/gitlens-ipc-server-70138-45753.json"},"version":"3.1.53"}] [*4712ms] (slow)
+2026-03-11 13:53:05.024 [info]    [GIT      10ms] [/home/cuong75201/Documents/porfolio] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [10ms]
+2026-03-11 13:53:05.049 [info]    [GIT      16ms] [/home/cuong75201/Documents/porfolio] git config --get-regex -f /home/cuong75201/Documents/porfolio/.git/gk/config ^branch\..*\.gk-last-(accessed|modified)$ [16ms]
+2026-03-11 13:53:05.061 [info]    [GIT       8ms] [/home/cuong75201/Documents/porfolio] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ [8ms]
+2026-03-11 13:53:18.787 [info]    [GIT      14ms] [/home/cuong75201/Documents/porfolio] git rev-list --max-parents=0 HEAD -- [14ms]
+2026-03-11 13:53:18.789 [info]    [GIT      14ms] [/home/cuong75201/Documents/porfolio] git shortlog -s --all --no-min-parents --since=1.year.ago [14ms]
+2026-03-11 13:53:18.790 [info]    [  16c →   16d] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/cuong75201/.local/share/gk

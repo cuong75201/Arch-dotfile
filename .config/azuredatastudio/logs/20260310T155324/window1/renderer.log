@@ -1,0 +1,153 @@
+2026-03-10 15:53:27.489 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'semanticSimilarity' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-10 15:53:27.668 [info] Started initializing default profile extensions in extensions installation folder. file:///home/cuong75201/.azuredatastudio/extensions
+2026-03-10 15:53:27.841 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/cuong75201/.azuredatastudio/extensions
+2026-03-10 15:53:30.845 [info] [perf] Render performance baseline is 14ms
+2026-03-10 15:54:30.668 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 15:55:37.869 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:09:05.171 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:09:05.171 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:09:05.171 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:09:34.726 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:09:34.726 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:09:34.728 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:12:54.476 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:21:46.046 [info] Creating new connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:21:46.046 [info] Adding connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:21:46.046 [info] Successfully added connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:21:53.201 [info] Cancelling connection for URI connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:21:53.224 [info] Deleting connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458 (connecting)
+2026-03-10 16:21:53.234 [info] Found deleted connection management info for connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458 - removing
+2026-03-10 16:21:53.234 [info] Deleting connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:00.953 [info] Creating new connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:00.953 [info] Adding connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:00.954 [info] Successfully added connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:30.572 [info] Error occurred while connecting, removing connection management info for connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:30.597 [info] Deleting connection connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:22:30.599 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:22:46.047 [info] Cancelling connection for URI connection:providerName:MSSQL|server:127.0.0.1:1433|user:cuong75201|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:16.418 [info] Creating new connection connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:16.425 [info] Adding connection connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:16.425 [info] Successfully added connection connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:45.946 [info] Error occurred while connecting, removing connection management info for connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:45.974 [info] Deleting connection connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:24:45.976 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:24:54.531 [info] Cancelling connection for URI connection:providerName:MSSQL|server:0.0.0.0:1433|user:clever_panini|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:26:09.598 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:26:09.599 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:26:09.599 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:26:39.132 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:26:39.162 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:26:39.165 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:26:55.937 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:26:55.958 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:26:55.959 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:27:25.490 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:27:25.515 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:27:25.516 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:27:41.955 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:27:41.981 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:27:41.981 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:27:47.845 [info] Cancelling connection for URI untitled:SQLQuery_1
+2026-03-10 16:27:47.845 [info] Deleting connection untitled:SQLQuery_1 (connecting)
+2026-03-10 16:27:47.855 [info] Found deleted connection management info for untitled:SQLQuery_1 - removing
+2026-03-10 16:27:47.855 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:27:49.696 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:27:49.696 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:27:49.697 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:27:52.814 [info] Cancelling connection for URI untitled:SQLQuery_1
+2026-03-10 16:27:52.838 [info] Deleting connection untitled:SQLQuery_1 (connecting)
+2026-03-10 16:27:52.844 [info] Found deleted connection management info for untitled:SQLQuery_1 - removing
+2026-03-10 16:27:52.844 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:28:01.194 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:28:01.215 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:28:01.216 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:28:30.742 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:28:30.769 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:28:30.770 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:30:51.206 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:30:51.227 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:30:51.228 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:31:20.752 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:31:20.783 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:31:20.785 [error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+2026-03-10 16:32:02.231 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:32:02.268 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:32:02.268 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:32:02.387 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:32:02.388 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:32:04.543 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:32:04.544 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:32:04.544 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:32:04.705 [info] Adding connection with DB name connection:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:32:04.723 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:32:04.724 [info] GitHub Copilot extension is not installed, so contextualization is not needed.
+2026-03-10 16:32:04.724 [info] GitHub Copilot contextualization is disabled, so contextualization is not needed.
+2026-03-10 16:32:04.724 [info] Contextualization is not needed because the GitHub Copilot extension is not installed and/or contextualization is disabled.
+2026-03-10 16:32:23.965 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:32:23.966 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:32:23.966 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:32:23.976 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:32:23.976 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:32:31.994 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:32:31.995 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:32:32.039 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:32:32.040 [info] GitHub Copilot extension is not installed, so contextualization is not needed.
+2026-03-10 16:32:32.040 [info] GitHub Copilot contextualization is disabled, so contextualization is not needed.
+2026-03-10 16:32:32.040 [info] Contextualization is not needed because the GitHub Copilot extension is not installed and/or contextualization is disabled.
+2026-03-10 16:33:15.648 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:35:03.496 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:35:03.580 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:35:03.584 [error] Run Cells failed - See error in output of the currently selected cell for more information.: Error: Run Cells failed - See error in output of the currently selected cell for more information.
+    at $.runAllCells (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:3170:41371) [<root>]
+    at async re.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:1478:11945) [<root>]
+    at async T.runAction (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50840) [<root>]
+    at async T.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50740) [<root>]
+2026-03-10 16:35:38.071 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:38.072 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:38.117 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:38.128 [info] Error occurred while connecting, removing connection management info for connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:38.128 [info] Deleting connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:38.134 [error] Login failed for user 'SA'.
+2026-03-10 16:35:44.522 [info] Cancelling connection for URI connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:35:57.346 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:36:21.896 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:21.896 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:21.896 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:21.912 [info] Error occurred while connecting, removing connection management info for connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:21.913 [info] Deleting connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:28.129 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:28.129 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:28.130 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:36:28.174 [info] Creating new connection notebook:Notebook-0
+2026-03-10 16:36:28.174 [info] Adding connection notebook:Notebook-0
+2026-03-10 16:36:28.174 [info] Successfully added connection notebook:Notebook-0
+2026-03-10 16:36:28.215 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:36:28.222 [error] Run Cells failed - See error in output of the currently selected cell for more information.: Error: Run Cells failed - See error in output of the currently selected cell for more information.
+    at $.runAllCells (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:3170:41371) [<root>]
+    at async re.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:1478:11945) [<root>]
+    at async T.runAction (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50840) [<root>]
+    at async T.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50740) [<root>]
+2026-03-10 16:36:28.425 [info] Creating new connection untitled:notebook-editor-0
+2026-03-10 16:36:28.426 [info] Adding connection untitled:notebook-editor-0
+2026-03-10 16:36:28.427 [info] Successfully added connection untitled:notebook-editor-0
+2026-03-10 16:36:28.428 [info] Creating new connection untitled:notebook-editor-0
+2026-03-10 16:36:28.428 [info] Adding connection untitled:notebook-editor-0
+2026-03-10 16:36:28.429 [info] Successfully added connection untitled:notebook-editor-0
+2026-03-10 16:36:37.438 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:36:37.440 [error] Run Cells failed - See error in output of the currently selected cell for more information.: Error: Run Cells failed - See error in output of the currently selected cell for more information.
+    at $.runAllCells (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:3170:41371) [<root>]
+    at async re.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:1478:11945) [<root>]
+    at async T.runAction (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50840) [<root>]
+    at async T.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50740) [<root>]
+2026-03-10 16:36:38.931 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:36:38.938 [error] Run Cells failed - See error in output of the currently selected cell for more information.: Error: Run Cells failed - See error in output of the currently selected cell for more information.
+    at $.runAllCells (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:3170:41371) [<root>]
+    at async re.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:1478:11945) [<root>]
+    at async T.runAction (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50840) [<root>]
+    at async T.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50740) [<root>]
+2026-03-10 16:36:39.778 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:36:39.779 [error] Run Cells failed - See error in output of the currently selected cell for more information.: Error: Run Cells failed - See error in output of the currently selected cell for more information.
+    at $.runAllCells (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:3170:41371) [<root>]
+    at async re.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:1478:11945) [<root>]
+    at async T.runAction (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50840) [<root>]
+    at async T.run (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:226:50740) [<root>]

@@ -1,0 +1,177 @@
+2026-03-10 14:07:02.031 [info] Python-envs extension version: 1.20.1
+2026-03-10 14:07:02.031 [info] 
+=== Python Envs Configuration Levels ===
+2026-03-10 14:07:02.031 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-03-10 14:07:02.031 [info] [pet] Starting Python Locator /home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/python-env-tools/bin/pet server
+2026-03-10 14:07:02.033 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/cuong75201/Documents/machinelearning/scikitlearn"],"environmentDirectories":["/home/cuong75201/Documents/machinelearning/scikitlearn/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/cuong75201/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-03-10 14:07:02.063 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-10 14:07:02.086 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-10 14:07:02.131 [info] Discovered env: /usr/bin/python
+2026-03-10 14:07:02.173 [info] Conda not found, turning off conda features. Error: Conda not found
+    at F (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578361)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at L (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578486)
+    at t.registerCondaFeatures (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:596321)
+    at async Promise.all (index 1)
+    at Immediate.<anonymous> (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:717155)
+2026-03-10 14:07:02.173 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":112,"breakdown":{"GlobalVirtualEnvs":40,"Locators":71,"Path":112,"Workspaces":24},"locators":{"Conda":60,"Homebrew":0,"LinuxGlobal":70,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":2,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-10 14:07:02.174 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-10 14:07:02.183 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-10 14:07:02.240 [info] Discovered env: /usr/bin/python
+2026-03-10 14:07:02.253 [info] Pipenv not found
+2026-03-10 14:07:02.253 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-03-10 14:07:02.253 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":77,"breakdown":{"GlobalVirtualEnvs":28,"Locators":66,"Path":77,"Workspaces":8},"locators":{"Conda":66,"Homebrew":0,"LinuxGlobal":65,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-10 14:07:02.254 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-10 14:07:02.262 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-10 14:07:02.317 [info] Discovered env: /usr/bin/python
+2026-03-10 14:07:02.326 [info] Poetry not found, turning off poetry features.
+2026-03-10 14:07:02.327 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-03-10 14:07:02.328 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":71,"breakdown":{"GlobalVirtualEnvs":28,"Locators":63,"Path":71,"Workspaces":8},"locators":{"Conda":62,"Homebrew":0,"LinuxGlobal":62,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-10 14:07:02.329 [info] Found venv environment: venv (3.14.3)
+2026-03-10 14:07:02.330 [info] Python API: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-10 14:07:02.330 [info] Internal: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-10 14:07:02.331 [info] [interpreterSelection] scikitlearn: venv (3.14.3) (source: autoDiscovery)
+2026-03-10 14:07:02.337 [info] [interpreterSelection] global: Python 3.14.3 (source: autoDiscovery)
+2026-03-10 14:07:02.340 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-10 14:07:02.341 [info] Python API: Changed environment from undefined to Python 3.14.3 for: global
+2026-03-10 14:07:02.341 [info] Internal: Changed environment from undefined to Python 3.14.3 for: global
+2026-03-10 14:07:02.427 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:31:50.846 [error] Failed to activate environment using shell integration
+2026-03-11 13:31:50.846 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:13.383 [info] Python-envs extension version: 1.20.1
+2026-03-11 13:33:13.383 [info] 
+=== Python Envs Configuration Levels ===
+2026-03-11 13:33:13.383 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-03-11 13:33:13.383 [info] [pet] Starting Python Locator /home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/python-env-tools/bin/pet server
+2026-03-11 13:33:13.769 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/cuong75201/Documents/machinelearning/scikitlearn","/home/cuong75201/Documents/test"],"environmentDirectories":["/home/cuong75201/Documents/machinelearning/scikitlearn/**/.venv","/home/cuong75201/Documents/test/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/cuong75201/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-03-11 13:33:13.998 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:33:14.000 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.004 [info] Discovered env: /usr/bin/python
+2026-03-11 13:33:14.016 [info] Pipenv not found
+2026-03-11 13:33:14.016 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-03-11 13:33:14.016 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":104,"breakdown":{"GlobalVirtualEnvs":54,"Locators":93,"Path":104,"Workspaces":32},"locators":{"Conda":93,"Homebrew":0,"LinuxGlobal":89,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":3,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:33:14.017 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:33:14.062 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.123 [info] Discovered env: /usr/bin/python
+2026-03-11 13:33:14.127 [info] Conda not found, turning off conda features. Error: Conda not found
+    at F (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578361)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at L (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578486)
+    at t.registerCondaFeatures (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:596321)
+    at async Promise.all (index 1)
+    at Immediate.<anonymous> (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:717155)
+2026-03-11 13:33:14.127 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":99,"breakdown":{"GlobalVirtualEnvs":40,"Locators":88,"Path":99,"Workspaces":10},"locators":{"Conda":87,"Homebrew":0,"LinuxGlobal":82,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:33:14.130 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:33:14.139 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.391 [info] Discovered env: /usr/bin/python
+2026-03-11 13:33:14.393 [info] Poetry not found, turning off poetry features.
+2026-03-11 13:33:14.394 [info] [interpreterSelection] Applying initial environment selection for 2 workspace folder(s)
+2026-03-11 13:33:14.396 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":103,"breakdown":{"GlobalVirtualEnvs":37,"Locators":92,"Path":103,"Workspaces":8},"locators":{"Conda":92,"Homebrew":0,"LinuxGlobal":86,"PipEnv":4,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:33:14.414 [info] Found venv environment: venv (3.14.3)
+2026-03-11 13:33:14.417 [info] Python API: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-11 13:33:14.417 [info] Internal: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-11 13:33:14.417 [info] Python API: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/test
+2026-03-11 13:33:14.417 [info] Internal: Changed environment from undefined to venv (3.14.3) for: /home/cuong75201/Documents/test
+2026-03-11 13:33:14.418 [info] [interpreterSelection] scikitlearn: venv (3.14.3) (source: autoDiscovery)
+2026-03-11 13:33:14.428 [info] [interpreterSelection] test: venv (3.14.3) (source: autoDiscovery)
+2026-03-11 13:33:14.451 [info] [interpreterSelection] global: Python 3.14.3 (source: autoDiscovery)
+2026-03-11 13:33:14.457 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.457 [error] Failed to activate environment using shell integration
+2026-03-11 13:33:14.457 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.459 [info] Python API: Changed environment from undefined to Python 3.14.3 for: global
+2026-03-11 13:33:14.459 [info] Internal: Changed environment from undefined to Python 3.14.3 for: global
+2026-03-11 13:33:14.711 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:14.712 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.009 [info] Python-envs extension version: 1.20.1
+2026-03-11 13:51:06.009 [info] 
+=== Python Envs Configuration Levels ===
+2026-03-11 13:51:06.009 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-03-11 13:51:06.009 [info] [pet] Starting Python Locator /home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/python-env-tools/bin/pet server
+2026-03-11 13:51:06.064 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.065 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/cuong75201/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-03-11 13:51:06.085 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:51:06.103 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.198 [info] Discovered env: /usr/bin/python
+2026-03-11 13:51:06.199 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.200 [info] Conda not found, turning off conda features. Error: Conda not found
+    at F (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578361)
+    at L (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:578486)
+    at t.registerCondaFeatures (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:596321)
+    at async Promise.all (index 1)
+    at Immediate.<anonymous> (/home/cuong75201/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64/dist/extension.js:2:717155)
+2026-03-11 13:51:06.201 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":109,"breakdown":{"GlobalVirtualEnvs":49,"Locators":98,"Path":109,"Workspaces":0},"locators":{"Conda":98,"Homebrew":0,"LinuxGlobal":87,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":3,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:51:06.203 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:51:06.219 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.285 [info] Discovered env: /usr/bin/python
+2026-03-11 13:51:06.305 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.305 [info] Pipenv not found
+2026-03-11 13:51:06.305 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-03-11 13:51:06.306 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":100,"breakdown":{"GlobalVirtualEnvs":38,"Locators":89,"Path":100,"Workspaces":0},"locators":{"Conda":89,"Homebrew":0,"LinuxGlobal":79,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:51:06.307 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2026-03-11 13:51:06.320 [info] Discovered env: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.396 [info] Discovered env: /usr/bin/python
+2026-03-11 13:51:06.432 [info] Poetry not found, turning off poetry features.
+2026-03-11 13:51:06.434 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-03-11 13:51:06.435 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.442 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":112,"breakdown":{"GlobalVirtualEnvs":31,"Locators":93,"Path":112,"Workspaces":0},"locators":{"Conda":93,"Homebrew":0,"LinuxGlobal":88,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-03-11 13:51:06.471 [info] Resolved Python Environment /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.473 [info] Refreshing pyenv environments
+2026-03-11 13:51:06.475 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.478 [info] Resolved Python Environment /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.479 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-03-11 13:51:06.482 [info] Resolved Python Environment /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.490 [info] [interpreterSelection] global: defaultInterpreterPath: 3.14.3.final.0 (source: defaultInterpreterPath)
+2026-03-11 13:51:06.496 [info] Python API: Changed environment from undefined to defaultInterpreterPath: 3.14.3.final.0 for: global
+2026-03-11 13:51:06.496 [info] Internal: Changed environment from undefined to defaultInterpreterPath: 3.14.3.final.0 for: global
+2026-03-11 13:51:06.497 [info] Found venv environment: venv (3.14.3)
+2026-03-11 13:51:06.500 [error] Failed to activate environment using shell integration
+2026-03-11 13:51:06.500 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:51:06.501 [info] Python API: Changed environment from defaultInterpreterPath: 3.14.3.final.0 to venv (3.14.3) for: global
+2026-03-11 13:51:06.501 [info] Internal: Changed environment from defaultInterpreterPath: 3.14.3.final.0 to venv (3.14.3) for: global
+2026-03-11 13:51:06.630 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:52:23.601 [info] Terminal is activated: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python

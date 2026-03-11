@@ -1,0 +1,15 @@
+2026/02/27-21:08:21.571 c0d Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/27-21:08:21.572 c0d Recovering log #4
+2026/02/27-21:08:21.573 c0d Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000004.log 
+2026/02/27-21:10:13.761 c0d Level-0 table #8: started
+2026/02/27-21:10:13.763 c0d Level-0 table #8: 46497 bytes OK
+2026/02/27-21:10:13.764 c0d Delete type=0 #4
+2026/02/27-21:10:13.765 c0d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/27-21:10:13.765 c0d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x03\x01\x1b\x00I\x00D\x00V\x00_\x00C\x00A\x00C\x00H\x00E\x00_\x00F\x00I\x00L\x00E\x00_\x001\x004\x005\x009\x00_\x00d\x00e\x00f\x00a\x00u\x00l\x00t' @ 4787 : 1
+2026/02/27-21:10:13.765 c0d Compacting 1@1 + 1@2 files
+2026/02/27-21:10:13.767 c0d Generated table #9@1: 542 keys, 10338 bytes
+2026/02/27-21:10:13.767 c0d Compacted 1@1 + 1@2 files => 10338 bytes
+2026/02/27-21:10:13.768 c0d compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/27-21:10:13.769 c0d Delete type=2 #8
+2026/02/27-21:10:13.769 c0d Delete type=2 #5
+2026/02/27-21:10:13.769 c0d Manual compaction at level-1 from '\x00\x04\x01\x03\x01\x1b\x00I\x00D\x00V\x00_\x00C\x00A\x00C\x00H\x00E\x00_\x00F\x00I\x00L\x00E\x00_\x001\x004\x005\x009\x00_\x00d\x00e\x00f\x00a\x00u\x00l\x00t' @ 4787 : 1 .. (end); will stop at (end)

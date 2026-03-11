@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "executable": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python",
+    "prefix": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv",
+    "version": "3.14.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python",
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python3",
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python3.14"
+    ]
+  },
+  "symlinks": [
+    [
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python",
+      {
+        "secs_since_epoch": 1770996704,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python3",
+      {
+        "secs_since_epoch": 1770996704,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python3.14",
+      {
+        "secs_since_epoch": 1770996704,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

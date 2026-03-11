@@ -1,0 +1,94 @@
+{
+    "accounts": [
+        {
+            "entitlement": {
+                "canPlayMinecraft": true,
+                "ownsMinecraft": true
+            },
+            "msa": {
+                "exp": 0,
+                "extra": {
+                    "ext_expires_in":  "",
+                    "state": ""
+                },
+                "iat": 0
+            },
+            "msa-client-id": "",
+            "type": "MSA",
+            "utoken": {
+                "exp": 0,
+                "extra": {
+                    "uhs": "9223372036854775807"
+                },
+                "iat": 0
+            },
+            "xrp-main": {
+                "exp": 0,
+                "extra": {
+                    "agg": "Adult",
+                    "gtg": "FakeAuthMCAccount",
+                    "prv": "",
+                    "ugc": "",
+                    "uhs": "",
+                    "usr": "",
+                    "utr": "",
+                    "xid": ""
+                },
+                "iat": 0
+            },
+            "xrp-mc": {
+                "exp": 0,
+                "extra": {
+                    "uhs": ""
+                },
+                "iat": 0
+            }
+        },
+        {
+            "profile": {
+                "capes": [
+                ],
+                "id": "0f9162fa67713c86b4fcc5f40efcda5c",
+                "name": "cuong2035",
+                "skin": {
+                    "id": "",
+                    "url": "",
+                    "variant": ""
+                }
+            },
+            "type": "Offline",
+            "ygg": {
+                "extra": {
+                    "clientToken": "00527e0f1ab64033bfb2f3461b5868ff",
+                    "userName": "cuong2035"
+                },
+                "iat": 1772699433,
+                "token": "0"
+            }
+        },
+        {
+            "active": true,
+            "profile": {
+                "capes": [
+                ],
+                "id": "4472b16ebf9b37449b540f6481df603a",
+                "name": "cuong0235",
+                "skin": {
+                    "id": "",
+                    "url": "",
+                    "variant": ""
+                }
+            },
+            "type": "Offline",
+            "ygg": {
+                "extra": {
+                    "clientToken": "c4c62e6d640740a4bde2d856cf2dbde3",
+                    "userName": "cuong0235"
+                },
+                "iat": 1772699441,
+                "token": "0"
+            }
+        }
+    ],
+    "formatVersion": 3
+}

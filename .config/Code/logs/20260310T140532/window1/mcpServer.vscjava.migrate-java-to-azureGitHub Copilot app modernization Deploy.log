@@ -1,0 +1,12 @@
+2026-03-11 13:51:05.829 [info] Starting server GitHub Copilot app modernization Deploy
+2026-03-11 13:51:05.829 [info] Connection state: Starting
+2026-03-11 13:51:05.830 [info] Starting server from LocalProcess extension host
+2026-03-11 13:51:05.899 [info] Connection state: Starting
+2026-03-11 13:51:05.900 [info] Connection state: Running
+2026-03-11 13:51:07.331 [warning] Failed to parse message: "Using CustomerChannel: Java✅ Registered 2 Container Assist tools with telemetry\n"
+2026-03-11 13:51:07.334 [warning] Failed to parse message: "MCP server connected successfully.\n"
+2026-03-11 13:51:07.335 [warning] Failed to parse message: "MCP server is running. Press Ctrl+C to exit.\n"
+2026-03-11 13:51:07.348 [warning] Failed to parse message: "MCP server initialized with client info: {\"name\":\"Visual Studio Code\",\"version\":\"1.110.0\"}\n"
+2026-03-11 13:51:07.353 [info] Discovered 15 tools
+2026-03-11 13:52:37.266 [warning] Extension host shut down, server will stop.
+2026-03-11 13:52:37.266 [info] Connection state: Stopped

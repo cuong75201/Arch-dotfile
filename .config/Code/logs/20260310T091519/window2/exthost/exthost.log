@@ -1,0 +1,90 @@
+2026-03-10 10:29:28.597 [info] Extension host with pid 57678 started
+2026-03-10 10:29:28.782 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-10 10:29:28.816 [info] ExtensionService#_doActivateExtension redhat.vscode-rsp-ui, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-03-10 10:29:28.952 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-10 10:29:28.975 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:claude-code'
+2026-03-10 10:29:30.373 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-10 10:29:30.375 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-03-10 10:29:30.380 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-03-10 10:29:30.402 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2026-03-10 10:29:30.673 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-10 10:29:30.775 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-10 10:29:30.823 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-10 10:29:31.001 [info] Eager extensions activated
+2026-03-10 10:29:31.028 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.030 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.040 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.049 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.072 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.167 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.168 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.169 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.182 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:31.185 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 10:29:36.024 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-10 10:29:36.052 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-03-10 10:29:36.064 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:146326)
+    at ve.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:490:34327)
+    at ve.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:490:34404)
+    at Object.dispose (/home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:1641:17210)
+    at /home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:2430:58982
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:2430:58963)
+    at In (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at Uk._fn (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+    at Uk.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-10 10:29:36.081 [error] An error occurred when disposing the subscriptions for extension 'GitHub.copilot-chat':
+2026-03-10 10:29:36.082 [error] Error: Channel has been closed
+    at i (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+    at Object.info (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4305)
+    at UOe.logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2673:2136)
+    at /home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2208
+    at Array.forEach (<anonymous>)
+    at iet._logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2195)
+    at iet.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2285)
+    at n.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2804)
+    at FXe._fn (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1798:31983)
+    at FXe.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1210)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at y9e.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at cJ.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at See.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at aL.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at In (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at Uk._fn (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+    at Uk.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-10 10:29:36.091 [info] Extension host with pid 57678 exiting with code 0

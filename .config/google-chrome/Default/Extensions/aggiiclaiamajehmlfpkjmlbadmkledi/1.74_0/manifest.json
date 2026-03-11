@@ -1,0 +1,44 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "to_19.png",
+         "38": "to_38.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "copy-translation-to-clipboard": {
+         "description": "Copy translation to clipboard"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentscript.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Hover, click or select to translate (with text-to-speech). Translator.",
+   "host_permissions": [ "https://translate.googleapis.com/*", "https://clients5.google.com/*", "https://www.google-analytics.com/*" ],
+   "icons": {
+      "128": "to_128.png",
+      "16": "to_16.png",
+      "48": "to_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEjYs12KKpdISaExyCRxBxrhIbkdfRIp+jbSyZpRwwqiaeay3Gyfyxt4Jovd0Pzun8Gk/02UmsPEJe5gcnxbCX01g/bjTNsfO9C5HbxppZXyL4gYF1yl90qAL2GDwOQEJcn4K0aBlQuyaiqXRTGqvHII8dTY8RsMiOV3/DeOk6wwIDAQAB",
+   "manifest_version": 3,
+   "name": "TransOver",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.74",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*/*", "file://*/*" ],
+      "resources": [ "popup.js", "tat_popup.js" ]
+   } ]
+}

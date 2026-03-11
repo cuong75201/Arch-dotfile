@@ -1,0 +1,14 @@
+2026-03-10 10:29:32.164 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-10 10:29:32.164 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|e602d1c0-98c1-4411-bfde-576a4d6b689a1773113367239)
+2026-03-10 10:29:32.164 [error]   [            1] GitLens v17.11.0 activated [122ms]
+2026-03-10 10:29:32.164 [info]    [IPC          ] Server started on http://127.0.0.1:42127
+2026-03-10 10:29:32.197 [warning] [   70 →    85] GitHubIntegration.isConnected returned false [*827ms] (slow)
+2026-03-10 10:29:32.514 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*1256ms] (slow)
+2026-03-10 10:29:32.514 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*1256ms] (slow)
+2026-03-10 10:29:34.252 [warning] [   8a →    8b] GkMcpProvider.getMcpConfigurationFromCLICore completed [*2791ms] (slow)
+2026-03-10 10:29:34.252 [warning] [   89 →    8a] GkMcpProvider.getMcpConfigurationFromCLI completed [*2791ms] (slow)
+2026-03-10 10:29:34.252 [warning] [   9a →    9b] GkMcpProvider.getMcpConfigurationFromCLI completed [*2092ms] (slow)
+2026-03-10 10:29:34.253 [warning] [   6e →    89] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{},"version":"3.1.53"}] [*2792ms] (slow)
+2026-03-10 10:29:34.253 [warning] [   7c →    9a] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{},"version":"3.1.53"}] [*2092ms] (slow)
+2026-03-10 10:29:34.819 [warning] [   7c →    92] GkCliIntegrationProvider.checkCliUpdateRequired completed [*3317ms] (slow)
+2026-03-10 10:29:34.819 [info]    [CLI          ] CLI core version is 3.1.53

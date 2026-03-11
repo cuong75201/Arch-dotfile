@@ -1,0 +1,9 @@
+2026/03/11-18:00:27.679 11cb2 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/11-18:00:27.679 11cb2 Recovering log #116
+2026/03/11-18:00:27.679 11cb2 Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000116.log 
+2026/03/11-18:00:28.940 11cb9 Compacting 1@1 + 1@2 files
+2026/03/11-18:00:28.951 11cb9 Generated table #119@1: 1782 keys, 97647 bytes
+2026/03/11-18:00:28.951 11cb9 Compacted 1@1 + 1@2 files => 97647 bytes
+2026/03/11-18:00:28.952 11cb9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/11-18:00:28.952 11cb9 Delete type=2 #117
+2026/03/11-18:00:28.952 11cb9 Delete type=2 #114

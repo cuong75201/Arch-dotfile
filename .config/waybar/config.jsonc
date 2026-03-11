@@ -1,0 +1,11 @@
+{
+	"modules-right": ["cpu","memory","temperature"],
+	"cpu":{
+		"format":"{usage}% []"
+	},
+	"temperature":{
+		"critical-threshold":80,
+		"format":"{temperatureC} C []"
+		}
+}
+	

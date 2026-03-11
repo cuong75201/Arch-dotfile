@@ -1,0 +1,95 @@
+2026-03-10 12:01:42.574 [info] Extension host with pid 119482 started
+2026-03-10 12:01:42.574 [info] Skipping acquiring lock for /home/cuong75201/.config/Code/User/workspaceStorage/b108c1820e514c1bc211cc91d4967d24.
+2026-03-10 12:01:42.799 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-10 12:01:42.820 [info] ExtensionService#_doActivateExtension redhat.vscode-rsp-ui, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-03-10 12:01:42.918 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-10 12:01:42.933 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-03-10 12:01:44.139 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-10 12:01:44.143 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-03-10 12:01:44.152 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-03-10 12:01:44.188 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2026-03-10 12:01:44.622 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-10 12:01:44.698 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-10 12:01:44.730 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-10 12:01:44.987 [info] Eager extensions activated
+2026-03-10 12:01:45.034 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.036 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.054 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.069 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.101 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.227 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.229 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.229 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.249 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:45.253 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 12:01:46.993 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-03-10 12:01:47.012 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-03-10 12:01:47.370 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-03-10 12:01:48.024 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-03-10 12:08:52.158 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-10 12:08:52.173 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-03-10 12:08:52.182 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:146326)
+    at ve.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:490:34327)
+    at ve.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:490:34404)
+    at Object.dispose (/home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:1641:17210)
+    at /home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:2430:58982
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:2430:58963)
+    at In (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at Uk._fn (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+    at Uk.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-10 12:08:52.190 [error] An error occurred when disposing the subscriptions for extension 'GitHub.copilot-chat':
+2026-03-10 12:08:52.191 [error] Error: Channel has been closed
+    at i (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+    at Object.info (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4305)
+    at UOe.logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2673:2136)
+    at /home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2208
+    at Array.forEach (<anonymous>)
+    at iet._logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2195)
+    at iet.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2285)
+    at n.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2804)
+    at FXe._fn (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1798:31983)
+    at FXe.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1210)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at y9e.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at cJ.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at See.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at aL.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at In (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at Uk._fn (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+    at Uk.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-10 12:08:52.225 [info] Extension host with pid 119482 exiting with code 0

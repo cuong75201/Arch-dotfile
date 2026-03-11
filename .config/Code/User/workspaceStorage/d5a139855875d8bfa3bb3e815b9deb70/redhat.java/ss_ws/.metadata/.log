@@ -1,0 +1,364 @@
+!SESSION 2026-03-08 11:49:10.493 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-7c67fd270cc8dfdef6e6165d6efa55fd.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/d5a139855875d8bfa3bb3e815b9deb70/redhat.java/ss_ws --pipe=/run/user/1000/lsp-7c67fd270cc8dfdef6e6165d6efa55fd.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.441
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.465
+!MESSAGE There is no bundle org.eclipse.buildship.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.465
+!MESSAGE There is no bundle org.eclipse.m2e.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.467
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.571
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.777
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:11.781
+!MESSAGE Initializing JDT Language Server (Syntax)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.142
+!MESSAGE Setting /usr/lib/jvm/java-8-openjdk as 'JavaSE-1.8' environment (id:1772945351860)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.150
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1772945352144)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.157
+!MESSAGE Setting /usr/lib/jvm/java-25-openjdk as 'JavaSE-25' environment (id:1772945352151)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.158
+!MESSAGE Setting java.home /usr/lib/jvm/java-25-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.166
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.178
+!MESSAGE Workspace initialized in 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.195
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.200
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.202
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.204
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.207
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.562
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:14.022
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:14.024
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:14.030
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2026-03-08 13:40:48.557 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-59b8a71fe6fb9823d7e2d095bf30de9c.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/d5a139855875d8bfa3bb3e815b9deb70/redhat.java/ss_ws --pipe=/run/user/1000/lsp-59b8a71fe6fb9823d7e2d095bf30de9c.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.536
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.557
+!MESSAGE There is no bundle org.eclipse.buildship.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.557
+!MESSAGE There is no bundle org.eclipse.m2e.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.558
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.677
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.712
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.715
+!MESSAGE Initializing JDT Language Server (Syntax)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.757
+!MESSAGE Workspace initialized in 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.774
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.781
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.783
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.786
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.788
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.792
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.793
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.794
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.795
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.796
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.800
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.808
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.808
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.809
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.809
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.809
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.810
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.810
+!MESSAGE Creating the Java project webapp_24a80ae4
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.927
+!MESSAGE Finished creating the Java project webapp_24a80ae4
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.936
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.962
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:49.963
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 13:40:50.308
+!MESSAGE Failed to create linked resource from file:///home/cuong75201/Documents/test/webapp/src/main/java/com/servletdemo/AddServlet.java to jdt.ls-java-project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/com)[374]: java.lang.Exception: Resource '/jdt.ls-java-project/src/com' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:353)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:129)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:336)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:333)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2026-03-08 13:40:50.317
+!MESSAGE Resource '/jdt.ls-java-project/src/com' already exists.
+!STACK 0
+java.lang.Exception: Resource '/jdt.ls-java-project/src/com' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:353)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:129)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:336)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:333)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 13:40:50.318
+!MESSAGE Failed to create linked resource from file:///home/cuong75201/Documents/test/webapp/src/main/java/com/servletdemo/AddServlet.java to jdt.ls-java-project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/com)[374]: java.lang.Exception: Resource '/jdt.ls-java-project/src/com' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:353)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:129)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:336)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:333)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2026-03-08 13:40:50.319
+!MESSAGE Resource '/jdt.ls-java-project/src/com' already exists.
+!STACK 0
+java.lang.Exception: Resource '/jdt.ls-java-project/src/com' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:353)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:129)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:336)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:333)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 13:40:50.320
+!MESSAGE Failed to create linked resource from file:///home/cuong75201/Documents/test/webapp/src/main/java/com/servletdemo/AddServlet.java to jdt.ls-java-project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/com/servletdemo/AddServlet.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/com/servletdemo/AddServlet.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1477)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1407)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:697)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:318)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.core.resources 4 367 2026-03-08 13:40:50.321
+!MESSAGE Resource '/jdt.ls-java-project/src/com/servletdemo/AddServlet.java' already exists.
+!STACK 0
+java.lang.Exception: Resource '/jdt.ls-java-project/src/com/servletdemo/AddServlet.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1477)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1407)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:697)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:318)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:205)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:497)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:456)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:120)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:50.471
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:50.481
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:50.482
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:50.859
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.549
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.553
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.559
+!MESSAGE Validated 1. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.366
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.371
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.386
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.391
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

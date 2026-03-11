@@ -1,0 +1,135 @@
+2026-03-10 10:29:57.623 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-10 10:29:57.623 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-10 10:29:57.623 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-10 10:29:57.623 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-10 10:29:57.713 [info] Logged in as cuong75201
+2026-03-10 10:29:57.717 [info] Using the Electron fetcher.
+2026-03-10 10:29:58.122 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-10 10:29:58.201 [info] [CopilotCLI] MCP server started. Lock file: /home/cuong75201/.copilot/ide/ddf8d8ce-086a-4306-a099-eb6d2561702c.lock
+2026-03-10 10:29:58.201 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-LSadul/mcp.sock#%2Fmcp
+2026-03-10 10:29:58.411 [info] Got Copilot token for cuong75201
+2026-03-10 10:29:58.411 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-10 10:29:58.424 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-10 10:29:58.425 [info] activationBlocker from 'languageModelAccess' took for 338ms
+2026-03-10 10:29:58.818 [info] Fetched model metadata in 713ms 7414f247-dfac-424f-bee4-f5f280082e7a
+2026-03-10 10:29:58.848 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-10 10:29:58.848 [info] ccreq:d4107b00.copilotmd | markdown
+2026-03-10 10:29:58.905 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-10 10:29:58.905 [info] copilot token sku: free_limited_copilot
+2026-03-10 10:29:58.905 [info] ConversationFeature: Activating contributions
+2026-03-10 10:29:58.905 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-10 10:29:58.922 [info] Registering default platform agent...
+2026-03-10 10:29:58.922 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-10 10:29:58.922 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-10 10:29:58.923 [info] [code-referencing] Public code references are enabled.
+2026-03-10 10:29:58.923 [info] activationBlocker from 'conversationFeature' took for 844ms
+2026-03-10 10:29:58.925 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-10 10:29:58.928 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-10 10:29:59.226 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-10 10:29:59.679 [info] Fetched model metadata in 775ms 27cb1dfe-e9d5-4f37-a5b7-3505ec55df03
+2026-03-10 10:29:59.728 [info] ccreq:f1d008e5.copilotmd | markdown
+2026-03-10 10:46:06.177 [info] Fetched model metadata in 1337ms 936869fe-7df8-4afe-9e9c-6ec514b76742
+2026-03-10 10:46:06.513 [info] ccreq:891b4a73.copilotmd | markdown
+2026-03-10 10:46:07.229 [warning] [virtual-tools] Had to drop 1 tools due to limit constraints
+2026-03-10 10:46:07.476 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:07.478 [info] request done: requestId: [b81e93fa-4611-411e-95a4-46d3acb0cc84] model deployment ID: []
+2026-03-10 10:46:07.479 [info] ccreq:c86d4f02.copilotmd | success | gpt-4o-mini-2024-07-18 | 720ms | [title]
+2026-03-10 10:46:07.658 [warning] [virtual-tools] Had to drop 1 tools due to limit constraints
+2026-03-10 10:46:07.986 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:07.988 [info] request done: requestId: [78937906-aa53-4fc9-894c-ee9617721e6e] model deployment ID: []
+2026-03-10 10:46:07.989 [info] ccreq:75fc06c5.copilotmd | success | gpt-4o-mini-2024-07-18 | 1224ms | [progressMessages]
+2026-03-10 10:46:08.074 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:08.076 [info] request done: requestId: [33d437a5-2baf-43d3-88cb-3e9db5dde7a1] model deployment ID: []
+2026-03-10 10:46:08.077 [info] ccreq:69b16e3e.copilotmd | success | gpt-4o-mini-2024-07-18 | 1310ms | [progressMessages]
+2026-03-10 10:46:11.619 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:11.621 [info] request done: requestId: [ca6828a1-a999-43aa-b261-15bc14a9e2d3] model deployment ID: []
+2026-03-10 10:46:11.624 [info] ccreq:5e2f46a2.copilotmd | success | gpt-4o-mini-2024-07-18 | 3959ms | [summarizeVirtualTools]
+2026-03-10 10:46:11.744 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:18.442 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 10:46:18.445 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:18.446 [info] ccreq:2afc514e.copilotmd | success | grok-code-fast-1 | 6702ms | [panel/editAgent]
+2026-03-10 10:46:18.517 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:21.061 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 10:46:21.064 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:21.065 [info] ccreq:0aab96de.copilotmd | success | grok-code-fast-1 | 2547ms | [panel/editAgent]
+2026-03-10 10:46:21.119 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:23.434 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 10:46:23.436 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:23.437 [info] ccreq:fc1f80ae.copilotmd | success | grok-code-fast-1 | 2317ms | [panel/editAgent]
+2026-03-10 10:46:23.485 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:26.582 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 10:46:26.584 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:26.585 [info] ccreq:caf660c8.copilotmd | success | grok-code-fast-1 | 3099ms | [panel/editAgent]
+2026-03-10 10:46:26.650 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:30.339 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 10:46:30.342 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:30.343 [info] ccreq:9cbc8c98.copilotmd | success | grok-code-fast-1 | 3692ms | [panel/editAgent]
+2026-03-10 10:46:31.344 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:31.345 [info] request done: requestId: [575600c8-a244-4108-a6e5-a4d043210d62] model deployment ID: []
+2026-03-10 10:46:31.346 [info] ccreq:31ab660e.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 862ms | [copilotLanguageModelWrapper]
+2026-03-10 10:46:37.473 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:46:41.096 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:46:41.097 [info] request done: requestId: [24a2b3ea-866e-4f49-b0bc-b155ee250d53] model deployment ID: []
+2026-03-10 10:46:41.098 [info] ccreq:c9f859f0.copilotmd | success | grok-code-fast-1 | 3625ms | [panel/editAgent]
+2026-03-10 10:46:41.104 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 10:50:15.094 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:50:20.108 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:50:20.109 [info] request done: requestId: [85edc3c6-7056-45b2-9a24-adabf5835dbc] model deployment ID: []
+2026-03-10 10:50:20.110 [info] ccreq:a9122b6a.copilotmd | success | grok-code-fast-1 | 5015ms | [panel/editAgent]
+2026-03-10 10:50:20.117 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 10:50:34.032 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:50:41.541 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:50:41.542 [info] request done: requestId: [920baf5e-aa33-40a3-bfc4-3c39230bcdf8] model deployment ID: []
+2026-03-10 10:50:41.543 [info] ccreq:240f7a75.copilotmd | success | grok-code-fast-1 | 7510ms | [panel/editAgent]
+2026-03-10 10:50:41.549 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 10:51:17.360 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:51:17.363 [info] Logged in as cuong75201
+2026-03-10 10:51:18.509 [info] Got Copilot token for cuong75201
+2026-03-10 10:51:18.509 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-10 10:51:18.532 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-10 10:51:18.532 [info] copilot token sku: free_limited_copilot
+2026-03-10 10:51:18.532 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-10 10:51:18.532 [info] [code-referencing] Public code references are enabled.
+2026-03-10 10:51:19.720 [info] Fetched model metadata in 1189ms 37d1351d-16e4-4368-9e17-f20c308d2029
+2026-03-10 10:51:19.747 [info] ccreq:524b2627.copilotmd | markdown
+2026-03-10 10:51:24.351 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:51:24.353 [info] request done: requestId: [3f3d434f-0050-4d63-9c93-932a9c87db08] model deployment ID: []
+2026-03-10 10:51:24.354 [info] ccreq:77278f11.copilotmd | success | grok-code-fast-1 | 6994ms | [panel/editAgent]
+2026-03-10 10:51:24.360 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 10:51:37.115 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 10:51:41.936 [info] message 0 returned. finish reason: [stop]
+2026-03-10 10:51:41.938 [info] request done: requestId: [910bfee4-fa95-4204-8df3-b7c82ea095ec] model deployment ID: []
+2026-03-10 10:51:41.982 [info] ccreq:286adacc.copilotmd | success | grok-code-fast-1 | 4867ms | [panel/editAgent]
+2026-03-10 10:51:41.988 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 10:59:57.856 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:00:02.406 [info] message 0 returned. finish reason: [stop]
+2026-03-10 11:00:02.409 [info] request done: requestId: [b6ba91a4-5205-4871-b2a8-b689fdee8fd0] model deployment ID: []
+2026-03-10 11:00:02.411 [info] ccreq:7e3840ba.copilotmd | success | grok-code-fast-1 | 4553ms | [panel/editAgent]
+2026-03-10 11:00:02.417 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 11:01:50.862 [info] Fetched model metadata in 324ms 55553e7c-fdb8-44c5-8047-106dfbc383a3
+2026-03-10 11:01:50.875 [info] ccreq:c8e33330.copilotmd | markdown
+2026-03-10 11:01:51.099 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:01:57.459 [info] message 0 returned. finish reason: [stop]
+2026-03-10 11:01:57.461 [info] request done: requestId: [09f51e87-5f40-4b34-802d-d20de89e67ca] model deployment ID: []
+2026-03-10 11:01:57.462 [info] ccreq:4e1a91f5.copilotmd | success | grok-code-fast-1 | 6362ms | [panel/editAgent]
+2026-03-10 11:01:57.469 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-10 11:02:35.401 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:02:41.826 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 11:02:41.828 [info] request done: requestId: [dbdcc16d-a5a0-4368-906e-cb699279a511] model deployment ID: []
+2026-03-10 11:02:41.829 [info] ccreq:23fad37d.copilotmd | success | grok-code-fast-1 | 6427ms | [panel/editAgent]
+2026-03-10 11:02:41.874 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:02:48.530 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 11:02:48.532 [info] request done: requestId: [dbdcc16d-a5a0-4368-906e-cb699279a511] model deployment ID: []
+2026-03-10 11:02:48.535 [info] ccreq:02d2b708.copilotmd | success | grok-code-fast-1 | 6660ms | [panel/editAgent]
+2026-03-10 11:02:48.593 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:02:53.356 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-10 11:02:53.359 [info] request done: requestId: [dbdcc16d-a5a0-4368-906e-cb699279a511] model deployment ID: []
+2026-03-10 11:02:53.362 [info] ccreq:095b99c8.copilotmd | success | grok-code-fast-1 | 4766ms | [panel/editAgent]
+2026-03-10 11:02:53.412 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-03-10 11:02:56.555 [info] message 0 returned. finish reason: [stop]
+2026-03-10 11:02:56.557 [info] request done: requestId: [b7db4a06-f71c-4990-92ad-80e94c066949] model deployment ID: []
+2026-03-10 11:02:56.558 [info] ccreq:911f9a1f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 784ms | [copilotLanguageModelWrapper]
+2026-03-10 11:02:57.248 [info] message 0 returned. finish reason: [stop]
+2026-03-10 11:02:57.250 [info] request done: requestId: [dbdcc16d-a5a0-4368-906e-cb699279a511] model deployment ID: []
+2026-03-10 11:02:57.251 [info] ccreq:ef45f417.copilotmd | success | grok-code-fast-1 | 3838ms | [panel/editAgent]
+2026-03-10 11:02:57.257 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined

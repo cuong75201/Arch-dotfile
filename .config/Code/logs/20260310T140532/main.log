@@ -1,0 +1,15 @@
+2026-03-10 14:05:32.618 [info] update#setState idle
+2026-03-10 14:06:02.622 [info] update#setState checking for updates
+2026-03-10 14:06:02.756 [info] update#setState available for download
+2026-03-11 13:33:09.379 [info] Extension host with pid 70324 exited with code: 0, signal: unknown.
+2026-03-11 13:34:13.513 [error] #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/0870c2a0c7c0564e7631bfed2675573a94ba4455?u=none - error undefined net::ERR_CONNECTION_CLOSED
+2026-03-11 13:34:13.514 [error] update#isLatestVersion(): failed to check for updates
+2026-03-11 13:34:13.515 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:130502)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-03-11 13:42:51.418 [info] Extension host with pid 522170 exited with code: 0, signal: unknown.
+2026-03-11 13:42:51.786 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 70284]: crashed with code 15 and reason 'killed'
+2026-03-11 13:52:37.394 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 542866]: crashed with code 15 and reason 'killed'
+2026-03-11 13:52:37.454 [info] Extension host with pid 542881 exited with code: 0, signal: unknown.
+2026-03-11 13:52:38.454 [error] Extension host with pid 542881 still exists, forcefully killing it...
+2026-03-11 13:53:38.879 [info] Extension host with pid 561266 exited with code: 0, signal: unknown.

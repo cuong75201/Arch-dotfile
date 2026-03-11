@@ -1,0 +1,43 @@
+2026-03-10 12:01:44.939 [info] [main] Log level: Info
+2026-03-10 12:01:44.939 [info] [main] Validating found git in: "git"
+2026-03-10 12:01:44.939 [info] [main] Using git "2.53.0" from "git"
+2026-03-10 12:01:44.939 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-10 12:01:44.939 [info] > git rev-parse --show-toplevel [9ms]
+2026-03-10 12:01:44.939 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2026-03-10 12:01:45.776 [info] > git rev-parse --show-toplevel [156ms]
+2026-03-10 12:01:46.287 [info] > git rev-parse --show-toplevel [5ms]
+2026-03-10 12:01:46.311 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-03-10 12:01:46.326 [info] [Model][openRepository] Opened repository (path): /home/cuong75201/Documents/Arch_note
+2026-03-10 12:01:46.327 [info] [Model][openRepository] Opened repository (real path): /home/cuong75201/Documents/Arch_note
+2026-03-10 12:01:46.327 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-10 12:01:46.337 [info] > git config --get commit.template [3ms]
+2026-03-10 12:01:46.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-10 12:01:46.361 [info] > git status -z -uall [7ms]
+2026-03-10 12:01:46.363 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-10 12:01:46.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-03-10 12:01:46.409 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2026-03-10 12:01:46.416 [info] > git config --get commit.template [24ms]
+2026-03-10 12:01:46.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2026-03-10 12:01:46.439 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-03-10 12:01:46.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-03-10 12:01:46.492 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% fb083fbc14997ab7b4c6518ad9bb216a0262190e...refs/remotes/origin/main -- [44ms]
+2026-03-10 12:01:46.510 [info] > git status -z -uall [10ms]
+2026-03-10 12:01:46.510 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-03-10 12:01:46.854 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-10 12:01:47.619 [info] > git check-ignore -v -z --stdin [54ms]
+2026-03-10 12:01:47.745 [info] > git show --textconv :arch/noteGrub.md [14ms]
+2026-03-10 12:01:47.747 [info] > git ls-files --stage -- arch/noteGrub.md [5ms]
+2026-03-10 12:01:47.778 [info] > git cat-file -s 6f8527bef8f85731b01190044d6e6bc89196472b [21ms]
+2026-03-10 12:01:48.002 [info] > git config --get commit.template [97ms]
+2026-03-10 12:01:48.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2026-03-10 12:01:48.115 [info] > git status -z -uall [10ms]
+2026-03-10 12:01:48.115 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-03-10 12:01:48.431 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-10 12:04:35.438 [info] > git config --get commit.template [8ms]
+2026-03-10 12:04:35.446 [info] > git ls-files --stage -- arch/noteGrub.md [9ms]
+2026-03-10 12:04:35.457 [info] > git cat-file -s 6f8527bef8f85731b01190044d6e6bc89196472b [6ms]
+2026-03-10 12:04:35.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-03-10 12:04:35.476 [info] > git show --textconv :arch/noteGrub.md [12ms]
+2026-03-10 12:04:35.476 [info] > git status -z -uall [7ms]
+2026-03-10 12:04:35.477 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-10 12:04:35.797 [info] > git check-ignore -v -z --stdin [2ms]

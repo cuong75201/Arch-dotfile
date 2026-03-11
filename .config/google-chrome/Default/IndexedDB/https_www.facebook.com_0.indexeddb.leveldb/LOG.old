@@ -1,0 +1,16 @@
+2026/03/09-20:29:09.929 5fca0 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/09-20:29:09.929 5fca0 Recovering log #77
+2026/03/09-20:29:09.929 5fca0 Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000077.log 
+2026/03/09-23:49:09.449 5fc98 Level-0 table #84: started
+2026/03/09-23:49:09.467 5fc98 Level-0 table #84: 1724569 bytes OK
+2026/03/09-23:49:09.469 5fc98 Delete type=0 #77
+2026/03/09-23:49:20.471 5fc98 Compacting 1@1 + 3@2 files
+2026/03/09-23:49:20.537 5fc98 Generated table #85@1: 30760 keys, 2162121 bytes
+2026/03/09-23:49:20.546 5fc98 Generated table #86@1: 12456 keys, 2146380 bytes
+2026/03/09-23:49:20.552 5fc98 Generated table #87@1: 5253 keys, 1248282 bytes
+2026/03/09-23:49:20.552 5fc98 Compacted 1@1 + 3@2 files => 5556783 bytes
+2026/03/09-23:49:20.553 5fc98 compacted to: files[ 0 0 4 0 0 0 0 ]
+2026/03/09-23:49:20.553 5fc98 Delete type=2 #81
+2026/03/09-23:49:20.553 5fc98 Delete type=2 #79
+2026/03/09-23:49:20.553 5fc98 Delete type=2 #80
+2026/03/09-23:49:20.553 5fc98 Delete type=2 #84

@@ -1,0 +1,27 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2026-03-06 21:59:15.444'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_ss_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2026-03-06 21:59:15.547'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2026-03-06 21:59:15.766'
+}
+{
+  message: 'An error has occurred. See the log file\n' +
+    '/home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_ss_linux/1772809155852.log.\n',
+  level: 'info',
+  timestamp: '2026-03-06 21:59:16.224'
+}
+{
+  message: 'Mar 06, 2026 9:59:16 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2026-03-06 21:59:16.612'
+}

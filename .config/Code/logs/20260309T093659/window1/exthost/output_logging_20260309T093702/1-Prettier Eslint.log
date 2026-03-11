@@ -1,0 +1,51 @@
+Error: Could not warm up worker. Formatting a file for the first time may take longer than usual.
+Message: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+Stacktrace: Error: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16364)
+	at e._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:598:28889)
+	at require.resolve (node:internal/modules/helpers:157:19)
+	at Ve (/home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:1:12704)
+	at Zt (/home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:487)
+	at /home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:718
+Error: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js 
+Error: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16364)
+    at Module.e._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:598:28889)
+    at require.resolve (node:internal/modules/helpers:157:19)
+    at Ve (/home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:1:12704)
+    at zt (/home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:1:13302)
+    at Object.provideDocumentRangeFormattingEdits (/home/cuong75201/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:694)
+    at xb.provideDocumentRangeFormattingEdits (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:163651)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:194699
+    at r._withAdapter (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:187301)
+    at r.$provideDocumentRangeFormattingEdits (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:521:194676)
+    at r._doInvokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153599)
+    at r._invokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153347)
+    at r._receiveRequest (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:152078)
+    at r._receiveOneMessage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:150967)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:149042)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:9902)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)

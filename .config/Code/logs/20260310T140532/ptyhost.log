@@ -1,0 +1,1 @@
+2026-03-10 14:05:41.308 [error] Failed to set sticky bit on /tmp/cuong75201-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/cuong75201-code-zsh'

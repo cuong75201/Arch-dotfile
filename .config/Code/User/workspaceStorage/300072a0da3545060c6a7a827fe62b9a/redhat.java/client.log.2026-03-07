@@ -1,0 +1,59 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2026-03-07 10:34:41.610'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_ss_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2026-03-07 10:34:42.055'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/300072a0da3545060c6a7a827fe62b9a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2026-03-07 10:34:42.181'
+}
+{
+  message: 'Mar 07, 2026 10:34:42 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2026-03-07 10:34:42.869'
+}
+{
+  message: '[Warn  - 10:34:44 AM] Mar 7, 2026, 10:34:43 AM The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.\n' +
+    'null',
+  level: 'info',
+  timestamp: '2026-03-07 10:34:44.391'
+}
+{
+  message: 'configuration.updateBuildConfiguration set to interactive',
+  level: 'info',
+  timestamp: '2026-03-07 10:43:13.888'
+}
+{
+  message: 'configuration.updateBuildConfiguration set to interactive',
+  level: 'info',
+  timestamp: '2026-03-07 10:44:06.328'
+}
+{
+  message: '[Error - 10:54:58 AM] Mar 7, 2026, 10:54:58 AM Problem refreshing workspace\n' +
+    'org.eclipse.core.runtime.CoreException: Exception updating digest for /home/cuong75201/Documents/test/demo/pom.xml\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.nio.file.NoSuchFileException: /home/cuong75201/Documents/test/demo/pom.xml\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.readAllBytes(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2026-03-07 10:54:58.716'
+}

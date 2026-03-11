@@ -1,0 +1,3894 @@
+!SESSION 2026-03-08 11:49:10.659 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-8f1e6d3a1ef7fd9b3ebca3d930e6be32.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/d5a139855875d8bfa3bb3e815b9deb70/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-8f1e6d3a1ef7fd9b3ebca3d930e6be32.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.010
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.064
+!MESSAGE Started org.eclipse.buildship.core 41ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.064
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.180
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.211
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.214
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.633
+!MESSAGE ProjectRegistryRefreshJob finished 569ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.918
+!MESSAGE Setting /usr/lib/jvm/java-8-openjdk as 'JavaSE-1.8' environment (id:1772945352693)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.922
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1772945352920)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.924
+!MESSAGE Setting /usr/lib/jvm/java-25-openjdk as 'JavaSE-25' environment (id:1772945352922)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.925
+!MESSAGE Setting java.home /usr/lib/jvm/java-25-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.927
+!MESSAGE Default VM Install changed from  1772945352684-/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64 to 1772945352922-/usr/lib/jvm/java-25-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.930
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.938
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.939
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.940
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.940
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.940
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.950
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.954
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.977
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:12.985
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.501
+!MESSAGE Workspace initialized in 552ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.522
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.860
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.861
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:49:13.862
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:57.791
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2026-03-08 13:36:58.238
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:58.244
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:58.456
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:59.114
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:59.115
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:36:59.116
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:48.303
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:48.386
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:48.543
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.005
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.005
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.005
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.333
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.399
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.853
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.854
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.854
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:49.991
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.404
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.404
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.406
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.594
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.623
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:50.886
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:51.341
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:51.342
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:51.342
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:51.702
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:52.111
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:52.111
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:52.112
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:52.692
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.151
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.151
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.152
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.362
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.583
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:53.643
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.100
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.100
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.146
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.513
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.538
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.993
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.993
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:54.994
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:55.345
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:55.484
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:55.760
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:55.760
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:55.761
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.099
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.194
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.200
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.426
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.882
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.882
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:37:56.883
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:00.923
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:00.931
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:00.948
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:01.325
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:01.731
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:01.731
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:01.731
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.080
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.518
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.524
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.537
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.542
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.554
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:02.607
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.016
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.016
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.016
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.414
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.869
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.869
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:03.870
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:13.344
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:13.386
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:13.546
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:13.597
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:13.599
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.033
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.267
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.312
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.358
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.459
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.502
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.957
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.958
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:14.959
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:15.745
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:16.202
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:16.202
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:16.203
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:46.339
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:46.799
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:46.799
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:46.800
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:47.547
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:48.004
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:48.004
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:48.004
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:54.728
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:54.754
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:55.029
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:55.435
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:55.435
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:55.438
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:56.235
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:56.695
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:56.696
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:56.696
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:59.442
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:59.489
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:38:59.712
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:00.168
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:00.168
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:00.168
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:00.950
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:01.403
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:01.404
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:01.404
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:02.888
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:03.295
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:03.295
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:03.296
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:03.689
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:04.047
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:04.298
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:04.656
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.094
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.108
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.322
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.478
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.540
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.996
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.997
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:05.997
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.069
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.100
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.241
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.696
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.697
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:06.698
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:07.394
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:07.804
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:07.805
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:07.805
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:09.667
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.124
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.124
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.125
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.287
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.308
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.697
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.698
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.698
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.905
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:10.952
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:11.463
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:11.736
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:12.145
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:12.145
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:12.146
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:12.307
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:12.814
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.176
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.189
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.633
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.634
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.634
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.935
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:13.987
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:14.442
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:14.442
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:14.443
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:15.096
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:15.503
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:15.503
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:15.503
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:24.237
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:24.691
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:24.691
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:24.692
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:25.440
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:25.901
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:25.902
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:25.903
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:32.769
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:39.405
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:39.416
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:39.620
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.073
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.074
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.074
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.310
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.345
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.801
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.802
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:40.802
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:41.583
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:42.040
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:42.041
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:42.041
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:45.801
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:45.825
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:46.002
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:46.176
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:46.631
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:46.632
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:46.632
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.086
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.127
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.221
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.266
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.386
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.431
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.738
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.774
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:47.774
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:48.181
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:48.181
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:48.182
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:48.969
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:49.378
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:49.379
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:49.379
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:56.947
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:57.005
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:57.461
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:57.461
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:57.462
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:58.194
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:58.654
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:58.654
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:39:58.655
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:01.557
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:01.604
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:01.760
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:01.806
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:02.060
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:02.514
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:02.514
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:02.515
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:03.260
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:03.715
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:03.715
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:03.721
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:27.363
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:27.819
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:27.820
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:27.820
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:29.493
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:29.506
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:29.962
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:29.962
+!MESSAGE 5 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:29.963
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:30.706
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:31.164
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:31.164
+!MESSAGE 5 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:31.164
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:36.200
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:36.606
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:36.606
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:36.607
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:37.401
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:37.808
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:37.808
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:37.808
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:41.108
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:41.188
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:41.190
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:41.196
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2026-03-08 13:40:49.449 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-fcaf678f9782166b0c2578661300ab16.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/d5a139855875d8bfa3bb3e815b9deb70/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-fcaf678f9782166b0c2578661300ab16.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.155
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.210
+!MESSAGE Started org.eclipse.buildship.core 38ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.210
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.211
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.338
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.395
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.399
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.943
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.944
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:51.957
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.011
+!MESSAGE RepositoryRegistryUpdateJob finished 52ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.029
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.035
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.107
+!MESSAGE Workspace initialized in 148ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.110
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.360
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.361
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.362
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:52.796
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:53.471
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:53.474
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:40:53.478
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY java-debug 1 0 2026-03-08 13:41:00.065
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:01.541
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:01.646
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:01.952
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:01.952
+!MESSAGE 5 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:01.953
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:02.899
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:03.311
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:03.312
+!MESSAGE 5 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:03.312
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:03.777
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:04.234
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:04.235
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:04.235
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:04.912
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:05.368
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:05.368
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:05.369
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:08.458
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:38.064
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:38.516
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:38.516
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:41:38.516
+!MESSAGE Validated 1. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:54:25.561
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:54:27.048
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:54:27.515
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:54:27.515
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 13:54:27.515
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:01.871
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:02.332
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:02.333
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:02.333
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:02.547
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:02.849
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:11.190
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:11.347
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:11.840
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:11.840
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:11.840
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:18.782
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:18.786
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:50.244
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:50.709
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:50.709
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 14:00:50.709
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:12.365
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:12.827
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:12.827
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:12.828
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:17.337
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:17.340
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:17.843
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:17.964
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.169
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.392
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.532
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.647
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.704
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.820
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.833
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:18.945
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:19.072
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:19.228
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:19.648
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:19.657
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.071
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.071
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.071
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.308
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.347
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.551
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.554
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.643
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:20.687
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:21.148
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:21.148
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:21.149
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:21.852
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.093
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.136
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.165
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.176
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.342
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.360
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.818
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.818
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:22.819
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.188
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.227
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.684
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.684
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.684
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:23.787
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:24.245
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:24.245
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:24.245
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:25.797
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.206
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.206
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.207
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.912
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.938
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:26.950
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:27.359
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:27.359
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:27.359
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:28.112
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:28.523
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:28.523
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:28.524
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:31.953
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:31.961
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.418
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.419
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.419
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.436
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.501
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.725
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.977
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.978
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:32.983
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.284
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.704
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.705
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.706
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.786
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:33.840
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.177
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.347
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.403
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.540
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.558
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:34.593
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.056
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.056
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.057
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.655
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.776
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:35.840
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:36.241
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:36.652
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:36.652
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:36.652
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:37.428
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:37.839
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:37.839
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:37.839
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.205
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.250
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.255
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.636
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.652
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:39.805
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:40.216
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:40.216
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:40.216
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.330
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.750
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.751
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.751
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.979
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:41.985
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:42.006
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:42.391
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:42.391
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:42.392
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:43.181
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:43.372
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:43.646
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:43.646
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:43.646
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:46.505
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:46.915
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:46.916
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:46.916
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:46.985
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.143
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.157
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.182
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.263
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.320
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:47.705
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:48.162
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:48.162
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:48.162
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:48.904
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:49.358
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:49.359
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:49.359
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:50.562
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:50.967
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:51.430
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:51.430
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:51.431
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:52.164
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:52.573
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:52.573
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:35:52.573
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.092
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.222
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.234
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.265
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.723
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.723
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:13.723
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:14.315
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:14.511
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:14.969
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:14.969
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:14.969
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:15.540
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:15.949
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:15.950
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:15.950
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:17.371
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:17.631
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:17.649
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:17.673
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:17.674
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:18.034
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:18.497
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:18.497
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:18.498
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:19.225
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:19.679
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:19.679
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:19.680
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:34.280
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:34.514
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:34.974
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:34.974
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:34.974
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:35.335
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:35.393
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:35.854
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:35.854
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:35.855
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:36.796
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:37.252
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:37.252
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:37.253
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:41.346
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:41.756
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:41.757
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:41.763
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:41.998
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.063
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.103
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.193
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.273
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.354
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.531
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.669
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.814
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:42.992
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:43.238
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:43.362
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:43.529
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:43.773
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:44.231
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:44.231
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:44.231
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:44.913
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:45.371
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:45.372
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:45.372
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:47.326
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:47.505
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:47.668
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:47.815
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:48.267
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:48.671
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:48.672
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:48.672
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:49.491
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:49.896
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:49.897
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:49.897
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.186
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.647
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.647
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.647
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.757
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:51.907
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:52.043
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:52.504
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:52.504
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:52.504
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:53.229
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:53.687
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:53.687
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:53.687
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:54.605
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:54.820
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:55.027
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:55.192
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:55.652
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:55.652
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:55.652
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:56.383
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:56.772
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:56.998
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:57.171
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:57.678
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:58.088
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:58.089
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:58.089
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:58.878
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:59.286
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:59.286
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:36:59.290
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:00.872
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:01.076
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:01.243
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:01.369
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:01.715
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:01.715
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:02.169
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:02.169
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:02.169
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:02.809
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:03.220
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:03.220
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:03.220
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:08.959
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:09.416
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:09.416
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:09.416
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:10.041
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:10.110
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:10.446
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:10.825
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:11.283
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:11.283
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:37:11.283
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:22.686
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:22.703
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:22.734
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.086
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.087
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.361
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.370
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.428
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.836
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.836
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:23.837
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.082
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.120
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.578
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.578
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.578
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:24.651
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:25.089
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:25.103
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:25.562
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:25.562
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:25.563
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:26.285
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:26.742
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:26.742
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:26.743
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:45.897
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.357
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.357
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.357
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.621
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.663
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:46.945
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.003
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.004
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.268
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.676
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.676
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:47.676
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:48.417
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:48.830
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:48.830
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 15:59:48.830
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:16.484
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:16.943
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:16.943
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:16.943
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:17.544
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:17.630
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:17.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:17.954
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:18.113
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:18.210
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:18.285
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:18.734
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:18.931
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.387
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.387
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.387
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.760
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.773
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.785
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:19.965
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.020
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.097
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.120
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.192
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.292
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.336
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.756
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.756
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:20.756
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:21.081
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:21.540
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:21.540
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:21.540
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:22.285
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:22.346
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:22.517
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:22.625
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:22.967
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.004
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.014
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.188
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.308
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.458
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.634
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:23.826
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:24.235
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:24.236
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:24.236
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:24.606
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:24.818
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:25.013
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:25.424
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:25.425
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:25.425
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:26.204
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:26.666
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:26.666
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:26.667
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:28.480
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:28.936
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:28.937
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:28.937
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:29.632
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:30.089
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:30.090
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:30.090
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:30.702
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:30.878
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:31.020
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:31.188
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:31.339
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:31.510
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:31.690
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.069
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.185
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.192
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.429
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.454
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.482
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.937
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.937
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:32.937
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:33.714
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.123
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.123
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.123
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.291
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.319
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.342
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.560
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.708
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:34.926
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:35.229
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:35.470
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:35.931
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:35.931
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:35.931
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:36.160
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:36.352
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:36.464
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:36.866
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:37.277
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:37.277
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:37.277
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.027
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.086
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.220
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.327
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.622
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.688
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.689
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:38.703
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:39.030
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:39.030
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:39.030
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:39.796
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:39.949
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.005
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.080
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.235
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.558
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.559
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:40.644
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:41.101
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:41.102
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:41.102
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:41.790
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:41.984
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:42.095
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:42.250
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:42.756
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.073
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.074
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.169
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.281
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.736
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.737
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:43.737
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:44.521
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:44.979
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:44.979
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:44.979
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:45.355
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:45.811
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:45.811
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:45.811
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:46.499
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:46.907
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:46.908
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:46.908
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:49.557
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:49.804
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.003
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.275
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.389
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.798
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.798
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:50.798
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:51.596
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:52.053
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:52.053
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:52.053
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:54.427
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:54.615
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:55.074
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:55.074
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:55.075
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:55.802
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:56.209
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:56.209
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:56.209
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:59.792
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:00:59.820
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.023
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.072
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.154
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.320
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.377
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.684
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:00.684
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:01.142
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:01.142
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:01.143
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:01.891
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:02.230
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:02.685
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:02.686
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:02.686
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:03.380
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:03.839
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:03.839
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:03.840
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:30.915
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:30.940
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:31.151
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:31.201
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:31.656
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:31.656
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:31.656
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.057
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.175
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.232
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.319
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.352
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.533
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.591
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:32.757
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.072
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.073
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.205
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.333
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.393
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.735
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:33.762
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.175
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.175
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.175
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.255
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.710
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.710
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:34.711
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:35.445
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:35.560
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:35.598
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:35.834
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:36.140
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:36.549
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:36.549
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:36.549
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:37.493
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:37.948
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:37.948
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:37.948
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:39.959
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:39.989
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.062
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.128
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.150
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.241
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.698
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.698
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:40.699
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:41.446
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:41.904
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:41.904
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:41.904
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:43.980
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:43.987
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.023
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.068
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.205
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.468
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.491
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.762
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.819
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:44.992
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:45.139
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:45.400
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:45.851
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.160
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.268
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.283
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.327
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.383
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.451
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.662
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:46.850
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.286
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.309
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.719
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.720
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.720
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.854
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.979
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:47.987
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.014
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.084
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.142
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.312
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.721
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.721
+!MESSAGE 3 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:48.721
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:49.473
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:49.634
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:50.088
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:50.088
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:50.088
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:50.797
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:51.250
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:51.250
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:51.251
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:56.814
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:57.226
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:57.226
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:57.226
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:57.991
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:58.278
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:58.729
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:59.188
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:59.188
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:59.188
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:01:59.907
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.014
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.164
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.600
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.918
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:00.919
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.373
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.373
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.373
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.566
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.702
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.710
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:01.846
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:02.030
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:02.438
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:02.438
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:02.438
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:02.965
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:03.035
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:03.045
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:03.503
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:03.504
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:03.504
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:04.250
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:04.324
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:04.728
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:04.728
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:04.728
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:05.402
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:05.754
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:05.803
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.109
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.228
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.286
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.742
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.743
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:06.743
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.435
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.893
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.893
+!MESSAGE 2 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.893
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.917
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:07.951
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:08.372
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:08.372
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:08.372
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:09.823
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:10.232
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:10.232
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:10.232
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:15.975
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:16.431
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:16.431
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:16.431
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:17.168
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:17.575
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:17.575
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:17.576
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:02:21.238
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:13.977
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:14.465
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:14.466
+!MESSAGE 6 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:14.466
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:33.498
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:33.956
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:33.956
+!MESSAGE 6 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:33.956
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:55.324
+!MESSAGE Projects updated in 189 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:18:55.355
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:32.976
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:33.053
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:33.053
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:33.238
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:33.238
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:33.457
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:33.457
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:33.457
+!MESSAGE src/main/java [in webapp] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/java [in webapp] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-08 16:20:33.457
+!MESSAGE src/main/java [in webapp] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:33.458
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:33.721
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:33.721
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:42.724
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:42.811
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:42.811
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:42.983
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:42.983
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:20:45.633
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:47.798
+!MESSAGE Problem resolving refactor code actions
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:235)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:249)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getUniqueMethodName(RefactorProposalUtility.java:1044)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodProposal(RefactorProposalUtility.java:829)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodCommandProposal(RefactorProposalUtility.java:291)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getExtractMethodProposal(RefactorProcessor.java:356)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:167)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:47.798
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:20:47.800
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 16:20:47.800
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:21:33.430
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:21:33.430
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 16:21:33.430
+!MESSAGE src/main/java [in webapp] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/java [in webapp] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-08 16:21:33.430
+!MESSAGE src/main/java [in webapp] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 16:21:33.430
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:03:49.548
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:49.660
+!MESSAGE Problem resolving refactor code actions
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:235)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:249)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getUniqueMethodName(RefactorProposalUtility.java:1044)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodProposal(RefactorProposalUtility.java:829)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodCommandProposal(RefactorProposalUtility.java:291)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getExtractMethodProposal(RefactorProcessor.java:356)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:167)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:49.661
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:49.662
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:49.662
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:49.799
+!MESSAGE Problem resolving refactor code actions
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:235)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:249)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getUniqueMethodName(RefactorProposalUtility.java:1044)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodProposal(RefactorProposalUtility.java:829)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodCommandProposal(RefactorProposalUtility.java:291)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getExtractMethodProposal(RefactorProcessor.java:356)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:167)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:49.799
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:49.800
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:49.800
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:03:50.021
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:03:50.021
+!MESSAGE 1 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:50.021
+!MESSAGE src/main/java [in webapp] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/java [in webapp] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-08 18:03:50.021
+!MESSAGE src/main/java [in webapp] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:03:50.022
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:50.278
+!MESSAGE Problem resolving refactor code actions
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:235)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:249)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getUniqueMethodName(RefactorProposalUtility.java:1044)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodProposal(RefactorProposalUtility.java:829)
+	at org.eclipse.jdt.ls.core.internal.text.correction.RefactorProposalUtility.getExtractMethodCommandProposal(RefactorProposalUtility.java:291)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getExtractMethodProposal(RefactorProcessor.java:356)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:167)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:50.278
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 18:03:50.279
+!MESSAGE Failed to generate Getter and Setter source action
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/main/java/com/servletdemo [in webapp] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:735)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:71)
+	at org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:79)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.addGenerateAccessorsSourceActionCommand(SourceAssistProcessor.java:273)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:777)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 18:03:50.279
+!MESSAGE src/main/java/com/servletdemo [in webapp] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:04:15.067
+!MESSAGE Projects updated in 144 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:04:15.129
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:04:15.129
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:10:56.051
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:10:56.477
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:10:56.477
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 18:10:56.478
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 22:13:54.727
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 22:13:55.182
+!MESSAGE begin problem for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 22:13:55.183
+!MESSAGE 0 problems reported for /AddServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 22:13:55.183
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:05:02.725
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:05:04.054
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:34:58.533
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:34:58.543
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:34:58.566
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-09 09:34:58.572
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

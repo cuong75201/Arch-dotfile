@@ -1,0 +1,10 @@
+{
+    "redhat.telemetry.enabled": true,
+    "editor.fontFamily": "Inter",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "editor.cursorBlinking": "solid",
+
+}

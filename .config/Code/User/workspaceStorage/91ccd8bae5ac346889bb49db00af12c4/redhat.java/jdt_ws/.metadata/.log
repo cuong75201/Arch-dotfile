@@ -1,0 +1,910 @@
+!SESSION 2026-03-10 10:30:31.694 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-3d69ffafb61657d38d5345ca1b6f1919.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/91ccd8bae5ac346889bb49db00af12c4/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-3d69ffafb61657d38d5345ca1b6f1919.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.450
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.516
+!MESSAGE Started org.eclipse.buildship.core 50ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.517
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.672
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.716
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:33.720
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:34.638
+!MESSAGE ProjectRegistryRefreshJob finished 1120ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.037
+!MESSAGE Setting /usr/lib/jvm/java-8-openjdk as 'JavaSE-1.8' environment (id:1773113434748)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.041
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1773113435038)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.044
+!MESSAGE Setting /usr/lib/jvm/java-25-openjdk as 'JavaSE-25' environment (id:1773113435042)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.045
+!MESSAGE Setting java.home /usr/lib/jvm/java-25-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.048
+!MESSAGE Default VM Install changed from  1773113434730-/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64 to 1773113435042-/usr/lib/jvm/java-25-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.053
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.066
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.066
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.066
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.067
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.068
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.068
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.068
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.079
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.085
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.101
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.107
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.169
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.911
+!MESSAGE Try to create an invisible project for the workspace /home/cuong75201/Downloads/testingJava1
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.912
+!MESSAGE Creating the Java project testingJava1_e84aed92
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.930
+!MESSAGE Finished creating the Java project testingJava1_e84aed92
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.934
+!MESSAGE Successfully created a workspace invisible project testingJava1_e84aed92
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.951
+!MESSAGE Workspace initialized in 872ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:35.981
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:36.436
+!MESSAGE >> Updating classpath for project testingJava1_e84aed92
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:36.455
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:36.456
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:36.459
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:36.606
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:37.301
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:37.303
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:30:37.309
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY java-debug 1 0 2026-03-10 10:30:39.514
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:41:09.555
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:41:09.562
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:41:10.028
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:41:10.028
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:41:10.029
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:03.149
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:03.157
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:03.655
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:03.655
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:03.656
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:04.703
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:04.704
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:05.121
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:05.121
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:42:05.122
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:27.422
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:27.423
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:27.905
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:27.905
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:27.905
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:30.932
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:30.933
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:31.348
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:31.348
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:31.349
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:33.877
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:33.878
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:34.292
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:34.293
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:34.293
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:58.381
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:58.382
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:58.793
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:58.794
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:43:58.794
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:01.777
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:01.778
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:02.189
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:02.189
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:02.190
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:05.784
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:05.788
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:06.207
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:06.207
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:06.208
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:08.119
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:08.120
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:08.596
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:08.596
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:44:08.597
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:52.029
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:52.440
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:52.441
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:52.441
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:53.200
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:53.663
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:53.663
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:45:53.663
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:21.151
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:21.619
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:21.619
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:21.620
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:23.515
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:23.976
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:23.976
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:23.977
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:26.675
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:27.142
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:27.142
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:46:27.142
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:36.290
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:36.751
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:36.751
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:36.752
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:37.603
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:38.068
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:38.068
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:38.069
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:40.922
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:41.329
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:41.329
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:41.375
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:52.736
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:53.151
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:53.152
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:47:53.152
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:57.266
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:57.267
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:57.680
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:57.680
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:57.681
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:58.968
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:58.969
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:59.435
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:59.435
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:51:59.435
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:00.055
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:00.057
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:00.514
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:00.514
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:00.515
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:10.755
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:10.756
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:11.227
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:11.227
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:11.228
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:53.459
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:53.925
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:53.926
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:53.926
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:55.210
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:55.211
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:55.671
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:55.672
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:52:55.672
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:53:56.610
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:53:56.611
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:53:57.077
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:53:57.077
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:53:57.122
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:00.675
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:01.136
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:01.136
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:01.137
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:13.199
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:13.661
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:13.661
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:54:13.662
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:13.574
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:13.986
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:13.986
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:13.986
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:26.228
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:26.690
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:26.690
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:26.691
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:35.073
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:35.492
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:35.492
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:35.493
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:56.001
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:56.416
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:56.416
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:55:56.417
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:03.908
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:03.909
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:04.379
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:04.379
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:04.379
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:11.343
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:11.806
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:11.806
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:56:11.808
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:57:40.986
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:57:41.451
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:57:41.451
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:57:41.452
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:05.575
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:06.041
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:06.042
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:06.042
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:20.470
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:20.471
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:20.932
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:20.932
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:20.932
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:26.194
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:26.610
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:26.611
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:26.611
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:28.890
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:29.361
+!MESSAGE begin problem for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:29.361
+!MESSAGE 0 problems reported for /NumZero.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 10:58:29.361
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-10 10:59:12.487
+!MESSAGE request timed out
+!STACK 0
+java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(Unknown Source)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenCentralIdentifier.find(MavenCentralIdentifier.java:119)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenCentralIdentifier.identifySha1(MavenCentralIdentifier.java:81)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenCentralIdentifier.identify(MavenCentralIdentifier.java:72)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenCentralIdentifier.identify(MavenCentralIdentifier.java:58)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenSourceDownloader.discoverSource(MavenSourceDownloader.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupport.discoverSource(InvisibleProjectBuildSupport.java:103)
+	at org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:138)
+	at org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:60)
+	at org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:46)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$5(JDTLanguageServer.java:668)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.075
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.076
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.483
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.483
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.483
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:23.883
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:24.340
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:24.340
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:24.341
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.682
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.763
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.772
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.864
+!MESSAGE Reconciled 4. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.870
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:48.943
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.084
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.148
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.180
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.235
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.669
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.669
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.677
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.677
+!MESSAGE 11 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.684
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.684
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.692
+!MESSAGE begin problem for /Vehicle.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.692
+!MESSAGE 0 problems reported for /Vehicle.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.693
+!MESSAGE Validated 4. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:49.863
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:50.323
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:50.324
+!MESSAGE 11 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:50.324
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.484
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.576
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.590
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.603
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.672
+!MESSAGE Reconciled 4. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:53.693
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.171
+!MESSAGE begin problem for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.172
+!MESSAGE 5 problems reported for /BigDecimalTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.189
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.189
+!MESSAGE 10 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.194
+!MESSAGE begin problem for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.195
+!MESSAGE 6 problems reported for /NumZeroTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.200
+!MESSAGE begin problem for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.200
+!MESSAGE 1 problems reported for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.200
+!MESSAGE Validated 4. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:54.643
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:55.112
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:55.112
+!MESSAGE 10 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:55.118
+!MESSAGE begin problem for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:55.119
+!MESSAGE 1 problems reported for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:02:55.119
+!MESSAGE Validated 2. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:06.882
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:07.345
+!MESSAGE begin problem for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:07.345
+!MESSAGE 1 problems reported for /Truck.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:07.345
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:09.325
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:09.789
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:09.789
+!MESSAGE 10 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:09.789
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:15.085
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:15.497
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:15.497
+!MESSAGE 11 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:15.497
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:20.815
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:21.224
+!MESSAGE begin problem for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:21.224
+!MESSAGE 12 problems reported for /CloneTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:03:21.224
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:58:21.471
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:58:21.507
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:58:21.510
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-10 11:58:21.516
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

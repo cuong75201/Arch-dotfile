@@ -1,0 +1,7 @@
+{
+    "redhat.telemetry.enabled": true,
+    "editor.fontFamily": "Inter",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "Visual Studio Dark",
+
+}

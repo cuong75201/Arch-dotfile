@@ -1,0 +1,17 @@
+2026/01/20-10:11:42.016 3f7 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_cuong75201-5643792.postman.co_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/20-10:11:42.016 3f7 Recovering log #6
+2026/01/20-10:11:42.016 3f7 Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_cuong75201-5643792.postman.co_0.indexeddb.leveldb/000006.log 
+2026/01/20-10:11:42.499 405 Level-0 table #11: started
+2026/01/20-10:11:42.501 405 Level-0 table #11: 12709 bytes OK
+2026/01/20-10:11:42.502 405 Delete type=0 #6
+2026/01/20-10:11:42.502 3fb Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/20-10:11:42.502 3f7 Level-0 table #13: started
+2026/01/20-10:11:42.503 3f7 Level-0 table #13: 546 bytes OK
+2026/01/20-10:11:42.505 3f7 Delete type=0 #10
+2026/01/20-10:11:42.505 3f7 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 1132 : 1
+2026/01/20-10:11:42.505 3f7 Compacting 1@0 + 1@1 files
+2026/01/20-10:11:42.506 3f7 Generated table #14@0: 239 keys, 5086 bytes
+2026/01/20-10:11:42.506 3f7 Compacted 1@0 + 1@1 files => 5086 bytes
+2026/01/20-10:11:42.507 3f7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/20-10:11:42.507 3f7 Delete type=2 #13
+2026/01/20-10:11:42.507 3f7 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 1132 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

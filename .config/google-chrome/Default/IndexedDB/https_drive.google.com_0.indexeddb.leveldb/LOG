@@ -1,0 +1,22 @@
+2026/03/10-11:11:37.169 71c Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/10-11:11:37.169 71c Recovering log #15
+2026/03/10-11:11:37.169 71c Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000015.log 
+2026/03/10-11:18:15.273 710 Level-0 table #19: started
+2026/03/10-11:18:15.278 710 Level-0 table #19: 688692 bytes OK
+2026/03/10-11:18:15.281 710 Delete type=0 #15
+2026/03/10-11:18:15.282 710 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x00c\x001\x005\x008\x000\x00c\x00b\x000\x007\x004\x002\x001\x000\x005\x00d\x00d\x004\x003\x00b\x00e\x009\x000\x005\x007\x002\x001\x00f\x007\x00e\x00f\x00b\x000\x00_\x003\x00_\x002\x00:\x000\x000' @ 14980 : 0
+2026/03/10-11:18:15.282 710 Compacting 1@0 + 1@1 files
+2026/03/10-11:18:15.287 710 Generated table #20@0: 1240 keys, 253617 bytes
+2026/03/10-11:18:15.287 710 Compacted 1@0 + 1@1 files => 253617 bytes
+2026/03/10-11:18:15.288 710 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/10-11:18:15.289 710 Delete type=2 #16
+2026/03/10-11:18:15.289 710 Delete type=2 #19
+2026/03/10-11:18:15.290 710 Manual compaction at level-0 from '\x00\x01\x03\x03\x01'\x00c\x001\x005\x008\x000\x00c\x00b\x000\x007\x004\x002\x001\x000\x005\x00d\x00d\x004\x003\x00b\x00e\x009\x000\x005\x007\x002\x001\x00f\x007\x00e\x00f\x00b\x000\x00_\x003\x00_\x002\x00:\x000\x000' @ 14980 : 0 .. (end); will stop at (end)
+2026/03/10-11:18:15.290 710 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x00c\x001\x005\x008\x000\x00c\x00b\x000\x007\x004\x002\x001\x000\x005\x00d\x00d\x004\x003\x00b\x00e\x009\x000\x005\x007\x002\x001\x00f\x007\x00e\x00f\x00b\x000\x00_\x003\x00_\x002\x00:\x000\x000' @ 15413 : 1
+2026/03/10-11:18:15.290 710 Compacting 1@1 + 1@2 files
+2026/03/10-11:18:15.293 710 Generated table #21@1: 120 keys, 249247 bytes
+2026/03/10-11:18:15.293 710 Compacted 1@1 + 1@2 files => 249247 bytes
+2026/03/10-11:18:15.295 710 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/10-11:18:15.295 710 Delete type=2 #20
+2026/03/10-11:18:15.295 710 Delete type=2 #14
+2026/03/10-11:18:15.296 710 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x00c\x001\x005\x008\x000\x00c\x00b\x000\x007\x004\x002\x001\x000\x005\x00d\x00d\x004\x003\x00b\x00e\x009\x000\x005\x007\x002\x001\x00f\x007\x00e\x00f\x00b\x000\x00_\x003\x00_\x002\x00:\x000\x000' @ 15413 : 1 .. (end); will stop at (end)

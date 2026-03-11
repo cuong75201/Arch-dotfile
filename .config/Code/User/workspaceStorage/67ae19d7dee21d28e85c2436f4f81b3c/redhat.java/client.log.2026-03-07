@@ -1,0 +1,583 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2026-03-07 13:07:21.891'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_ss_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2026-03-07 13:07:21.930'
+}
+{
+  message: 'Starting Java server with: /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/cuong75201/.config/Code/User/globalStorage/redhat.java/1.53.0/config_linux -data /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2026-03-07 13:07:21.960'
+}
+{
+  message: 'Mar 07, 2026 1:07:22 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2026-03-07 13:07:22.553'
+}
+{
+  message: '[Error - 1:07:25 PM] Mar 7, 2026, 1:07:25 PM Error occured while building workspace. Details: \n' +
+    ' message: The project was not built since the source file /test_b63b2158/_/main.java could not be read; code: 0; resource: /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws/test_b63b2158;',
+  level: 'info',
+  timestamp: '2026-03-07 13:07:25.094'
+}
+{
+  message: 'Mar 07, 2026 1:18:56 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2026-03-07 13:18:56.607'
+}
+{
+  message: '[Error - 1:18:57 PM] Mar 7, 2026, 1:18:57 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 13:18:57.322'
+}
+{
+  message: '[Error - 1:18:57 PM] Mar 7, 2026, 1:18:57 PM Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2026-03-07 13:18:57.709'
+}
+{
+  message: '[Error - 1:19:44 PM] Mar 7, 2026, 1:19:44 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 13:19:44.976'
+}
+{
+  message: '[Error - 3:12:01 PM] Mar 7, 2026, 3:12:01 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:12:01.146'
+}
+{
+  message: '[Error - 3:53:05 PM] Mar 7, 2026, 3:53:05 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:53:05.255'
+}
+{
+  message: '[Error - 3:53:22 PM] Mar 7, 2026, 3:53:22 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:53:22.159'
+}
+{
+  message: '[Error - 3:53:23 PM] Mar 7, 2026, 3:53:23 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:53:23.220'
+}
+{
+  message: '[Error - 3:53:35 PM] Mar 7, 2026, 3:53:35 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:53:35.270'
+}
+{
+  message: '[Error - 3:54:34 PM] Mar 7, 2026, 3:54:34 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:54:34.687'
+}
+{
+  message: '[Error - 3:55:34 PM] Mar 7, 2026, 3:55:34 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:55:34.932'
+}
+{
+  message: '[Error - 3:55:38 PM] Mar 7, 2026, 3:55:38 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 15:55:38.727'
+}
+{
+  message: '[Error - 4:06:16 PM] Mar 7, 2026, 4:06:16 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 16:06:16.236'
+}
+{
+  message: '[Error - 4:06:32 PM] Mar 7, 2026, 4:06:32 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 16:06:32.815'
+}
+{
+  message: '[Error - 5:36:01 PM] Mar 7, 2026, 5:36:01 PM target/demo/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:36:01.223'
+}
+{
+  message: 'Mar 07, 2026 5:38:45 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: attach debug info\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:38:45.269'
+}
+{
+  message: 'Mar 07, 2026 5:38:54 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:38:54.808'
+}
+{
+  message: '[Error - 5:41:05 PM] Mar 7, 2026, 5:41:05 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:41:05.435'
+}
+{
+  message: '[Error - 5:47:08 PM] Mar 7, 2026, 5:47:08 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:08.553'
+}
+{
+  message: '[Error - 5:47:14 PM] Mar 7, 2026, 5:47:14 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:14.885'
+}
+{
+  message: 'Mar 07, 2026 5:47:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 307\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:15.875'
+}
+{
+  message: '[Error - 5:47:16 PM] Mar 7, 2026, 5:47:16 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:16.391'
+}
+{
+  message: '[Error - 5:47:16 PM] Mar 7, 2026, 5:47:16 PM Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:16.917'
+}
+{
+  message: '[Error - 5:47:18 PM] Mar 7, 2026, 5:47:18 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:18.339'
+}
+{
+  message: '[Error - 5:47:18 PM] Mar 7, 2026, 5:47:18 PM Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2026-03-07 17:47:18.837'
+}
+{
+  message: 'Mar 07, 2026 6:18:24 PM com.microsoft.java.debug.core.adapter.handler.AttachRequestHandler handle\n' +
+    'WARNING: [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.\n' +
+    'Debugger JVM version: 1.8.0_482\n' +
+    'Debuggee JVM version: 25.0.2\n',
+  level: 'info',
+  timestamp: '2026-03-07 18:18:24.809'
+}
+{
+  message: '[Warn  - 6:18:24 PM] Mar 7, 2026, 6:18:24 PM [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.\n' +
+    'Debugger JVM version: 1.8.0_482\n' +
+    'Debuggee JVM version: 25.0.2',
+  level: 'info',
+  timestamp: '2026-03-07 18:18:24.809'
+}
+{
+  message: 'Mar 07, 2026 6:18:24 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: attach debug info\n',
+  level: 'info',
+  timestamp: '2026-03-07 18:18:24.812'
+}
+{
+  message: 'Mar 07, 2026 6:19:17 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2026-03-07 18:19:17.673'
+}
+{
+  message: '[Error - 8:00:14 PM] Mar 7, 2026, 8:00:14 PM src/main/webapp/java [in demo] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2026-03-07 20:00:14.910'
+}

@@ -1,0 +1,222 @@
+2026-03-10 09:15:25.255 [info] [         64ms] [/home/cuong75201/Documents/porfolio] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree
+2026-03-10 09:15:25.256 [info] [         23ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:15:25.256 [info] [         24ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:15:25.272 [info] [         14ms] [/home/cuong75201/Documents/porfolio] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree
+2026-03-10 09:15:25.370 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git config --get-regex ^user\.(name|email)$
+2026-03-10 09:15:25.375 [info] [         37ms] [/home/cuong75201/Documents/porfolio] git remote -v
+2026-03-10 09:15:25.380 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git check-mailmap cuong75201 <cuong75201@gmail.com>
+2026-03-10 09:15:25.380 [info] [         15ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:16:00.252 [info] [         16ms] [/home/cuong75201/Documents/porfolio] git rev-list --max-parents=0 HEAD --
+2026-03-10 09:16:00.253 [info] [         14ms] [/home/cuong75201/Documents/porfolio] git shortlog -s --all --no-min-parents --since=1.year.ago
+2026-03-10 09:16:04.003 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:16:04.010 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:16:11.188 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:16:11.453 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:16:13.615 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:16:14.185 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:16:14.226 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:16:14.232 [info] [          5ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:16:58.949 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:17:55.228 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/
+2026-03-10 09:17:55.285 [info] [         56ms] [/home/cuong75201/Documents/porfolio] git config --get-regex -f /home/cuong75201/Documents/porfolio/.git/gk/config ^branch\..*\.gk-last-(accessed|modified)$
+2026-03-10 09:17:55.299 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git config --get -f /home/cuong75201/Documents/porfolio/.git/gk/config branch.main.gk-last-accessed
+2026-03-10 09:17:55.308 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git config -f /home/cuong75201/Documents/porfolio/.git/gk/config branch.main.gk-last-accessed 2026-03-10T02:17:55.289Z
+2026-03-10 09:18:31.148 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:19:10.424 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:19:10.687 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:19:10.975 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:19:10.983 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:20:59.752 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:21:00.011 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:21:00.311 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:21:00.317 [info] [          5ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:21:05.038 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:21:05.336 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:21:05.344 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:21:18.452 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:21:18.462 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:21:18.470 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:21:43.219 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:21:43.515 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:21:43.522 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:21:49.488 [info] [         17ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:21:49.495 [info] [         15ms] [/home/cuong75201/Documents/porfolio] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M -- index.html
+2026-03-10 09:21:49.497 [error] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L109,109:index.html • FAILED
+Error: fatal: file index.html has only 11 lines
+2026-03-10 09:21:49.506 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L11,11:index.html
+2026-03-10 09:22:04.914 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:22:05.473 [info] [         16ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:22:05.484 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:22:05.491 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:22:14.473 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:22:14.482 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:22:14.489 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:22:49.893 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:23:53.767 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:25:11.366 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:25:55.538 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:26:46.433 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:30:43.232 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:32:44.229 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:33:57.911 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:34:26.683 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:34:26.942 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:34:27.232 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:34:27.240 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:34:45.311 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:35:11.802 [info] [         14ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:35:11.811 [error] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L96,96:index.html • FAILED
+Error: fatal: file index.html has only 11 lines
+2026-03-10 09:35:11.818 [info] [         22ms] [/home/cuong75201/Documents/porfolio] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M -- index.html
+2026-03-10 09:35:11.819 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L11,11:index.html
+2026-03-10 09:35:16.335 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:35:16.607 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:35:16.890 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:35:16.898 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:35:20.460 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:35:20.468 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:35:20.476 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:35:37.977 [info] [          5ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:37:03.024 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:37:38.642 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:37:57.141 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:38:00.208 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:38:00.512 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:38:00.519 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:38:45.923 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:38:46.183 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:38:46.473 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:38:46.479 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:38:54.593 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:38:54.892 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:38:54.900 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:39:04.501 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:39:04.800 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:39:04.807 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:06.316 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:41:06.577 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:06.870 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:06.877 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:08.475 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:08.777 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:08.784 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:11.644 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:11.946 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:11.953 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:15.701 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:18.083 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:18.389 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:18.397 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:29.808 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:30.109 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:30.116 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:32.494 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:32.801 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:32.808 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:35.329 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:35.635 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:35.643 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:41:45.303 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:41:45.600 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:41:45.607 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:42:03.508 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:45:01.902 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:46:33.250 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:46:33.509 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:46:33.808 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:46:33.816 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:46:58.029 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:46:58.528 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:46:58.535 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:47:02.525 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:02.831 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:47:02.838 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:47:11.758 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:13.173 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:13.460 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:47:13.468 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:47:20.814 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:21.115 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:47:21.124 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:47:27.589 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:27.893 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:47:27.900 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:47:31.466 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:47:31.477 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:47:31.484 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:50:03.637 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:50:03.907 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:50:04.197 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:50:04.204 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:50:05.767 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:50:06.069 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:50:06.077 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:50:13.603 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:51:12.305 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:51:12.575 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:51:18.106 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:51:18.480 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:51:18.488 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:51:20.395 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:51:20.692 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:51:20.700 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:51:28.245 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:53:01.458 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 09:54:20.098 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:54:20.358 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:20.651 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:54:20.658 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:54:25.442 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:25.937 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:54:25.944 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:54:28.868 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:32.158 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:32.624 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:54:32.632 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:54:34.528 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:35.017 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:54:35.025 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:54:41.456 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:54:41.466 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:54:41.474 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:55:51.719 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:55:52.313 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:55:52.647 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:55:52.654 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:56:56.965 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 09:56:57.226 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:56:57.523 [info] [         15ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:56:57.531 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:57:00.591 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:57:00.901 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:57:00.909 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:57:02.648 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:57:02.955 [info] [         13ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:57:02.964 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:57:04.236 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:57:04.611 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:57:04.619 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:57:23.824 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:57:24.125 [info] [         10ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:57:24.133 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 09:57:33.245 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 09:57:33.253 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 09:57:33.261 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 10:00:02.554 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 10:00:02.815 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 10:00:03.790 [info] [         19ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 10:00:04.035 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 10:00:04.044 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 10:01:31.952 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 10:01:56.338 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- index.html
+2026-03-10 10:01:59.335 [info] [          9ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 10:01:59.637 [info] [         11ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 10:01:59.646 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 10:02:08.896 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 10:02:09.948 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git blame --root --incremental -- index.html
+2026-03-10 10:02:09.956 [info] [          6ms] [/home/cuong75201/Documents/porfolio] git status --porcelain=v2 --branch -u --find-renames --
+2026-03-10 10:02:09.965 [info] [          8ms] [/home/cuong75201/Documents/porfolio] git log --format=%x1E%H%x1D -n2 -L1,1:index.html
+2026-03-10 10:02:38.905 [info] [         12ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 10:03:48.802 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 10:08:11.912 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css
+2026-03-10 10:10:33.769 [info] [          7ms] [/home/cuong75201/Documents/porfolio] git ls-files -- style.css

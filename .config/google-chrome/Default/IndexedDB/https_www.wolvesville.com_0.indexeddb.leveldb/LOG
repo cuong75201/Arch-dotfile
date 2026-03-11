@@ -1,0 +1,13 @@
+2026/02/15-21:00:17.104 eebd Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.wolvesville.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/15-21:00:17.104 eebd Recovering log #64
+2026/02/15-21:00:17.104 eebd Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_www.wolvesville.com_0.indexeddb.leveldb/000064.log 
+2026/02/15-21:00:17.131 eeaf Level-0 table #68: started
+2026/02/15-21:00:17.132 eeaf Level-0 table #68: 656 bytes OK
+2026/02/15-21:00:17.133 eeaf Delete type=0 #64
+2026/02/15-21:00:17.133 eeaf Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 459 : 1
+2026/02/15-21:00:17.133 eeaf Compacting 1@0 + 1@1 files
+2026/02/15-21:00:17.134 eeaf Generated table #69@0: 7 keys, 637 bytes
+2026/02/15-21:00:17.134 eeaf Compacted 1@0 + 1@1 files => 637 bytes
+2026/02/15-21:00:17.135 eeaf compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/15-21:00:17.135 eeaf Delete type=2 #68
+2026/02/15-21:00:17.136 eeaf Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 459 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

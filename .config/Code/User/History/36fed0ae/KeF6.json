@@ -1,0 +1,11 @@
+{
+    "redhat.telemetry.enabled": true,
+    "editor.fontFamily": "JetBrainsMono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+}

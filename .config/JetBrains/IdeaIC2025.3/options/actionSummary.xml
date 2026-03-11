@@ -1,0 +1,55 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateRunToolWindow">
+      <i c="1" l="1772862670418" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="1" l="1772862467339" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1772969922458" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="11" l="1772970036895" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1772970037248" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1772862666106" />
+    </e>
+    <e n="RunDashboard.AddConfiguration">
+      <i c="2" l="1772862703720" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1772969927008" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1772969964903" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.ExpChooserAction">
+      <i c="1" l="1772862000745" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1772862756585" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="6" l="1772969911936" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1772969918564" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1772969963860" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="3" l="1772969907931" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1772969910665" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1772862715505" />
+    </e>
+  </component>
+</application>

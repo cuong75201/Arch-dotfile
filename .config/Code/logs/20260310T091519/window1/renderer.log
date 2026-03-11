@@ -1,0 +1,151 @@
+2026-03-10 09:15:21.554 [info] Started local extension host with pid 7636.
+2026-03-10 09:15:21.792 [warning] [redhat.vscode-rsp-ui]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-10 09:15:21.793 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-10 09:15:22.702 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 09:15:23.073 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-10 09:15:23.158 [error] [Extension Host] (node:7636) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-10 09:15:23.159 [error] [Extension Host] (node:7636) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-10 09:15:23.242 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-10 09:15:24.312 [info] [perf] Render performance baseline is 14ms
+2026-03-10 09:15:25.810 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 09:15:25.830 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 09:15:25.843 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 09:15:25.851 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 09:15:26.643 [info] Auto updating outdated extensions. vscjava.vscode-java-upgrade
+2026-03-10 09:18:41.456 [error] Make sure the ref is set before accessing the element. Maybe wrong initialization order?: Error: Make sure the ref is set before accessing the element. Maybe wrong initialization order?
+    at c.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:23556)
+    at ez.triggerAnimation (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:119234)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:121613
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24912
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24813
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24723
+    at aW._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:9361)
+    at aW._run (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:6694)
+    at aW.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:7325)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at cN.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109927)
+    at gM.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:2882)
+    at new mCe (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:121050)
+    at a._createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1834:1997)
+    at a.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1834:1437)
+    at Nv._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:910:848)
+    at Nv._recompute (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:12496)
+    at Nv.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:11830)
+    at Nv.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:497)
+    at kut.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:21647)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at mbe.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at cN.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109927)
+    at Gi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109127)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:896:23096
+2026-03-10 09:20:57.667 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:21:01.486 [error] Make sure the ref is set before accessing the element. Maybe wrong initialization order?: Error: Make sure the ref is set before accessing the element. Maybe wrong initialization order?
+    at c.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:23556)
+    at ez.triggerAnimation (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:119234)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:121613
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24912
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24813
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:24723
+    at aW._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:9361)
+    at aW._run (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:6694)
+    at aW.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:7325)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at cN.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109927)
+    at gM.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:2882)
+    at new mCe (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:903:121050)
+    at a._createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1834:1997)
+    at a.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1834:1437)
+    at Nv._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:910:848)
+    at Nv._recompute (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:12496)
+    at Nv.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:11830)
+    at Nv.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:497)
+    at kut.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:21647)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at Nv.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at mbe.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:13497)
+    at cN.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109927)
+    at Gi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:109127)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:896:23096
+    at async Xwe.trigger (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:896:51157)
+2026-03-10 09:21:01.903 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:21:03.438 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:34:25.254 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:37:55.508 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:37:57.218 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:38:51.478 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:38:53.226 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:39:00.475 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:02.784 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:04.073 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:05.253 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:07.275 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:15.941 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:26.844 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:34.030 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:41:40.515 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:46:52.736 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:46:54.154 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:46:55.825 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:46:59.984 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:01.264 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:07.720 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:09.717 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:14.386 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:16.384 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:17.649 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:23.155 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:25.405 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:28.081 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:47:29.600 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:04.639 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:05.871 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:08.561 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:12.296 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:13.822 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:15.594 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:51:16.666 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:54:23.555 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:54:30.108 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:54:37.624 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:54:38.938 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 09:56:58.412 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 10:01:50.312 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 10:01:51.590 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 10:36:05.926 [error] Cancelled: Canceled: Canceled
+    at cYe.getLatestRawGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:51794)
+    at async cYe.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:50362)
+    at async cYe.getLatestGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38879)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38136
+    at async Promise.all (index 8)
+    at async cYe.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38090)
+    at async cYe.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:36552)
+    at async T8.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3388:21087)
+    at async mKt.getInstallableRecommendations (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:20954)
+    at async mKt.getAllRecommendationsModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:24595)
+    at async mKt.queryGallery (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:16676)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:5955
+2026-03-10 11:56:31.771 [warning] [LM] Failed to request chat control data Offline
+2026-03-10 11:58:56.980 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-03-10 11:59:12.810 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/v2/token
+2026-03-10 11:59:12.838 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/v2/token
+2026-03-10 11:59:12.843 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/v2/token
+2026-03-10 11:59:12.845 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/v2/token
+2026-03-10 11:59:12.848 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/v2/token

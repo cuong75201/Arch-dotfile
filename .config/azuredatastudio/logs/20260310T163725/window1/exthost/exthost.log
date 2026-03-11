@@ -1,0 +1,14 @@
+2026-03-10 16:37:29.785 [info] Extension host with pid 198043 started
+2026-03-10 16:37:29.910 [info] ExtensionService#_doActivateExtension Microsoft.notebook, startup: false, activationEvent: 'onLanguage:notebook'
+2026-03-10 16:37:30.024 [info] ExtensionService#_doActivateExtension Microsoft.xml-language-features, startup: false, activationEvent: 'onLanguage:sql'
+2026-03-10 16:37:30.044 [info] ExtensionService#_doActivateExtension Microsoft.azurecore, startup: true, activationEvent: '*'
+2026-03-10 16:37:30.273 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-10 16:37:30.275 [info] ExtensionService#_doActivateExtension Microsoft.mssql, startup: true, activationEvent: '*'
+2026-03-10 16:37:30.305 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-10 16:37:30.324 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-10 16:37:31.075 [info] Eager extensions activated
+2026-03-10 16:37:31.080 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-10 16:37:42.252 [info] ExtensionService#_doActivateExtension Microsoft.data-workspace, startup: false, activationEvent: 'onView:dataworkspace.views.main'
+2026-03-10 16:38:23.284 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-10 20:00:46.440 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-10 20:00:51.449 [info] Extension host with pid 198043 exiting with code 0

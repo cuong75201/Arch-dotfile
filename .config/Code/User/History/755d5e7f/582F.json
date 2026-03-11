@@ -1,0 +1,60 @@
+{
+    "accounts": [
+        {
+            "active": true,
+            "entitlement": {
+                "canPlayMinecraft": true,
+                "ownsMinecraft": true
+            },
+            "msa": {
+                "exp": 9223372036854775807,
+                "extra": {
+                    "ext_expires_in": 9223372036854775807,
+                    "state": ""
+                },
+                "iat": 9223372036854775807,
+                "refresh_token": "",
+                "token": ""
+            },
+            "msa-client-id": "",
+            "type": "MSA",
+            "utoken": {
+                "exp": 9223372036854775807,
+                "extra": {
+                    "uhs": "9223372036854775807"
+                },
+                "iat": 9223372036854775807,
+                "token": ""
+            },
+            "xrp-main": {
+                "exp": 9223372036854775807,
+                "extra": {
+                    "agg": "Adult",
+                    "gtg": "FakeAuthMCAccount",
+                    "prv": "",
+                    "ugc": "",
+                    "uhs": "",
+                    "usr": "",
+                    "utr": "",
+                    "xid": ""
+                },
+                "iat": 9223372036854775807,
+                "token": ""
+            },
+            "xrp-mc": {
+                "exp": 9223372036854775807,
+                "extra": {
+                    "uhs": ""
+                },
+                "iat": 9223372036854775807,
+                "token": ""
+            },
+            "ygg": {
+                "exp": 9223372036854775807,
+                "iat": 9223372036854775807,
+                "token": ""
+            }
+        }
+    ],
+    "formatVersion": 3
+}

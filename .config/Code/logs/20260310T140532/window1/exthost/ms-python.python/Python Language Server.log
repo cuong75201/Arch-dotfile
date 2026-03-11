@@ -1,0 +1,137 @@
+2026-03-10 14:07:02.897 [info] Client: Pylance client (2026.1.1) started with python extension (2026.2.0)
+2026-03-10 14:07:03.234 [info] (72906): Server root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-10 14:07:03.234 [info] (72906): Pylance language server 2026.1.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-03-10 14:07:03.240 [info] (72906): Starting service instance "scikitlearn" for workspace "/home/cuong75201/Documents/machinelearning/scikitlearn"
+2026-03-10 14:07:03.837 [info] (72906): Loading background bundle file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into file:///home/cuong75201/Documents/machinelearning/scikitlearn...
+2026-03-10 14:07:03.872 [info] (72906): FG(scikitlearn): Setting environmentName for service "scikitlearn": "3.14.3 (venv venv)"
+2026-03-10 14:07:03.872 [info] (72906): FG(scikitlearn): Setting pythonPath for service "scikitlearn": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python"
+2026-03-10 14:07:03.872 [info] (72906): FG(scikitlearn): No include entries specified; assuming /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-10 14:07:03.873 [info] (72906): FG(scikitlearn): Auto-excluding **/node_modules
+2026-03-10 14:07:03.873 [info] (72906): FG(scikitlearn): Auto-excluding **/__pycache__
+2026-03-10 14:07:03.873 [info] (72906): FG(scikitlearn): Auto-excluding **/.*
+2026-03-10 14:07:03.895 [info] (72906): FG(scikitlearn): Assuming Python version 3.14.3.final.0
+2026-03-10 14:07:03.958 [info] (72906): [Editable Installs] Starting dynamic pth file resolution for Python: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-10 14:07:03.964 [info] (72906): [Editable Installs] No sandbox available for Python /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-03-10 14:07:03.991 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:07:04.057 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:07:04.080 [info] (72906): Settings have not changed. Skipping update.
+2026-03-10 14:07:04.080 [info] (72906): Starting Mcp server id:4153 ...
+2026-03-10 14:07:04.183 [info] (72906): PQ(scikitlearn): Priority queue background worker(2) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-10 14:07:04.184 [info] (72906): PQ(scikitlearn): Priority queue background worker(2) started
+2026-03-10 14:07:24.851 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(3) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (index)
+2026-03-10 14:07:24.852 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing(3) started
+2026-03-10 14:07:25.058 [info] (72906): FG(scikitlearn): IDX(scikitlearn): scanned(3) 10 files over 1 exec env
+2026-03-10 14:07:25.188 [info] (72906): FG(scikitlearn): IDX(scikitlearn): indexed(3) 10 files over 1 exec env
+2026-03-10 14:07:25.189 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing finished(3).
+2026-03-10 14:07:33.755 [info] (72906): Starting service instance "<default>" for workspace ""
+2026-03-10 14:07:33.755 [info] (72906): Loading background bundle file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into ...
+2026-03-10 14:07:33.831 [info] (72906): FG(<default>): Setting environmentName for service "<default>": "3.14.3 (venv venv)"
+2026-03-10 14:07:33.832 [info] (72906): FG(<default>): Setting pythonPath for service "<default>": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python"
+2026-03-10 14:07:33.832 [info] (72906): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-03-10 14:07:33.832 [info] (72906): FG(<default>): Auto-excluding **/node_modules
+2026-03-10 14:07:33.832 [info] (72906): FG(<default>): Auto-excluding **/__pycache__
+2026-03-10 14:07:33.832 [info] (72906): FG(<default>): Auto-excluding **/.*
+2026-03-10 14:07:33.854 [info] (72906): FG(<default>): Assuming Python version 3.14.3.final.0
+2026-03-10 14:07:33.902 [error] (72906): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-03-10 14:07:33.902 [info] (72906): FG(<default>): No source files found.
+2026-03-10 14:07:34.148 [info] (72906): PQ(<default>): Priority queue background worker(5) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-10 14:07:34.148 [info] (72906): PQ(<default>): Priority queue background worker(5) started
+2026-03-10 14:08:56.497 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:08:56.497 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:09:01.778 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(6) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (refresh)
+2026-03-10 14:09:01.778 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing(6) started
+2026-03-10 14:09:01.961 [info] (72906): FG(scikitlearn): IDX(scikitlearn): scanned(6) 10 files over 1 exec env
+2026-03-10 14:09:02.082 [info] (72906): FG(scikitlearn): IDX(scikitlearn): indexed(6) 10 files over 1 exec env
+2026-03-10 14:09:02.083 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing finished(6).
+2026-03-10 14:09:55.903 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:09:55.903 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:09:56.667 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:09:56.667 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:09:57.647 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:09:57.647 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:09:58.518 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:09:58.518 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:10:01.138 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:10:01.138 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:10:06.760 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(7) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (refresh)
+2026-03-10 14:10:06.760 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing(7) started
+2026-03-10 14:10:06.968 [info] (72906): FG(scikitlearn): IDX(scikitlearn): scanned(7) 82 files over 1 exec env
+2026-03-10 14:10:07.710 [info] (72906): FG(scikitlearn): IDX(scikitlearn): indexed(7) 82 files over 1 exec env
+2026-03-10 14:10:07.722 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing finished(7).
+2026-03-10 14:21:04.710 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:21:04.710 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:21:05.128 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:21:05.128 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:21:05.476 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:21:05.476 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:21:06.441 [info] (72906): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-10 14:21:06.441 [info] (72906): FG(scikitlearn): No source files found.
+2026-03-10 14:21:11.749 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(8) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (refresh)
+2026-03-10 14:21:11.749 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing(8) started
+2026-03-10 14:21:11.974 [info] (72906): FG(scikitlearn): IDX(scikitlearn): scanned(8) 107 files over 1 exec env
+2026-03-10 14:21:12.257 [info] (72906): FG(scikitlearn): IDX(scikitlearn): indexed(8) 107 files over 1 exec env
+2026-03-10 14:21:12.274 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing finished(8).
+2026-03-10 20:55:14.475 [info] (72906): 
+*Warning*: Pylance failed to parse docstring at offset 5705
+
+ Outputting literal text instead.
+2026-03-11 13:08:43.131 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(9) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (refresh)
+2026-03-11 13:08:43.131 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing(9) started
+2026-03-11 13:08:43.431 [info] (72906): FG(scikitlearn): IDX(scikitlearn): scanned(9) 107 files over 1 exec env
+2026-03-11 13:08:43.581 [info] (72906): FG(scikitlearn): IDX(scikitlearn): indexed(9) 107 files over 1 exec env
+2026-03-11 13:08:43.598 [info] (72906): FG(scikitlearn): IDX(scikitlearn): Indexing finished(9).
+2026-03-11 13:33:15.623 [info] Client: Pylance client (2026.1.1) started with python extension (2026.2.0)
+2026-03-11 13:33:16.261 [info] (523871): Server root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-11 13:33:16.262 [info] (523871): Pylance language server 2026.1.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-03-11 13:33:16.272 [info] (523871): Starting service instance "scikitlearn" for workspace "/home/cuong75201/Documents/machinelearning/scikitlearn"
+2026-03-11 13:33:16.277 [info] (523871): Starting service instance "test" for workspace "/home/cuong75201/Documents/test"
+2026-03-11 13:33:17.415 [info] (523871): Loading background bundle file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into file:///home/cuong75201/Documents/machinelearning/scikitlearn...
+2026-03-11 13:33:17.420 [info] (523871): Loading background bundle file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into file:///home/cuong75201/Documents/test...
+2026-03-11 13:33:17.600 [info] (523871): Starting Mcp server id:3144 ...
+2026-03-11 13:33:17.627 [info] (523871): FG(scikitlearn): Setting environmentName for service "scikitlearn": "3.14.3 (venv venv)"
+2026-03-11 13:33:17.628 [info] (523871): FG(scikitlearn): Setting pythonPath for service "scikitlearn": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python"
+2026-03-11 13:33:17.629 [info] (523871): FG(scikitlearn): No include entries specified; assuming /home/cuong75201/Documents/machinelearning/scikitlearn
+2026-03-11 13:33:17.629 [info] (523871): FG(scikitlearn): Auto-excluding **/node_modules
+2026-03-11 13:33:17.629 [info] (523871): FG(scikitlearn): Auto-excluding **/__pycache__
+2026-03-11 13:33:17.630 [info] (523871): FG(scikitlearn): Auto-excluding **/.*
+2026-03-11 13:33:17.670 [info] (523871): FG(scikitlearn): Assuming Python version 3.14.3.final.0
+2026-03-11 13:33:17.772 [info] (523871): [Editable Installs] Starting dynamic pth file resolution for Python: /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python
+2026-03-11 13:33:17.785 [info] (523871): [Editable Installs] No sandbox available for Python /home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-03-11 13:33:17.796 [info] (523871): FG(scikitlearn): Auto-excluding /home/cuong75201/Documents/machinelearning/scikitlearn/venv
+2026-03-11 13:33:17.796 [info] (523871): FG(scikitlearn): No source files found.
+2026-03-11 13:33:17.804 [info] (523871): FG(test): Setting environmentName for service "test": "3.14.3 (venv venv)"
+2026-03-11 13:33:17.804 [info] (523871): FG(test): Setting pythonPath for service "test": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python"
+2026-03-11 13:33:17.804 [info] (523871): FG(test): No include entries specified; assuming /home/cuong75201/Documents/test
+2026-03-11 13:33:17.804 [info] (523871): FG(test): Auto-excluding **/node_modules
+2026-03-11 13:33:17.804 [info] (523871): FG(test): Auto-excluding **/__pycache__
+2026-03-11 13:33:17.804 [info] (523871): FG(test): Auto-excluding **/.*
+2026-03-11 13:33:17.846 [info] (523871): FG(test): Assuming Python version 3.14.3.final.0
+2026-03-11 13:33:17.963 [info] (523871): Starting service instance "<default>" for workspace ""
+2026-03-11 13:33:17.964 [info] (523871): Loading background bundle file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into ...
+2026-03-11 13:33:18.108 [info] (523871): FG(test): No source files found.
+2026-03-11 13:33:18.131 [info] (523871): Settings have not changed. Skipping update.
+2026-03-11 13:33:18.163 [info] (523871): Settings have not changed. Skipping update.
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): Setting environmentName for service "<default>": "3.14.3 (venv venv)"
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): Setting pythonPath for service "<default>": "/home/cuong75201/Documents/machinelearning/scikitlearn/venv/bin/python"
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): Auto-excluding **/node_modules
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): Auto-excluding **/__pycache__
+2026-03-11 13:33:18.232 [info] (523871): FG(<default>): Auto-excluding **/.*
+2026-03-11 13:33:18.262 [info] (523871): FG(<default>): Assuming Python version 3.14.3.final.0
+2026-03-11 13:33:18.800 [error] (523871): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-03-11 13:33:18.800 [info] (523871): FG(<default>): No source files found.
+2026-03-11 13:33:18.805 [info] (523871): PQ(scikitlearn): Priority queue background worker(2) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-11 13:33:18.805 [info] (523871): PQ(scikitlearn): Priority queue background worker(2) started
+2026-03-11 13:33:18.805 [info] (523871): PQ(test): Priority queue background worker(4) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-11 13:33:18.806 [info] (523871): PQ(test): Priority queue background worker(4) started
+2026-03-11 13:33:18.992 [info] (523871): PQ(<default>): Priority queue background worker(6) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-11 13:33:18.994 [info] (523871): PQ(<default>): Priority queue background worker(6) started
+2026-03-11 13:33:19.183 [info] (523871): FG(scikitlearn): IDX(scikitlearn): Indexer background runner(7) root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist (index)
+2026-03-11 13:33:19.184 [info] (523871): FG(scikitlearn): IDX(scikitlearn): Indexing(7) started
+2026-03-11 13:33:19.894 [info] (523871): FG(scikitlearn): IDX(scikitlearn): scanned(7) 107 files over 1 exec env
+2026-03-11 13:33:20.142 [info] (523871): FG(scikitlearn): IDX(scikitlearn): indexed(7) 107 files over 1 exec env
+2026-03-11 13:33:20.168 [info] (523871): FG(scikitlearn): IDX(scikitlearn): Indexing finished(7).
+2026-03-11 13:51:06.729 [info] Client: Pylance client (2026.1.1) started with python extension (2026.2.0)
+2026-03-11 13:51:07.270 [info] (557875): Server root directory: file:///home/cuong75201/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-03-11 13:51:07.270 [info] (557875): Pylance language server 2026.1.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-03-11 13:51:14.008 [info] (557875): Starting Mcp server id:3247 ...

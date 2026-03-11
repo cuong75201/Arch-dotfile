@@ -1,0 +1,84 @@
+:root {
+    --text-dark:#1b0e0e;
+    --text-light:#ffffff;
+    --bg-white: #ffffff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: var(--bg-white);
+   color: var(--text-dark);
+   line-height: 1.6;
+}
+a,h1,h2,h3,h4,h5,h6{
+    color:var(--text-dark);
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    z-index:1000;
+    width: 100%;
+    top:0;
+    background-color: transparent;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: var(--text-light);
+}       
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(to bottom,#EE2448,#ffffff 60%)
+}
+
+.hero .right-side h1:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--text-dark);
+    top: 0;
+    left: 0;
+}
+
+
+.hero .right-side h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero .right-side p{
+    font-size: 1.5rem;
+}

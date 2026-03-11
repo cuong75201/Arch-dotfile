@@ -1,0 +1,83 @@
+2026-03-11 19:46:32.648 [info] Extension host with pid 142671 started
+2026-03-11 19:46:32.648 [info] Skipping acquiring lock for /home/cuong75201/.config/Code/User/workspaceStorage/d47a3c5d0a10dff4caca6edec76158a5.
+2026-03-11 19:46:33.102 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-11 19:46:33.131 [info] ExtensionService#_doActivateExtension redhat.vscode-rsp-ui, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-03-11 19:46:33.223 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-11 19:46:33.236 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-03-11 19:46:34.503 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-11 19:46:34.505 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-03-11 19:46:34.512 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-03-11 19:46:34.538 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2026-03-11 19:46:35.036 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-11 19:46:35.148 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-11 19:46:35.197 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-11 19:46:35.234 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2026-03-11 19:46:35.352 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2026-03-11 19:46:35.470 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2026-03-11 19:46:35.533 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 19:46:35.630 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 19:46:37.417 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2026-03-11 19:46:37.471 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 19:46:37.681 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2026-03-11 19:46:38.072 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-upgrade, startup: true, activationEvent: 'workspaceContains:**/pom.xml,**/build.gradle,**/*.java'
+2026-03-11 19:46:38.999 [info] ExtensionService#_doActivateExtension vscjava.migrate-java-to-azure, startup: true, activationEvent: 'workspaceContains:**/*.java,**/*.csproj'
+2026-03-11 19:46:40.992 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-11 19:46:41.006 [error] An error occurred when disposing the subscriptions for extension 'GitHub.copilot-chat':
+2026-03-11 19:46:41.007 [error] Error: Channel has been closed
+    at i (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+    at Object.info (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4305)
+    at UOe.logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2673:2136)
+    at /home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2208
+    at Array.forEach (<anonymous>)
+    at iet._logIt (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2195)
+    at iet.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2285)
+    at n.info (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2804)
+    at FXe._fn (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1798:31983)
+    at FXe.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1210)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at y9e.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at cJ.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at See.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at Dv (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+    at n.clear (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+    at n.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+    at aL.dispose (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+    at In (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at Uk._fn (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+    at Uk.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-03-11 19:46:41.039 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+    at c.shutdown (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:1108451)
+    at c.stop (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:1108032)
+    at c.stop (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:1273270)
+    at c.stop (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:814958)
+    at t.StandardLanguageClient.stop (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:1004564)
+    at Object.t.deactivate (/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/dist/extension.js:2:871016)
+    at lk._deactivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14479)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+    at Array.map (<anonymous>)
+    at lk._deactivateAll (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+    at lk.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+    at r.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+    at Os (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-03-11 19:46:41.237 [info] Extension host with pid 142671 exiting with code 0

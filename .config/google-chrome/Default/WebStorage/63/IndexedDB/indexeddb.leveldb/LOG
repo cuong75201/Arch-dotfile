@@ -1,0 +1,15 @@
+2026/03/10-12:40:45.068 4098 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/WebStorage/63/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/03/10-12:40:45.068 4098 Recovering log #4
+2026/03/10-12:40:45.069 4098 Reusing old log /home/cuong75201/.config/google-chrome/Default/WebStorage/63/IndexedDB/indexeddb.leveldb/000004.log 
+2026/03/10-13:41:46.532 409b Level-0 table #8: started
+2026/03/10-13:41:46.535 409b Level-0 table #8: 45089 bytes OK
+2026/03/10-13:41:46.537 409b Delete type=0 #4
+2026/03/10-13:41:46.538 409b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/03/10-13:41:46.538 409b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00pd\xaeg\xcdyB\x00\x03\x00\x00\x00\x00\x00\x00;@' @ 728 : 1
+2026/03/10-13:41:46.538 409b Compacting 1@1 + 1@2 files
+2026/03/10-13:41:46.540 409b Generated table #9@1: 53 keys, 3790 bytes
+2026/03/10-13:41:46.540 409b Compacted 1@1 + 1@2 files => 3790 bytes
+2026/03/10-13:41:46.541 409b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/10-13:41:46.542 409b Delete type=2 #8
+2026/03/10-13:41:46.542 409b Delete type=2 #5
+2026/03/10-13:41:46.542 409b Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00pd\xaeg\xcdyB\x00\x03\x00\x00\x00\x00\x00\x00;@' @ 728 : 1 .. (end); will stop at (end)

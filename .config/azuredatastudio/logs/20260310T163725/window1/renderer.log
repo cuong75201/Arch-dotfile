@@ -1,0 +1,78 @@
+2026-03-10 16:37:29.139 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'semanticSimilarity' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-10 16:37:30.092 [error] TreeError [ServerTreeView] Tree input not set: Error: TreeError [ServerTreeView] Tree input not set
+    at new T (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:69:13338) [<root>]
+    at v._updateChildren (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:860:17336) [<root>]
+    at v.setInput (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:860:16986) [<root>]
+    at U.handleOnCapabilitiesRegistered (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:2655:32102) [<root>]
+    at vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:72:9883 [<root>]
+    at timer (/opt/azuredatastudio/resources/app/node_modules.asar/zone.js/dist/zone.js:3155:47) [<root>]
+    at data.args.<computed> (/opt/azuredatastudio/resources/app/node_modules.asar/zone.js/dist/zone.js:3135:36) [<root>]
+2026-03-10 16:37:32.527 [info] [perf] Render performance baseline is 19ms
+2026-03-10 16:37:35.788 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 16:37:56.775 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:37:58.257 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:37:58.699 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:38:00.128 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:38:00.302 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:38:00.484 [warning] Connection not found for uri untitled:SQLQuery_1 when refreshing token
+2026-03-10 16:38:17.817 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:17.817 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:17.817 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:18.008 [info] Error occurred while connecting, removing connection management info for connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:18.008 [info] Deleting connection connection:providerName:MSSQL|server:localhost,1433|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.082 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.082 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.082 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.253 [info] Adding connection with DB name connection:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.378 [info] Creating new connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.378 [info] Adding connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.379 [info] Successfully added connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.422 [info] Creating new connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|databaseDisplayName:master|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.423 [info] Adding connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|databaseDisplayName:master|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.425 [info] Successfully added connection dashboard:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|databaseDisplayName:master|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 16:38:23.526 [warning] Got request to send an event to a dashboard that has not started listening
+2026-03-10 16:38:23.829 [error] editor input was null
+2026-03-10 16:40:36.173 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:40:36.174 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:40:36.174 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:40:36.202 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:40:36.203 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:40:36.210 [error] Login failed for user 'SA'.
+2026-03-10 16:40:40.170 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:40:40.171 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:40:40.171 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:40:40.177 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:40:40.178 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:40:40.182 [error] Login failed for user 'SA'.
+2026-03-10 16:40:45.402 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:40:45.422 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:40:45.422 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:40:45.444 [info] Error occurred while connecting, removing connection management info for untitled:SQLQuery_1
+2026-03-10 16:40:45.444 [info] Deleting connection untitled:SQLQuery_1
+2026-03-10 16:40:45.449 [error] Login failed for user 'SA'.
+2026-03-10 16:40:54.925 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 16:40:54.925 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 16:40:54.925 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 16:40:54.964 [info] GitHub Copilot extension is not installed, so contextualization is not needed.
+2026-03-10 16:40:54.964 [info] GitHub Copilot contextualization is disabled, so contextualization is not needed.
+2026-03-10 16:40:54.964 [info] Contextualization is not needed because the GitHub Copilot extension is not installed and/or contextualization is disabled.
+2026-03-10 16:42:29.350 [error] Cannot read properties of null (reading 'classList'): TypeError: Cannot read properties of null (reading 'classList')
+    at o.updateButtonElement (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:2835:13326)
+    at o.done (vscode-file://vscode-app/opt/azuredatastudio/resources/app/out/vs/workbench/workbench.desktop.main.js:2835:13993)
+2026-03-10 16:42:55.933 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2026-03-10 17:04:24.943 [info] Cancelling connection for URI connection:providerName:MSSQL||groupId:undefined
+2026-03-10 17:08:38.994 [info] Creating new connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 17:08:38.995 [info] Adding connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 17:08:38.995 [info] Successfully added connection connection:providerName:MSSQL|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 17:08:39.038 [info] Creating new connection notebook:Notebook-0-1
+2026-03-10 17:08:39.038 [info] Adding connection notebook:Notebook-0-1
+2026-03-10 17:08:39.038 [info] Successfully added connection notebook:Notebook-0-1
+2026-03-10 17:08:39.291 [info] Creating new connection untitled:notebook-editor-0
+2026-03-10 17:08:39.292 [info] Adding connection untitled:notebook-editor-0
+2026-03-10 17:08:39.293 [info] Successfully added connection untitled:notebook-editor-0
+2026-03-10 17:08:39.293 [info] Creating new connection untitled:notebook-editor-0
+2026-03-10 17:08:39.293 [info] Adding connection untitled:notebook-editor-0
+2026-03-10 17:08:39.294 [info] Successfully added connection untitled:notebook-editor-0

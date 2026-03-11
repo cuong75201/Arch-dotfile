@@ -1,0 +1,1220 @@
+!SESSION 2026-03-05 22:27:16.105 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-417c5cf2e7e1e3eec2372e3cc78a1306.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-417c5cf2e7e1e3eec2372e3cc78a1306.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.497
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.551
+!MESSAGE Started org.eclipse.buildship.core 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.552
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.707
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.741
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:17.743
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.181
+!MESSAGE ProjectRegistryRefreshJob finished 627ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.470
+!MESSAGE Setting /usr/lib/jvm/java-8-openjdk as 'JavaSE-1.8' environment (id:1772724438237)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.474
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1772724438472)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.476
+!MESSAGE Setting /usr/lib/jvm/java-25-openjdk as 'JavaSE-25' environment (id:1772724438474)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.477
+!MESSAGE Setting java.home /usr/lib/jvm/java-21-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.479
+!MESSAGE Default VM Install changed from  1772724438227-/home/cuong75201/.vscode/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64 to 1772724438472-/usr/lib/jvm/java-21-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.482
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.490
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.491
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.492
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.492
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.492
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.492
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.502
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.505
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.521
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.525
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:18.566
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.072
+!MESSAGE Try to create an invisible project for the workspace /home/cuong75201/Documents/test
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.072
+!MESSAGE Creating the Java project test_b63b2158
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.080
+!MESSAGE Finished creating the Java project test_b63b2158
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.083
+!MESSAGE Successfully created a workspace invisible project test_b63b2158
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.096
+!MESSAGE Workspace initialized in 594ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.125
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.364
+!MESSAGE >> Updating classpath for project test_b63b2158
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.379
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.379
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:27:19.382
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:28:52.345
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:28:52.348
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:28:52.361
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-05 22:28:52.366
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2026-03-07 13:07:22.162 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-033d2a33a67fcce44f7689a90847489e.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-033d2a33a67fcce44f7689a90847489e.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.535
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.584
+!MESSAGE Started org.eclipse.buildship.core 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.584
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.700
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.736
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:23.739
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.191
+!MESSAGE ProjectRegistryRefreshJob finished 607ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.261
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.261
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.261
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.261
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.262
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.263
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.278
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.285
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.296
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.302
+!MESSAGE Workspace initialized in 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.306
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.329
+!MESSAGE Setting java.home /usr/lib/jvm/java-25-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.353
+!MESSAGE Default VM Install changed from  1772724438472-/usr/lib/jvm/java-21-openjdk to 1772724438474-/usr/lib/jvm/java-25-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:24.877
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 13:07:25.092
+!MESSAGE Error occured while building workspace. Details: 
+ message: The project was not built since the source file /test_b63b2158/_/main.java could not be read; code: 0; resource: /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws/test_b63b2158;
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:25.092
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:25.093
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:25.095
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:42.546
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:07:42.550
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:55.617
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:56.068
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY java-debug 1 0 2026-03-07 13:18:56.606
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:56.667
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:57.319
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:57.321
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 13:18:57.321
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 13:18:57.321
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:18:57.322
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 13:18:57.708
+!MESSAGE Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 13:18:57.708
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:19:44.519
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:19:44.975
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:19:44.975
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 13:19:44.975
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 13:19:44.975
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 13:19:44.976
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:12:00.647
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:12:01.144
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:12:01.144
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:12:01.145
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:12:01.145
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:12:01.145
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:04.762
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:04.764
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:05.254
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:05.254
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:53:05.254
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:53:05.254
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:05.254
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:21.752
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:22.157
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:22.157
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:53:22.158
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:53:22.158
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:22.158
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:22.711
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:23.172
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:23.172
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:53:23.217
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:53:23.218
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:23.219
+!MESSAGE Validated 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:34.812
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:35.268
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:35.269
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:53:35.269
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:53:35.269
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:53:35.270
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:54:34.227
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:54:34.686
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:54:34.686
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:54:34.686
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:54:34.686
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:54:34.687
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:34.476
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:34.930
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:34.931
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:55:34.931
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:55:34.931
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:34.931
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:38.268
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:38.726
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:38.726
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 15:55:38.726
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 15:55:38.726
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 15:55:38.727
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:15.781
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:16.235
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:16.236
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 16:06:16.236
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 16:06:16.236
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:16.236
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:32.400
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:32.810
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:32.810
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 16:06:32.811
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 16:06:32.811
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:32.813
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 16:06:46.986
+!MESSAGE Clearing problems for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:00.775
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:00.776
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:01.222
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:01.223
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:36:01.223
+!MESSAGE target/demo/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): target/demo/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:36:01.223
+!MESSAGE target/demo/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:01.223
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:36:03.461
+!MESSAGE Clearing problems for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:41:04.975
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:41:05.433
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:41:05.434
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:41:05.434
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:41:05.434
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:41:05.435
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:08.060
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:08.552
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:08.552
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:08.552
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:08.552
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:08.552
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:14.379
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:14.839
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:14.840
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:14.885
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:14.885
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:14.885
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:15.617
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:15.868
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:15.930
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:16.390
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:16.390
+!MESSAGE 4 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:16.390
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:16.390
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:16.391
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:16.916
+!MESSAGE Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:16.916
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:17.041
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:17.298
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:17.436
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:17.665
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:17.881
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:18.337
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:18.338
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:18.338
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:18.338
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 17:47:18.339
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 17:47:18.836
+!MESSAGE Error while handling document save. URI: file:///home/cuong75201/Documents/test/demo/src/main/webapp/java/hello.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 17:47:18.836
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY java-debug 2 0 2026-03-07 18:18:24.807
+!MESSAGE [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 1.8.0_482
+Debuggee JVM version: 25.0.2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 20:00:14.438
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 20:00:14.909
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 20:00:14.909
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-07 20:00:14.909
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-07 20:00:14.909
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-07 20:00:14.910
+!MESSAGE Validated 1. Took 22 ms
+!SESSION 2026-03-08 10:52:04.468 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-d9fd505b3641ec5e792fffc644a6020c.sock
+Command-line arguments:  -data /home/cuong75201/.config/Code/User/workspaceStorage/67ae19d7dee21d28e85c2436f4f81b3c/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-d9fd505b3641ec5e792fffc644a6020c.sock
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-03-08 10:52:06.166
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:06.854
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:06.895
+!MESSAGE Started org.eclipse.buildship.core 25ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:06.896
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:06.897
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.016
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.046
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.049
+!MESSAGE Initializing JDT Language Server (Standard)
+	- Version: 1.57.0-SNAPSHOT (OSGi 1.57.0.202602250925)
+	- Git Commit: 3a4b733 - Changelog for 1.57.0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.818
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.818
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.819
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.819
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.819
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.project.getImportClassContent, java.getPackageData, java.project.getDependencies, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.820
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:07.839
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.714
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.740
+!MESSAGE Importers: GradleBuildServerProjectImporter, GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.748
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.772
+!MESSAGE Workspace initialized in 58ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.783
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.912
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.912
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 10:52:08.918
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 10:52:09.263
+!MESSAGE Failed to publish diagnostics for file:///home/cuong75201/Documents/test/demo/target/demo/java/hello.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): target/demo/java [in demo] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:512)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1352)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:232)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:280)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:260)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-08 10:52:09.264
+!MESSAGE target/demo/java [in demo] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:46:30.710
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2026-03-08 11:46:30.897
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:46:31.131
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:46:31.842
+!MESSAGE begin problem for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:46:31.844
+!MESSAGE 1 problems reported for /hello.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-03-08 11:46:31.844
+!MESSAGE src/main/webapp/java [in demo] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/main/webapp/java [in demo] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:768)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:418)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:333)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-08 11:46:31.844
+!MESSAGE src/main/webapp/java [in demo] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:46:31.845
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:47:31.984
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:47:31.990
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:47:32.013
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-03-08 11:47:32.019
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

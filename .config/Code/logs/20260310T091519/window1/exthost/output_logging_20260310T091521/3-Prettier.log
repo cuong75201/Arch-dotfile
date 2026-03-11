@@ -1,0 +1,1700 @@
+["INFO" - 9:15:25 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 9:15:25 AM] Extension Version: 12.3.0.
+["INFO" - 9:15:25 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:15:25 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:16:02 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:16:02 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:16:13 AM] Formatting file:///home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:16:13 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:16:13 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:16:13 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:16:13 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:16:13 AM] Resolved plugins:
+[]
+["INFO" - 9:16:13 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "html"
+}
+["INFO" - 9:16:13 AM] Using VS Code configuration
+["INFO" - 9:16:13 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/index.html",
+  "parser": "html"
+}
+["INFO" - 9:16:13 AM] Formatting completed in 80ms.
+["INFO" - 9:16:56 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:16:56 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:17:16 AM] Formatting file:///home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:17:16 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:17:16 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:17:16 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:17:16 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:17:16 AM] Resolved plugins:
+[]
+["INFO" - 9:17:16 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 9:17:16 AM] Using VS Code configuration
+["INFO" - 9:17:16 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/style.css",
+  "parser": "css"
+}
+["INFO" - 9:17:16 AM] Formatting completed in 95ms.
+["INFO" - 9:19:08 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:19:08 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:19:14 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:19:14 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:20:53 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:20:53 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:22:48 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:22:48 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:25:12 AM] Formatting file:///home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:25:12 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:25:12 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:25:12 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:25:12 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:25:12 AM] Resolved plugins:
+[]
+["INFO" - 9:25:12 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 9:25:12 AM] Using VS Code configuration
+["INFO" - 9:25:12 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/style.css",
+  "parser": "css"
+}
+["INFO" - 9:25:12 AM] Formatting completed in 33ms.
+["INFO" - 9:25:12 AM] Formatting file:///home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:25:12 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:25:12 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:25:12 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:25:12 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:25:12 AM] Resolved plugins:
+[]
+["INFO" - 9:25:12 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 9:25:12 AM] Using VS Code configuration
+["INFO" - 9:25:12 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/style.css",
+  "parser": "css"
+}
+["INFO" - 9:25:12 AM] Formatting completed in 25ms.
+["INFO" - 9:26:56 AM] Formatting file:///home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:26:56 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:26:56 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:26:56 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:26:56 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:26:56 AM] Resolved plugins:
+[]
+["INFO" - 9:26:56 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 9:26:56 AM] Using VS Code configuration
+["INFO" - 9:26:56 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/style.css",
+  "parser": "css"
+}
+["INFO" - 9:26:56 AM] Formatting completed in 25ms.
+["INFO" - 9:34:23 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:34:23 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:34:31 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:34:31 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:35:03 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:35:03 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:35:36 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:35:36 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:37:49 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:37:49 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:42:00 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:42:00 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:46:09 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:46:09 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:50:09 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:50:09 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:51:02 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:51:02 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:51:24 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:51:24 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:51:37 AM] Formatting file:///home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:51:37 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:51:37 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:51:37 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:51:37 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/style.css
+["INFO" - 9:51:37 AM] Resolved plugins:
+[]
+["INFO" - 9:51:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 9:51:37 AM] Using VS Code configuration
+["INFO" - 9:51:37 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/style.css",
+  "parser": "css"
+}
+["INFO" - 9:51:37 AM] Formatting completed in 20ms.
+["INFO" - 9:54:15 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:54:15 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:55:51 AM] Formatting file:///home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:55:51 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:55:51 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:55:51 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:55:51 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:55:51 AM] Resolved plugins:
+[]
+["INFO" - 9:55:51 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "html"
+}
+["INFO" - 9:55:51 AM] Using VS Code configuration
+["INFO" - 9:55:51 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/index.html",
+  "parser": "html"
+}
+["INFO" - 9:55:51 AM] Formatting completed in 34ms.
+["INFO" - 9:57:32 AM] Formatting file:///home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:57:32 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:57:32 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:57:32 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 9:57:32 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/index.html
+["INFO" - 9:57:32 AM] Resolved plugins:
+[]
+["INFO" - 9:57:32 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "html"
+}
+["INFO" - 9:57:32 AM] Using VS Code configuration
+["INFO" - 9:57:32 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/index.html",
+  "parser": "html"
+}
+["INFO" - 9:57:32 AM] Formatting completed in 29ms.
+["INFO" - 10:00:03 AM] Formatting file:///home/cuong75201/Documents/porfolio/index.html
+["INFO" - 10:00:03 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:00:03 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 10:00:03 AM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 10:00:03 AM] Unable to resolve ignore path: .prettierignore for /home/cuong75201/Documents/porfolio/index.html
+["INFO" - 10:00:03 AM] Resolved plugins:
+[]
+["INFO" - 10:00:03 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "html"
+}
+["INFO" - 10:00:03 AM] Using VS Code configuration
+["INFO" - 10:00:03 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/cuong75201/Documents/porfolio/index.html",
+  "parser": "html"
+}
+["INFO" - 10:00:03 AM] Formatting completed in 16ms.
+["INFO" - 10:01:27 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:01:27 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 10:01:48 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:01:48 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 10:02:34 AM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:02:34 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration

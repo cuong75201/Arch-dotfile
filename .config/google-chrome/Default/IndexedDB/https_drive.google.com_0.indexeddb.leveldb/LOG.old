@@ -1,0 +1,12 @@
+2026/03/10-10:23:53.337 71c Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/10-10:23:53.338 71c Recovering log #11
+2026/03/10-10:23:53.339 71c Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000011.log 
+2026/03/10-10:33:41.138 710 Compacting 1@1 + 1@2 files
+2026/03/10-10:33:41.142 710 Generated table #14@1: 97 keys, 180145 bytes
+2026/03/10-10:33:41.142 710 Compacted 1@1 + 1@2 files => 180145 bytes
+2026/03/10-10:33:41.143 710 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/10-10:33:41.143 710 Delete type=2 #10
+2026/03/10-10:33:41.143 710 Delete type=2 #12
+2026/03/10-11:05:44.265 714 Level-0 table #16: started
+2026/03/10-11:05:44.277 714 Level-0 table #16: 4060241 bytes OK
+2026/03/10-11:05:44.279 714 Delete type=0 #11

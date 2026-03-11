@@ -1,0 +1,7 @@
+2026/02/08-11:56:25.284 41a Reusing MANIFEST /home/cuong75201/.config/google-chrome/Profile 1/IndexedDB/https_www.wolvesville.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/08-11:56:25.284 41a Recovering log #3
+2026/02/08-11:56:25.284 41a Reusing old log /home/cuong75201/.config/google-chrome/Profile 1/IndexedDB/https_www.wolvesville.com_0.indexeddb.leveldb/000003.log 
+2026/02/08-11:56:25.309 41a Level-0 table #5: started
+2026/02/08-11:56:25.310 41a Level-0 table #5: 3864 bytes OK
+2026/02/08-11:56:25.311 41a Delete type=0 #3
+2026/02/08-11:56:25.311 40c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

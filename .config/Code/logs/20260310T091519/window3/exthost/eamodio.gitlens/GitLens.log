@@ -1,0 +1,24 @@
+2026-03-10 10:30:00.391 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-10 10:30:00.391 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|053f0825-f5cd-47e2-be1f-93652ba50cc61773113393534)
+2026-03-10 10:30:00.391 [error]   [            1] GitLens v17.11.0 activated [91ms]
+2026-03-10 10:30:00.391 [info]    [IPC          ] Server started on http://127.0.0.1:45769
+2026-03-10 10:30:00.391 [info]    [   6f →    70] LocalGitProvider.findGit Git (2.53.0) found in /usr/bin/git [207ms]
+2026-03-10 10:30:00.391 [info]    [   6f →    96] LocalGitProvider.repositorySearch(/home/cuong75201/Downloads/testingJava1) searching (depth=1)...
+2026-03-10 10:30:00.405 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [20ms]
+2026-03-10 10:30:00.659 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*524ms] (slow)
+2026-03-10 10:30:00.659 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*524ms] (slow)
+2026-03-10 10:30:03.321 [warning] [   81 →    93] GkCliIntegrationProvider.checkCliUpdateRequired completed [*3035ms] (slow)
+2026-03-10 10:30:03.321 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-10 10:30:05.173 [warning] [   b6 →    b7] GkMcpProvider.getMcpConfigurationFromCLICore completed [*4359ms] (slow)
+2026-03-10 10:30:05.173 [warning] [   b5 →    b6] GkMcpProvider.getMcpConfigurationFromCLI completed [*4359ms] (slow)
+2026-03-10 10:30:05.174 [warning] [   81 →    b5] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{"GK_GL_PATH":"/tmp/gitkraken/gitlens/gitlens-ipc-server-7536-45769.json"},"version":"3.1.53"}] [*4359ms] (slow)
+2026-03-10 10:30:31.189 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [196ms]
+2026-03-10 10:30:31.190 [warning] [   c6 →    c8] LocalGitProvider.findRepositoryUri(e=Uri(file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java), t=undefined) returned undefined [*585ms] (slow)
+2026-03-10 10:30:31.190 [warning] [   c5 →    c6] GitProviderService.getOrOpenRepository(e=Uri(file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java)) returned undefined [*585ms] (slow)
+2026-03-10 10:30:31.190 [warning] [   c4 →    c5] GitUri.fromUri(e=Uri(file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java)) returned GitUri(file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java) [*586ms] (slow)
+2026-03-10 10:30:31.191 [warning] [   c3 →    c4] TrackedGitDocument(TextDocument(java, dirty=false, file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java)).initialize(e=true) completed [*586ms] (slow)
+2026-03-10 10:30:31.191 [warning] [           c3] GitDocumentTracker.addCore(e=TextDocument(java, dirty=false, file:///home/cuong75201/Downloads/testingJava1/BigDecimalTest.java), t=true) completed [*587ms] (slow)
+2026-03-10 10:41:09.623 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [8ms]
+2026-03-10 10:42:03.186 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [7ms]
+2026-03-10 10:43:27.444 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [7ms]
+2026-03-10 11:03:06.929 [error]   [GIT          ] [/home/cuong75201/Downloads/testingJava1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • not a git repository (or any of the parent directories): .git [14ms]

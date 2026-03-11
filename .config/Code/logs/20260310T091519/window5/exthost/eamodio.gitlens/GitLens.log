@@ -1,0 +1,53 @@
+2026-03-10 12:01:46.173 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-03-10 12:01:46.173 [error]   [            1] GitLens v17.11.0  activating in Visual Studio Code (1.110.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|8a2029608b7ee5901960e749dc5dd22f386466a2df154f3cbd656acbb8704bdd|5d92360f-abaf-45b1-909a-3476e557a2e91773118901284)
+2026-03-10 12:01:46.173 [error]   [            1] GitLens v17.11.0 activated [66ms]
+2026-03-10 12:01:46.173 [info]    [IPC          ] Server started on http://127.0.0.1:40399
+2026-03-10 12:01:46.173 [info]    [   6f →    70] LocalGitProvider.findGit Git (2.53.0) found in /usr/bin/git [721ms]
+2026-03-10 12:01:46.173 [warning] [   6f →    70] LocalGitProvider.findGit completed • Git (2.53.0) found in /usr/bin/git [*721ms] (slow)
+2026-03-10 12:01:46.173 [info]    [   6f →    9a] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/Arch_note/arch) searching (depth=1)...
+2026-03-10 12:01:46.209 [info]    [GIT      41ms] [/home/cuong75201/Documents/Arch_note/arch] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [41ms]
+2026-03-10 12:01:46.266 [warning] [   75 →    8a] GitHubIntegration.isConnected returned false [*785ms] (slow)
+2026-03-10 12:01:46.270 [info]    [   6f →    9a] LocalGitProvider.repositorySearch(/home/cuong75201/Documents/Arch_note/arch) found root repository in '/home/cuong75201/Documents/Arch_note'
+2026-03-10 12:01:46.273 [warning] [   6e →    6f] LocalGitProvider.discoverRepositories(e=Uri(file:///home/cuong75201/Documents/Arch_note/arch)) returned [Repository(/home/cuong75201/Documents/Arch_note|1)] [*829ms] (slow)
+2026-03-10 12:01:46.273 [warning] [   6d →    6e] GitProviderService.discoverRepositoriesCore(e=WorkspaceFolder(arch, index=0, file:///home/cuong75201/Documents/Arch_note/arch)) returned [Repository(/home/cuong75201/Documents/Arch_note|1)] [*829ms] (slow)
+2026-03-10 12:01:46.275 [warning] [   6c →    6d] GitProviderService.discoverRepositories(folders=1) completed [*832ms] (slow)
+2026-03-10 12:01:46.275 [warning] [   41 →    6c] GitProviderService.registrationComplete completed • repositories=1, workspaceFolders=1, git.autoRepositoryDetection=true [*832ms] (slow)
+2026-03-10 12:01:46.311 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git remote -v [6ms]
+2026-03-10 12:01:46.396 [warning] [    a →     b] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*980ms] (slow)
+2026-03-10 12:01:46.396 [warning] [    9 →     a] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*980ms] (slow)
+2026-03-10 12:01:46.908 [info]    [GIT      10ms] [/home/cuong75201/Documents/Arch_note] git ls-files -- arch/noteGrub.md [10ms]
+2026-03-10 12:01:47.341 [info]    [GIT      24ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex ^user\.(name|email)$ [24ms]
+2026-03-10 12:01:47.372 [info]    [GIT      41ms] [/home/cuong75201/Documents/Arch_note] git blame --root --incremental -- arch/noteGrub.md [41ms]
+2026-03-10 12:01:47.374 [info]    [GIT      32ms] [/home/cuong75201/Documents/Arch_note] git check-mailmap cuong75201 <cuong75201@gmail.com> [32ms]
+2026-03-10 12:01:47.692 [warning] [   d7 →    de] LocalGitProvider.getRemoteVisibility(remote=git@github.com:cuong75201/Arch_note.git) returned private [*914ms] (slow)
+2026-03-10 12:01:47.692 [warning] [   dc →    df] LocalGitProvider.getRemoteVisibility(remote=git@github.com:cuong75201/Arch_note.git) returned private [*914ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   d5 →    d7] LocalGitProvider.visibility(e=/home/cuong75201/Documents/Arch_note) returned private [*915ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   da →    dc] LocalGitProvider.visibility(e=/home/cuong75201/Documents/Arch_note) returned private [*915ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   d2 →    d5] GitProviderService.visibilityCore(e=/home/cuong75201/Documents/Arch_note) returned private [*916ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   d9 →    da] GitProviderService.visibilityCore returned private [*916ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   d0 →    d2] GitProviderService.visibility(e=/home/cuong75201/Documents/Arch_note) returned private [*917ms] (slow)
+2026-03-10 12:01:47.693 [warning] [   d0 →    d9] GitProviderService.visibility returned private [*916ms] (slow)
+2026-03-10 12:01:47.694 [warning] [   cf →    d0] GitProviderService.accessCore(e=undefined) returned {"allowed":false,"subscription":{"current":{"plan":{"actual":{"id":"community","name":"GitLens Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2026-03-03T08:03:18.859Z"},"effective":{"id":"community","name":"GitLens Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2026-03-03T08:03:18.859Z"}},"state":0},"required":"pro"},"visibility":"private"} [*917ms] (slow)
+2026-03-10 12:01:47.694 [warning] [   b1 →    cf] GitProviderService.access returned {"allowed":false,"subscription":{"current":{"plan":{"actual":{"id":"community","name":"GitLens Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2026-03-03T08:03:18.859Z"},"effective":{"id":"community","name":"GitLens Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2026-03-03T08:03:18.859Z"}},"state":0},"required":"pro"},"visibility":"private"} [*918ms] (slow)
+2026-03-10 12:01:47.708 [info]    [GIT     118ms] [/home/cuong75201/Documents/Arch_note] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 fb083fbc14997ab7b4c6518ad9bb216a0262190e -- [118ms]
+2026-03-10 12:01:47.710 [info]    [GIT     128ms] [/home/cuong75201/Documents/Arch_note] git log --format=%x1E%H%x1D --summary -n1 fb083fbc14997ab7b4c6518ad9bb216a0262190e^ -- arch/noteGrub.md [128ms]
+2026-03-10 12:01:48.668 [warning] [   81 →    93] GkCliIntegrationProvider.checkCliUpdateRequired completed [*3047ms] (slow)
+2026-03-10 12:01:48.668 [info]    [CLI          ] CLI core version is 3.1.53
+2026-03-10 12:01:50.776 [warning] [   cb →    cc] GkMcpProvider.getMcpConfigurationFromCLICore completed [*4130ms] (slow)
+2026-03-10 12:01:50.776 [warning] [   ca →    cb] GkMcpProvider.getMcpConfigurationFromCLI completed [*4130ms] (slow)
+2026-03-10 12:01:50.777 [warning] [   81 →    ca] GkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/cuong75201/.config/Code/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":{"GK_GL_PATH":"/tmp/gitkraken/gitlens/gitlens-ipc-server-7536-40399.json"},"version":"3.1.53"}] [*4131ms] (slow)
+2026-03-10 12:02:21.298 [info]    [GIT      17ms] [/home/cuong75201/Documents/Arch_note] git rev-list --max-parents=0 HEAD -- [17ms]
+2026-03-10 12:02:21.299 [info]    [GIT      16ms] [/home/cuong75201/Documents/Arch_note] git shortlog -s --all --no-min-parents --since=1.year.ago [16ms]
+2026-03-10 12:02:21.301 [info]    [  141 →   142] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/cuong75201/.local/share/gk
+2026-03-10 12:04:16.287 [info]    [GIT      10ms] [/home/cuong75201/Documents/Arch_note] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [10ms]
+2026-03-10 12:04:16.350 [info]    [GIT      12ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex ^branch\..*\.gk- [12ms]
+2026-03-10 12:04:16.351 [info]    [  14c →   14d] ConfigGitSubProvider.migrateGkConfigFromGitConfig Migrating 2 GK config entries from git config to .git/gk/config
+2026-03-10 12:04:16.360 [info]    [GIT       9ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed 2026-01-13T10:20:15.356Z [9ms]
+2026-03-10 12:04:16.369 [info]    [GIT       9ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-modified 2026-01-13T10:20:15.356Z [9ms]
+2026-03-10 12:04:16.376 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git config --local --unset-all branch.main.gk-last-accessed [6ms]
+2026-03-10 12:04:16.383 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git config --local --unset-all branch.main.gk-last-modified [6ms]
+2026-03-10 12:04:16.391 [info]    [GIT       7ms] [/home/cuong75201/Documents/Arch_note] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-03-10 12:04:16.398 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git config --get-regex -f /home/cuong75201/Documents/Arch_note/.git/gk/config ^branch\..*\.gk-last-(accessed|modified)$ [6ms]
+2026-03-10 12:04:16.406 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git config --get -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed [6ms]
+2026-03-10 12:04:16.414 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git config -f /home/cuong75201/Documents/Arch_note/.git/gk/config branch.main.gk-last-accessed 2026-03-10T05:04:16.399Z [6ms]
+2026-03-10 12:04:35.458 [info]    [GIT       6ms] [/home/cuong75201/Documents/Arch_note] git remote -v [6ms]

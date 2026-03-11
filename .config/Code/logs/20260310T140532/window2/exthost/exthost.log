@@ -1,0 +1,112 @@
+2026-03-11 13:33:53.670 [info] Extension host with pid 525165 started
+2026-03-11 13:33:53.671 [info] Skipping acquiring lock for /home/cuong75201/.config/Code/User/workspaceStorage/d47a3c5d0a10dff4caca6edec76158a5.
+2026-03-11 13:33:54.021 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-11 13:33:54.048 [info] ExtensionService#_doActivateExtension redhat.vscode-rsp-ui, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-03-11 13:33:54.162 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-11 13:33:54.181 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-03-11 13:33:55.703 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-11 13:33:55.707 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-03-11 13:33:55.715 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-03-11 13:33:55.748 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2026-03-11 13:33:56.181 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-11 13:33:56.248 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-11 13:33:56.285 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-11 13:33:56.321 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2026-03-11 13:33:56.414 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2026-03-11 13:33:56.484 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2026-03-11 13:33:56.512 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 13:33:56.579 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 13:33:57.391 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2026-03-11 13:33:57.434 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2026-03-11 13:33:57.677 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2026-03-11 13:33:58.837 [error] Error: ENOENT: no such file or directory, open '/home/cuong75201/.config/Code/User/workspaceStorage/d47a3c5d0a10dff4caca6edec76158a5/redhat.java/jdt_ws/.metadata/.log'
+    at open (node:internal/fs/promises:637:25)
+    at Object.readFile (node:internal/fs/promises:1241:14)
+2026-03-11 13:34:05.562 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.563 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.576 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.584 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.602 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.693 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.694 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.694 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.788 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.797 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:05.799 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 13:34:22.208 [error] FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/home/cuong75201/.vscode/extensions/eamodio.gitlens-17.11.0/dist/gitlens.js:2448:86293)
+    at ClientRequest.emit (node:events:531:35)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-03-11 13:36:54.921 [error] ExtensionError: Error in extension rvest.vs-code-prettier-eslint: FAILED to handle event
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:588:127247)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E._deliverQueue (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2958)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3292)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:588:77016)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at vg.acceptDocumentsAndEditorsDelta (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:14649)
+    at vg.$acceptDocumentsAndEditorsDelta (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:12906)
+    at r._doInvokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153599)
+    at r._invokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153347)
+    at r._receiveRequest (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:152129)
+    at r._receiveOneMessage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:150967)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:149042)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:9902)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:36:57.629 [error] ExtensionError: Error in extension rvest.vs-code-prettier-eslint: FAILED to handle event
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:588:127247)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E._deliverQueue (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2958)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3292)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:588:77016)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at vg.acceptDocumentsAndEditorsDelta (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:14649)
+    at vg.$acceptDocumentsAndEditorsDelta (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:12906)
+    at r._doInvokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153599)
+    at r._invokeHandler (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153347)
+    at r._receiveRequest (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:152129)
+    at r._receiveOneMessage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:150967)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:149042)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at Vu.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:9902)
+    at E._deliver (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:2869)
+    at E.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3187)
+    at Qi.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8433)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:51:36.257 [error] Error: Failed to get copilot token. reason: RequestFailed
+    at lJ._authShowWarnings (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1811:18755)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at lJ.getCopilotToken (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1811:16276)
+    at mce.getCopilotToken (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1321:6496)
+    at Dre.updateCachedToken (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2676:8722)
+2026-03-11 13:51:36.260 [error] Error: Failed to get copilot token. reason: RequestFailed
+    at lJ._authShowWarnings (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1811:18755)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at lJ.getCopilotToken (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1811:16276)
+    at mce.getCopilotToken (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1321:6496)
+    at mE._fetchModels (/home/cuong75201/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:6470:4323)
+2026-03-11 14:21:05.447 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-upgrade, startup: true, activationEvent: 'workspaceContains:**/pom.xml,**/build.gradle,**/*.java'
+2026-03-11 14:21:05.720 [info] ExtensionService#_doActivateExtension vscjava.migrate-java-to-azure, startup: true, activationEvent: 'workspaceContains:**/*.java,**/*.csproj'
+2026-03-11 14:21:06.245 [info] Eager extensions activated
+2026-03-11 14:21:10.219 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onCommand:json.validate'

@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "./icons/OFF/128x128.png",
+         "16": "./icons/OFF/16x16.png",
+         "48": "./icons/OFF/48x48.png",
+         "64": "./icons/OFF/64x64.png"
+      },
+      "default_title": "Pixel Measurement"
+   },
+   "author": "Elena Semenova",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "matches": [ "https://onlineapp.pro/*", "https://onlineapp.stream/*", "https://onlineapp.live/*" ]
+   },
+   "icons": {
+      "128": "icons/128x128.png",
+      "16": "icons/16x16.png",
+      "48": "icons/48x48.png",
+      "64": "icons/64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgRp++OXEjBCePwKS5/GjVAWoNMjulFz//rb8Qa6ARAS7RIAlA61hxTJQqHpt+IjQ6oS1RGbbNbmWVbT8KINTTr7aRLe1o+rnjYdSF+IB5XHXLW7Sm860rm3GjZVXJjEOcvfSsVoWL5PdeKcIQKZ6Zg3waHZNzb27GEvqXL/sT328sDSBjvaIkkxjqLbaIwixZ7pyOpHCnXWgu3ieaPgmby8/PUtIolHPyphRObr+JybJGpUjJIPYiYVySEXcGZr35HCEIs9+frOzRVA2O2ypxXhfIkcM/o+H0yGzWGNi7pjvmiumVu4Vn900dKI8jYS5Uk+VzWrHVd3ukHUTT5CK2QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "storage", "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.0"
+}

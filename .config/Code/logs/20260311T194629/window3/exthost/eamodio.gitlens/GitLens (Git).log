@@ -1,0 +1,2 @@
+2026-03-11 19:46:37.210 [error] [         37ms] [/home/cuong75201/bin] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git

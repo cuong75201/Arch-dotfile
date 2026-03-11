@@ -1,0 +1,3 @@
+2026-03-11 19:46:32.428 [info] Deleted marked for removal extension from disk vscjava.vscode-java-upgrade /home/cuong75201/.vscode/extensions/vscjava.vscode-java-upgrade-2.0.3
+2026-03-11 19:46:40.224 [info] Getting Manifest... vscjava.migrate-java-to-azure
+2026-03-11 19:46:40.330 [info] Installing extension: vscjava.migrate-java-to-azure {"productVersion":{"version":"1.110.0","date":"2026-03-04T01:20:28.863Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/cuong75201/.vscode/extensions/extensions.json","path":"/home/cuong75201/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}

@@ -1,0 +1,6 @@
+2026/01/19-17:18:02.417 447 Creating DB /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_identity.getpostman.com_0.indexeddb.leveldb since it was missing.
+2026/01/19-17:18:02.419 447 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_identity.getpostman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/19-17:18:05.872 436 Level-0 table #5: started
+2026/01/19-17:18:05.873 436 Level-0 table #5: 1259 bytes OK
+2026/01/19-17:18:05.874 436 Delete type=0 #3
+2026/01/19-17:18:05.875 436 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

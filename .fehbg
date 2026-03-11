@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/cuong75201/Pictures/wallpapers/thumb-1920-1362052.png' 

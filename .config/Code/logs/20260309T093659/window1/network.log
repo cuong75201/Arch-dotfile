@@ -1,0 +1,7 @@
+2026-03-09 10:03:12.609 [error] #78: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 10:03:33.744 [error] #107: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 10:03:47.513 [error] #113: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 10:04:09.913 [error] #129: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 10:04:13.966 [error] #141: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 10:04:16.921 [error] #147: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-03-09 17:35:01.070 [error] #275: https://api.github.com/copilot/mcp_registry - error GET Failed to fetch

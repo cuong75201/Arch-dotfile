@@ -1,0 +1,9 @@
+2026-03-10 20:00:50.556 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'semanticSimilarity' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-10 20:00:53.673 [info] [perf] Render performance baseline is 14ms
+2026-03-10 20:05:18.887 [info] Creating new connection untitled:SQLQuery_1
+2026-03-10 20:05:18.888 [info] Adding connection untitled:SQLQuery_1
+2026-03-10 20:05:18.888 [info] Successfully added connection untitled:SQLQuery_1
+2026-03-10 20:05:19.111 [info] Adding connection with DB name connection:providerName:MSSQL|database:master|server:localhost,1433|trustServerCertificate:true|user:SA|groupId:C777F06B-202E-4480-B475-FA416154D458
+2026-03-10 20:05:19.124 [info] GitHub Copilot extension is not installed, so contextualization is not needed.
+2026-03-10 20:05:19.124 [info] GitHub Copilot contextualization is disabled, so contextualization is not needed.
+2026-03-10 20:05:19.124 [info] Contextualization is not needed because the GitHub Copilot extension is not installed and/or contextualization is disabled.

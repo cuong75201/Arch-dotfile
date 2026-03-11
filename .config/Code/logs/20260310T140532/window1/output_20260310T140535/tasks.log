@@ -1,0 +1,2 @@
+Activating task providers java
+Error: there is no registered task type 'maven'. Did you miss installing an extension that provides a corresponding task provider?

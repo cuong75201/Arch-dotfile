@@ -1,0 +1,348 @@
+2026-03-10 14:05:34.833 [info] Started local extension host with pid 70324.
+2026-03-10 14:05:34.930 [warning] [redhat.vscode-rsp-ui]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-10 14:05:34.930 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-10 14:05:35.157 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:35.190 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:35.193 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:35.195 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:35.197 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:35.696 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-10 14:05:35.723 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:36.084 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:36.141 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:36.203 [error] [Extension Host] (node:70324) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-10 14:05:36.203 [error] [Extension Host] (node:70324) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-10 14:05:36.255 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-10 14:05:37.339 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:37.507 [info] [perf] Render performance baseline is 14ms
+2026-03-10 14:05:39.464 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:39.481 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:39.488 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:39.495 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:05:41.183 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:06:57.895 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:07:00.982 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:07:02.175 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:07:25.477 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 14:08:39.076 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:08:53.052 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:08:57.707 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:09:35.616 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 14:21:05.550 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-10 16:31:22.595 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-10 16:31:24.708 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 12:56:07.861 [warning] [LM] Failed to request chat control data Failed to fetch
+2026-03-11 13:00:09.165 [info] Auto updating outdated extensions. vscjava.vscode-java-upgrade
+2026-03-11 13:24:54.056 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.autoReply, chat.contextUsage.enabled, chat.customizationsMenu.enabled, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.plugins.enabled, chat.plugins.marketplaces, chat.plugins.paths, chat.statusWidget.anonymous, chat.upvoteAnimation, chat.useClaudeHooks, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired
+2026-03-11 13:24:59.120 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/latest.txt
+2026-03-11 13:24:59.120 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:25:19.330 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/core.json
+2026-03-11 13:25:19.330 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:25:24.316 [error] Error while getting the latest version for the extension GitHub.copilot-chat from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2026-03-11 13:25:25.490 [error] Error while getting the latest version for the extension GitHub.copilot-chat from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2026-03-11 13:25:38.689 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-vscode.js-debug.json
+2026-03-11 13:25:38.690 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:25:44.073 [error] Error while getting the latest version for the extension GitHub.copilot-chat. TypeError: Failed to fetch
+2026-03-11 13:25:45.388 [error] Error while getting the latest version for the extension GitHub.copilot-chat. TypeError: Failed to fetch
+2026-03-11 13:25:58.205 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-vscode.js-debug-companion.json
+2026-03-11 13:25:58.206 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:26:17.865 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-vscode.vscode-js-profile-table.json
+2026-03-11 13:26:17.866 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:26:37.662 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/alefragnani.project-manager.json
+2026-03-11 13:26:37.663 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:26:57.294 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/christian-kohler.path-intellisense.json
+2026-03-11 13:26:57.294 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:27:16.951 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/codezombiech.gitignore.json
+2026-03-11 13:27:16.951 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:27:36.410 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/dbaeumer.vscode-eslint.json
+2026-03-11 13:27:36.410 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:27:56.379 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/donjayamanne.git-extension-pack.json
+2026-03-11 13:27:56.379 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:28:11.434 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/donjayamanne.githistory.json
+2026-03-11 13:28:11.435 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:28:21.872 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/dracula-theme.theme-dracula.json
+2026-03-11 13:28:21.874 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:28:32.523 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/eamodio.gitlens.json
+2026-03-11 13:28:32.524 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:28:42.918 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ecmel.vscode-html-css.json
+2026-03-11 13:28:42.918 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:28:53.408 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/esbenp.prettier-vscode.json
+2026-03-11 13:28:53.408 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:04.265 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/evan-buss.font-switcher.json
+2026-03-11 13:29:04.266 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:14.709 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/formulahendry.auto-rename-tag.json
+2026-03-11 13:29:14.710 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:25.083 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/GitHub.copilot-chat.json
+2026-03-11 13:29:25.083 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:35.809 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/GitHub.github-vscode-theme.json
+2026-03-11 13:29:35.809 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:46.558 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/James-Yu.latex-workshop.json
+2026-03-11 13:29:46.559 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:29:56.929 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/keksiqc.idx-monospace-theme.json
+2026-03-11 13:29:56.930 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:01.716 [error] TypeError: Failed to fetch
+    at Lko (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4850:49483)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4850:50779
+    at Plt.logAndRequest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:933:10047)
+    at Plt.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4850:50759)
+    at YKe.doFetchAlerts (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:5223:7326)
+    at YKe.fetchAlerts (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:5223:7219)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:5223:7110
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:80397
+2026-03-11 13:30:07.279 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-azuretools.vscode-containers.json
+2026-03-11 13:30:07.280 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:17.769 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-python.debugpy.json
+2026-03-11 13:30:17.787 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:28.154 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-python.python.json
+2026-03-11 13:30:28.154 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:38.557 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-python.vscode-pylance.json
+2026-03-11 13:30:38.558 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:49.124 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-python.vscode-python-envs.json
+2026-03-11 13:30:49.125 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:30:59.574 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-toolsai.jupyter.json
+2026-03-11 13:30:59.575 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:09.866 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-toolsai.jupyter-keymap.json
+2026-03-11 13:31:09.866 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:17.425 [error] [Extension Host] Failed to load local configuration: fetch failed
+2026-03-11 13:31:20.253 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-toolsai.jupyter-renderers.json
+2026-03-11 13:31:20.254 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:27.917 [error] [Extension Host] Failed to load local configuration: fetch failed
+2026-03-11 13:31:30.595 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-toolsai.vscode-jupyter-cell-tags.json
+2026-03-11 13:31:30.596 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:41.261 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-toolsai.vscode-jupyter-slideshow.json
+2026-03-11 13:31:41.262 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:51.789 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ms-vscode-remote.remote-containers.json
+2026-03-11 13:31:51.789 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:31:51.942 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-11 13:32:02.349 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/PKief.material-icon-theme.json
+2026-03-11 13:32:02.350 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:32:02.409 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/redhat.java.json
+2026-03-11 13:32:02.410 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:32:12.638 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/redhat.vscode-community-server-connector.json
+2026-03-11 13:32:12.639 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:32:12.709 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/redhat.vscode-rsp-ui.json
+2026-03-11 13:32:12.710 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:32:27.656 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/redhat.vscode-xml.json
+2026-03-11 13:32:27.656 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:32:47.098 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/ritwickdey.LiveServer.json
+2026-03-11 13:32:47.099 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:33:06.541 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/commands/rvest.vs-code-prettier-eslint.json
+2026-03-11 13:33:06.541 [error] [Extension Host] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10684)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-11 13:33:09.424 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.427 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.433 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.436 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.572 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.734 [info] ChatSessionStore: Workspace transition from dba9edbea82d7d64416845939cabee92 to ad37afb54fa010e80a7fc2d04534165b
+2026-03-11 13:33:09.759 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:09.762 [info] ChatSessionStore: Found 1 files in old storage location
+2026-03-11 13:33:09.770 [info] ChatSessionStore: Copied 1 chat session files from file:///home/cuong75201/.config/Code/User/workspaceStorage/dba9edbea82d7d64416845939cabee92/chatSessions to file:///home/cuong75201/.config/Code/User/workspaceStorage/ad37afb54fa010e80a7fc2d04534165b/chatSessions (originals preserved at old location)
+2026-03-11 13:33:09.787 [info] Started local extension host with pid 522170.
+2026-03-11 13:33:10.916 [error] [Extension Host] (node:522170) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-11 13:33:10.917 [error] [Extension Host] (node:522170) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-11 13:33:12.903 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:15.728 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-11 13:33:24.069 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:24.978 [error] [Extension Host] Failed to load local configuration: fetch failed
+2026-03-11 13:33:35.517 [error] [Extension Host] Failed to load local configuration: fetch failed
+2026-03-11 13:33:37.516 [error] [Extension Host] GET /advisories?ecosystem=maven&affects=junit%3Ajunit%404.13.1%2Cjavax.servlet%3Ajavax.servlet-api%404.0.1&direction=asc&sort=published&per_page=100 - 500 with id UNKNOWN in 10437ms
+2026-03-11 13:33:38.535 [error] request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: Client network socket disconnected before secure TLS connection was established
+2026-03-11 13:33:43.249 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/user
+2026-03-11 13:33:51.824 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:33:54.842 [error] Cannot read properties of undefined (reading 'exactMatch'): TypeError: Cannot read properties of undefined (reading 'exactMatch')
+    at Que.getUniqueSearchResults (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1806:12172)
+    at Que.getUniqueSearchResultSettings (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1806:12327)
+    at Que.updateChildren (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1806:12482)
+    at Gc.onConfigUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1814:67162)
+2026-03-11 13:34:13.332 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/user
+2026-03-11 13:34:23.100 [error] Error while getting the latest version for the extension GitHub.copilot-chat from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2026-03-11 13:34:33.591 [error] Error while getting the latest version for the extension GitHub.copilot-chat. TypeError: Failed to fetch
+2026-03-11 13:34:43.435 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/user
+2026-03-11 13:34:44.909 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:37:22.912 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:42:51.501 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-11 13:42:51.535 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-03-11 13:42:52.299 [info] Started local extension host with pid 542881.
+2026-03-11 13:42:52.431 [warning] [redhat.vscode-rsp-ui]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-11 13:42:52.431 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-11 13:42:53.012 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:42:53.085 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-11 13:42:53.833 [error] [Extension Host] (node:542881) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-11 13:42:53.833 [error] [Extension Host] (node:542881) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-11 13:42:53.895 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-11 13:42:54.951 [info] [perf] Render performance baseline is 21ms
+2026-03-11 13:42:58.147 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:42:58.160 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:42:58.174 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:42:58.184 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:49:22.569 [error] [Extension Host] Failed to load local configuration: fetch failed
+2026-03-11 13:49:50.264 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-11 13:51:07.731 [error] [File Watcher ('parcel')] Unexpected error: Permission denied (EUNKNOWN) (path: /)
+2026-03-11 13:51:07.732 [error] [File Watcher (universal)] Permission denied
+2026-03-11 13:51:14.781 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/tools/latest.txt
+2026-03-11 13:51:14.782 [error] [Extension Host] Response status: 404, status text: 
+2026-03-11 13:51:15.174 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.110/tools/core.json
+2026-03-11 13:51:15.175 [error] [Extension Host] Response status: 404, status text: 
+2026-03-11 13:52:14.971 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Au._updateChildren (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:859:33596)
+    at Au.updateChildren (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:859:33273)
+    at Pve.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3479:39758)
+    at E._deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:405:2892)
+    at E._deliverQueue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:405:2981)
+    at E.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:405:3316)
+    at bH.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1000:3636)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1022:17308
+    at Array.map (<anonymous>)
+    at fc.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1022:17299)
+    at n.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1116:8008)
+    at wK.showComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:125543)
+    at wK.showComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1247:10761)
+    at wK.doOpenComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:123618)
+    at wK.openComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:123191)
+    at wK.doOpenPaneComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1247:17636)
+    at wK.openPaneComposite (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1247:17203)
+    at wJ.run (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1247:8523)
+    at qr.runAction (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:30834)
+    at qr.run (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:30737)
+    at ETe.onClick (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:847:17175)
+    at HTMLLIElement.<anonymous> (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:847:16862)
+2026-03-11 13:52:37.303 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-03-11 13:52:37.315 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:37.320 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:37.326 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:37.328 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:38.025 [info] Started local extension host with pid 561266.
+2026-03-11 13:52:38.229 [warning] [redhat.vscode-rsp-ui]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-11 13:52:38.229 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2026-03-11 13:52:39.935 [error] [Extension Host] (node:561266) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-11 13:52:39.939 [error] [Extension Host] (node:561266) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-11 13:52:40.031 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:40.359 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-11 13:52:40.807 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-11 13:52:41.822 [info] [perf] Render performance baseline is 23ms
+2026-03-11 13:52:44.868 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:44.899 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:44.929 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:52:44.989 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/cuong75201/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-11 13:53:05.670 [error] An unknown error occurred. Please consult the log for more details.

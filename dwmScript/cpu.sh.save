@@ -1,0 +1,4 @@
+#!/bin/sh
+
+read cpu a b c idle rest < /proc/stat
+
