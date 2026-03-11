@@ -1,6 +1,0 @@
-2026-03-11 13:34:06.090 [error] [         63ms] [/home/cuong75201/.vscode/extensions/vscjava.vscode-maven-0.45.1/resources] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
-Error: fatal: not a git repository (or any of the parent directories): .git
-2026-03-11 13:36:53.602 [error] [          7ms] [/home/cuong75201/.vscode/extensions/vscjava.vscode-maven-0.45.1/resources/maven-wrapper] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
-Error: fatal: not a git repository (or any of the parent directories): .git
-2026-03-11 13:36:55.004 [error] [          8ms] [/home/cuong75201/.vscode/extensions/vscjava.vscode-maven-0.45.1/resources/maven-wrapper] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
-Error: fatal: not a git repository (or any of the parent directories): .git

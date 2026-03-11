@@ -1,7 +1,0 @@
-2026-03-10 12:01:37.815 [info] Extension host with pid 119224 started
-2026-03-10 12:01:38.092 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
-2026-03-10 12:01:38.124 [info] ExtensionService#_doActivateExtension redhat.vscode-rsp-ui, startup: false, activationEvent: 'onLanguage:plaintext'
-2026-03-10 12:01:38.253 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2026-03-10 12:01:38.267 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:claude-code'
-2026-03-10 12:01:39.015 [info] Extension host terminating: renderer closed the MessagePort
-2026-03-10 12:01:39.017 [info] Extension host with pid 119224 exiting with code 0

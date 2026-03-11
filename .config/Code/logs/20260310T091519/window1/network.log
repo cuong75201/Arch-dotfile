@@ -1,9 +1,0 @@
-2026-03-10 10:36:05.925 [error] #110: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mrcrowl/hg/latest - error GET Canceled
-2026-03-10 10:36:07.845 [error] #113: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
-2026-03-10 11:56:31.770 [error] #127: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
-2026-03-10 11:58:56.980 [error] #128: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
-2026-03-10 11:59:12.809 [error] #129: https://api.github.com/copilot_internal/v2/token - error GET Offline
-2026-03-10 11:59:12.837 [error] #130: https://api.github.com/copilot_internal/v2/token - error GET Offline
-2026-03-10 11:59:12.842 [error] #131: https://api.github.com/copilot_internal/v2/token - error GET Offline
-2026-03-10 11:59:12.845 [error] #132: https://api.github.com/copilot_internal/v2/token - error GET Offline
-2026-03-10 11:59:12.847 [error] #133: https://api.github.com/copilot_internal/v2/token - error GET Offline

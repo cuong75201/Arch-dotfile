@@ -1,7 +1,0 @@
-2026-03-10 09:15:27.653 [info] Getting Manifest... vscjava.vscode-java-upgrade
-2026-03-10 09:15:28.167 [info] Installing extension: vscjava.vscode-java-upgrade {"productVersion":{"version":"1.110.0","date":"2026-03-04T01:20:28.863Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/cuong75201/.vscode/extensions/extensions.json","path":"/home/cuong75201/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
-2026-03-10 09:15:30.705 [info] Extension signature verification result for vscjava.vscode-java-upgrade: Success. Internal Code: 0. Executed: true. Duration: 403ms.
-2026-03-10 09:15:30.741 [info] Extracted extension to file:///home/cuong75201/.vscode/extensions/vscjava.vscode-java-upgrade-2.0.3: vscjava.vscode-java-upgrade
-2026-03-10 09:15:30.743 [info] Renamed to /home/cuong75201/.vscode/extensions/vscjava.vscode-java-upgrade-2.0.3
-2026-03-10 09:15:30.751 [info] Marked extension as removed vscjava.vscode-java-upgrade-2.0.2
-2026-03-10 09:15:30.771 [info] Extension installed successfully: vscjava.vscode-java-upgrade vscode-userdata:/home/cuong75201/.vscode/extensions/extensions.json

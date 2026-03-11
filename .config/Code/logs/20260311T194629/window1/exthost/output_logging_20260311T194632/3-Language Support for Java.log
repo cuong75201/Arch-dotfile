@@ -1,2 +1,0 @@
-Mar 11, 2026 7:46:38 PM org.apache.aries.spifly.BaseActivator log
-INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
