@@ -1,0 +1,11 @@
+azuredatastudio-bin
+eclipse-jee-bin
+google-chrome
+gtk-engine-murrine
+libinput-gestures
+ttf-victor-mono
+visual-studio-code-bin
+wallust
+wlogout
+yay
+yay-debug
