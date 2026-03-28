@@ -1,1 +1,0 @@
-2026-03-10 16:46:19.543 [error] Failed to set sticky bit on /tmp/cuong75201-azuredatastudio-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/cuong75201-azuredatastudio-zsh'

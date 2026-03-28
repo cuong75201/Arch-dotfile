@@ -1,3 +1,0 @@
-[Error - 4:32:04 PM] Request query/executeDocumentSelection failed.
-  Message: Cannot connect to the database due to invalid OwnerUri (Parameter 'OwnerUri')
-  Code: 0 

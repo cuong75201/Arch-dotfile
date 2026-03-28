@@ -1,6 +1,0 @@
-2026/01/31-17:54:19.801 3ca Creating DB /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_mushokutensei.fandom.com_0.indexeddb.leveldb since it was missing.
-2026/01/31-17:54:19.803 3ca Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_mushokutensei.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/31-22:35:49.277 3ca Level-0 table #5: started
-2026/01/31-22:35:49.278 3ca Level-0 table #5: 6245 bytes OK
-2026/01/31-22:35:49.279 3ca Delete type=0 #3
-2026/01/31-22:35:49.280 3ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

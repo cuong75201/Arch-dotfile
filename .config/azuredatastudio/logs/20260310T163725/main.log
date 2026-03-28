@@ -1,9 +1,0 @@
-2026-03-10 16:37:25.200 [info] update#setState idle
-2026-03-10 16:37:55.165 [info] update#setState checking for updates
-2026-03-10 16:37:55.606 [info] update#setState idle
-2026-03-10 18:35:26.182 [info] update#setState checking for updates
-2026-03-10 18:35:26.710 [info] update#setState idle
-2026-03-10 19:35:26.188 [info] update#setState checking for updates
-2026-03-10 19:35:26.739 [info] update#setState idle
-2026-03-10 20:00:46.461 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744073599324000, signal: unknown
-2026-03-10 20:00:51.450 [info] Extension host with pid 198043 exited with code: 0, signal: unknown.

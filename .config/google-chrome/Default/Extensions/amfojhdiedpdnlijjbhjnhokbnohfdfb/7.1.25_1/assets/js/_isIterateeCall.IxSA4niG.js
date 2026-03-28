@@ -1,1 +1,0 @@
-import{e as s,i as t}from"./actionSettings.PRJtmZTZ.js";import{i as f,a as n}from"./helper.B0r6-mC-.js";var l=s,_=f,m=n,p=t;function u(i,e,r){if(!p(r))return!1;var a=typeof e;return(a=="number"?_(r)&&m(e,r.length):a=="string"&&e in r)?l(r[e],i):!1}var o=u;export{o as _};

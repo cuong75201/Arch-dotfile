@@ -1,6 +1,0 @@
-2026/03/05-10:31:00.297 561 Creating DB /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_us-east-1.console.aws.amazon.com_0.indexeddb.leveldb since it was missing.
-2026/03/05-10:31:00.300 561 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_us-east-1.console.aws.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/05-10:31:37.839 564 Level-0 table #5: started
-2026/03/05-10:31:37.841 564 Level-0 table #5: 11180 bytes OK
-2026/03/05-10:31:37.843 564 Delete type=0 #3
-2026/03/05-10:31:37.843 564 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

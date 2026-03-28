@@ -1,6 +1,0 @@
-2026/01/23-18:02:24.107 18a2 Creating DB /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_pandas.pydata.org_0.indexeddb.leveldb since it was missing.
-2026/01/23-18:02:24.115 18a2 Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_pandas.pydata.org_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/23-21:23:20.490 18a2 Level-0 table #5: started
-2026/01/23-21:23:20.493 18a2 Level-0 table #5: 1676 bytes OK
-2026/01/23-21:23:20.495 18a2 Delete type=0 #3
-2026/01/23-21:23:20.496 18a2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

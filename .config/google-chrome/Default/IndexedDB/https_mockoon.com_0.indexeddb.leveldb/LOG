@@ -1,7 +1,0 @@
-2026/01/20-10:11:44.851 3fb Reusing MANIFEST /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_mockoon.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/20-10:11:44.851 3fb Recovering log #4
-2026/01/20-10:11:44.851 3fb Reusing old log /home/cuong75201/.config/google-chrome/Default/IndexedDB/https_mockoon.com_0.indexeddb.leveldb/000004.log 
-2026/01/20-10:11:44.917 3f7 Level-0 table #8: started
-2026/01/20-10:11:44.918 3f7 Level-0 table #8: 1951 bytes OK
-2026/01/20-10:11:44.919 3f7 Delete type=0 #4
-2026/01/20-10:11:44.919 3f7 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
